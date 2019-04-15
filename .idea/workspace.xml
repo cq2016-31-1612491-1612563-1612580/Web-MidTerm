@@ -2,67 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e475ea24-bd5d-41c6-88c4-be78b530e49c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/e-shop-colorlib.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/Credits.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/blank.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/checkout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/css/nouislider.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/css/slick-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/css/slick.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/fonts/slick.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/fonts/slick.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/fonts/slick.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/fonts/slick.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/banner01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/banner02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/banner03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/banner04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/banner05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/banner06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/banner07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/banner08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/banner09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/banner10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/banner11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/banner12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/banner13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/banner14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/banner15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/main-product01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/main-product02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/main-product03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/main-product04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/product01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/product02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/product03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/product04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/product05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/product06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/product07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/product08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/thumb-product01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/thumb-product02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/thumb-product03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/img/thumb-product04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/js/jquery.zoom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/js/nouislider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/js/slick.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/product-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-shop/products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/index.hbs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -78,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tyche/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            <state relative-caret-position="-480">
+              <caret line="10" column="2" selection-end-line="78" />
             </state>
           </provider>
         </entry>
@@ -136,6 +76,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -163,16 +104,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555217182494</updated>
-      <workItem from="1555217183766" duration="1802000" />
+      <workItem from="1555217183766" duration="3251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1802000" />
+    <option name="totallyTimeSpent" value="3251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18377976" />
@@ -221,9 +161,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tyche/archive.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/tyche/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -234,10 +171,17 @@
     <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/index.hbs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/tyche/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tyche/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="-480">
+          <caret line="10" column="2" selection-end-line="78" />
         </state>
       </provider>
     </entry>
