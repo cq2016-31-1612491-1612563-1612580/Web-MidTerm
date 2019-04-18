@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ee4a978-6684-49d1-9a0b-fe932c63b08d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/1612491-1612563-1612580.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/midterm.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/1612491-1612563-1612580.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/accepts/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/accepts/package.json" afterDir="false" />
@@ -27,6 +23,14 @@
       <change beforePath="$PROJECT_DIR$/node_modules/depd/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/depd/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/destroy/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/destroy/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/ee-first/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ee-first/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ejs/Jakefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ejs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ejs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ejs/ejs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ejs/ejs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ejs/lib/ejs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ejs/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ejs/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/encodeurl/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/encodeurl/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/escape-html/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/escape-html/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/etag/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/etag/package.json" afterDir="false" />
@@ -34,37 +38,18 @@
       <change beforePath="$PROJECT_DIR$/node_modules/finalhandler/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/finalhandler/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/forwarded/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/forwarded/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/fresh/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fresh/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/amd/handlebars/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/amd/handlebars/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/amd/handlebars/helpers/lookup.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/amd/handlebars/helpers/lookup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/cjs/handlebars/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/cjs/handlebars/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/cjs/handlebars/helpers/lookup.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/cjs/handlebars/helpers/lookup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.amd.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.amd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.amd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.amd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.runtime.amd.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.runtime.amd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.runtime.amd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.runtime.amd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.runtime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.runtime.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.runtime.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/helpers/lookup.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/helpers/lookup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/release-notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/release-notes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/hbs/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/hbs/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hbs/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/hbs/appveyor.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/hbs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hbs/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/http-errors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-errors/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/inherits/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/inherits/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ipaddr.js/ipaddr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/ipaddr.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ipaddr.js/lib/ipaddr.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/lib/ipaddr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ipaddr.js/lib/ipaddr.js.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/lib/ipaddr.js.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/ipaddr.js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/media-typer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/media-typer/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/merge-descriptors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/merge-descriptors/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/methods/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/methods/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime-db/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mime-db/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime-db/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mime-db/db.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/mime-db/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mime-db/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime-types/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mime-types/HISTORY.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/mime-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mime-types/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/mime/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mime/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/morgan/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/morgan/package.json" afterDir="false" />
@@ -72,13 +57,8 @@
       <change beforePath="$PROJECT_DIR$/node_modules/negotiator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/negotiator/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/on-finished/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/on-finished/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/on-headers/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/on-headers/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/parseurl/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/parseurl/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/parseurl/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/parseurl/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/parseurl/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/parseurl/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/parseurl/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/parseurl/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/path-to-regexp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/path-to-regexp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/proxy-addr/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/proxy-addr/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/proxy-addr/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/proxy-addr/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/proxy-addr/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/proxy-addr/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/qs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/range-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/range-parser/package.json" afterDir="false" />
@@ -95,190 +75,10 @@
       <change beforePath="$PROJECT_DIR$/node_modules/vary/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vary/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/error.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/error.jade" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/error.jade" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.jade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DAGK-2019.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/._e-shop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/._Credits.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/._blank.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/._checkout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/._css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/._fonts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/._img" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/._index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/._js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/._product-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/._products.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/css/._bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/css/._font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/css/._nouislider.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/css/._slick-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/css/._slick.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/css/._style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/fonts/._FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/fonts/._fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/fonts/._fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/fonts/._fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/fonts/._fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/fonts/._fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/fonts/._slick.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/fonts/._slick.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/fonts/._slick.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/fonts/._slick.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._banner01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._banner02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._banner03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._banner04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._banner05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._banner06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._banner07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._banner08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._banner09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._banner10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._banner11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._banner12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._banner13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._banner14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._banner15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._main-product01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._main-product02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._main-product03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._main-product04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._product01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._product02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._product03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._product04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._product05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._product06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._product07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._product08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._thumb-product01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._thumb-product02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._thumb-product03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/img/._thumb-product04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/js/._bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/js/._jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/js/._jquery.zoom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/js/._main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/js/._nouislider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/e-shop/js/._slick.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/checkout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/css/creditly.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/css/easy-responsive-tabs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/css/flexslider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/css/fontawesome-all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/css/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/css/popuo-box.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/faqs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/help.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/a3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/a4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/ab.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/b1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/b2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/b3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/b4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/close_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/h.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/image1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/k1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/k2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/k3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/m1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/m2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/m3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/m4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/m5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/m6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/m7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/m8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/m9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/mk1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/mk2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/mk3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/mk4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/mk5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/mk6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/mk7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/mk8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/mk9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/mm1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/mm2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/mm3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/mm4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/mm5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/mm6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/move-up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/off1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/off2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/pay1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/pay2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/pay3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/pay4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/pay5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/pay6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/pay7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/pay8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/pay9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/paypal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/si1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/si2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/si3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/sii1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/sii2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/sii3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/user.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/js/SmoothScroll.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/js/creditly.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/js/creditly2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/js/easing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/js/easyResponsiveTabs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/js/imagezoom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/js/jquery-2.2.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/js/jquery.flexslider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/js/jquery.magnific-popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/js/minicart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/js/move-top.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/js/scroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/payment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/privacy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/product.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/product2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/single.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/single2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/terms.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/w3layouts-License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/webfonts/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/webfonts/fa-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/webfonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/webfonts/fa-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/webfonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/webfonts/fa-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/webfonts/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/webfonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/webfonts/fa-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/webfonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/webfonts/fa-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/webfonts/fa-solid-900.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/webfonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/webfonts/fa-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layout.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/product.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/product.hbs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -290,27 +90,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/index.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="548" column="34" lean-forward="true" selection-start-line="548" selection-start-column="34" selection-end-line="548" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>style.css</find>
-      <find>href</find>
       <find>src</find>
       <find>../public/</find>
       <find>index.</find>
       <find>indexing.ejs</find>
       <find>index.ejs</find>
+      <find>style1</find>
+      <find>href</find>
+      <find>ejs</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -335,7 +127,10 @@
         <option value="$PROJECT_DIR$/views/help.ejs" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/views/layout.jade" />
         <option value="$PROJECT_DIR$/views/index.hbs" />
+        <option value="$PROJECT_DIR$/views/layout.hbs" />
+        <option value="$PROJECT_DIR$/views/product.hbs" />
       </list>
     </option>
   </component>
@@ -357,6 +152,11 @@
             <path>
               <item name="1612491-1612563-1612580" type="b2602c69:ProjectViewProjectNode" />
               <item name="1612491-1612563-1612580" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1612491-1612563-1612580" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1612491-1612563-1612580" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="1612491-1612563-1612580" type="b2602c69:ProjectViewProjectNode" />
@@ -407,15 +207,15 @@
       <workItem from="1555554682190" duration="3127000" />
       <workItem from="1555560464978" duration="413000" />
       <workItem from="1555570130179" duration="2283000" />
+      <workItem from="1555572951524" duration="1187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10538000" />
+    <option name="totallyTimeSpent" value="11725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -456,17 +256,59 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.ejs" />
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/error.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/about.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="560" column="38" selection-start-line="560" selection-start-column="38" selection-end-line="560" selection-end-column="38" />
+        <state relative-caret-position="109">
+          <caret line="559" column="25" lean-forward="true" selection-start-line="559" selection-start-column="25" selection-end-line="559" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/checkout.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="1600" column="13" lean-forward="true" selection-start-line="1600" selection-start-column="13" selection-end-line="1600" selection-end-column="13" />
+        <state relative-caret-position="174">
+          <caret line="1602" lean-forward="true" selection-start-line="1602" selection-end-line="1602" />
         </state>
       </provider>
     </entry>
@@ -477,24 +319,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/error.hbs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/faqs.hbs">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/help.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="556" column="27" selection-start-line="556" selection-start-column="27" selection-end-line="556" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="14" />
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/payment.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
+        <state relative-caret-position="133">
           <caret line="1607" column="33" selection-start-line="1607" selection-start-column="33" selection-end-line="1607" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/privacy.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
+        <state relative-caret-position="106">
           <caret line="503" column="14" lean-forward="true" selection-start-line="503" selection-start-column="14" selection-end-line="503" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/product.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="557" column="42" selection-start-line="557" selection-start-column="42" selection-end-line="557" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -507,14 +373,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/single.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
+        <state relative-caret-position="133">
           <caret line="1471" column="33" selection-start-line="1471" selection-start-column="33" selection-end-line="1471" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/single2.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
+        <state relative-caret-position="198">
           <caret line="562" column="12" lean-forward="true" selection-start-line="562" selection-start-column="12" selection-end-line="562" selection-end-column="12" />
         </state>
       </provider>
@@ -523,49 +389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="1469" column="34" lean-forward="true" selection-start-line="1469" selection-start-column="34" selection-end-line="1469" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/error.jade" />
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/product.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="557" column="47" selection-start-line="557" selection-start-column="47" selection-end-line="557" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/help.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="556" column="27" selection-start-line="556" selection-start-column="27" selection-end-line="556" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="548" column="34" lean-forward="true" selection-start-line="548" selection-start-column="34" selection-end-line="548" selection-end-column="34" />
         </state>
       </provider>
     </entry>
