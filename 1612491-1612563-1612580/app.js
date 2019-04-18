@@ -22,20 +22,20 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
-// catch 404 and forward to error handler
+// catch 404 and forward to error.jade handler
 app.use(function(req, res, next) {
   next(createError(404));
 });
 
-// error handler
+// error.jade handler
 app.use(function(err, req, res, next) {
-  // set locals, only providing error in development
+  // set locals, only providing error.jade in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
 
-  // render the error page
+  // render the error.jade page
   res.status(err.status || 500);
-  res.render('error');
+  res.render('error.jade.hbs.ejs.ejs.jade.ejs');
 });
 
 module.exports = app;
