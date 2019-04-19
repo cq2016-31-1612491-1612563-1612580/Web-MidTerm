@@ -1682,11 +1682,6 @@
         for (i = 0; i < len; i++) {
             total += items[i].get('quantity');
         }
-
-        if (total < 3) {
-            alert('The minimum order quantity is 3. Please add more to your shopping cart before checking out');
-            evt.preventDefault();
-        }
     });
 </script>
 <!-- //cart-js -->
@@ -1702,7 +1697,7 @@
         var pass2 = document.getElementById("password2").value;
         var pass1 = document.getElementById("password1").value;
         if (pass1 != pass2)
-            document.getElementById("password2").setCustomValidity("Passwords Don't Match");
+            document.getElementById("password2").setCustomValidity("Passwords Không Khớp");
         else
             document.getElementById("password2").setCustomValidity('');
         //empty string means no validation error.jade
