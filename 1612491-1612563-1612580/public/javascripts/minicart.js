@@ -1616,13 +1616,13 @@ exports.json = function(obj){
 /**
  * Escape the given string of `html`.
  *
- * @param {String} html
+ * @param {String} hbs
  * @return {String}
  * @api private
  */
 
-exports.escape = function(html){
-  return String(html)
+exports.escape = function(hbs){
+  return String(hbs)
     .replace(/&(?!#?[a-zA-Z0-9]+;)/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
@@ -1903,7 +1903,7 @@ var defaults = module.exports = {
 
     parent: (typeof document !== 'undefined') ? document.body : null,
 
-    action: 'checkout.html',
+    action: 'checkout',
 
     target: '',
 

@@ -14,8 +14,11 @@ router.get('/index', function(req, res) {
 });
 
 /*ĐÂY LÀ PHẦN ROUTER*/
+
+
+
 router.get('/checkout', function(req, res) {
-  res.render('checkout', { title: 'checkout' });
+  res.render('checkout', { title: 'Checkout' });
 });
 
 router.get('/contact', function(req, res) {
