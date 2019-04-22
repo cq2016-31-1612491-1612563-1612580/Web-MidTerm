@@ -6,16 +6,29 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/about', function(req, res) {
-  res.render('about', { title: 'About' });
+router.post('/', function(req, res, next) {
+  res.render('index', { title: 'Express' });
 });
-router.get('/index', function(req, res) {
+
+router.get('/index', function(req, res, next) {
+  res.render('index', { title: 'index' });
+});
+
+router.post('/index', function(req, res, next) {
   res.render('index', { title: 'index' });
 });
 
 /*ĐÂY LÀ PHẦN ROUTER*/
-router.get('/checkout', function(req, res) {
+router.get('/checkout', function(req, res, next) {
   res.render('checkout', { title: 'checkout' });
+});
+
+router.post('/checkout', function(req, res, next) {
+  res.render('checkout', { title: 'checkout' });
+});
+
+router.get('/about', function(req, res) {
+  res.render('about', { title: 'About' });
 });
 
 router.get('/contact', function(req, res) {
@@ -59,5 +72,8 @@ router.get('/terms', function(req, res) {
   res.render('terms', { title: 'terms' });
 });
 
+router.get('/admin/', function(req, res, next) {
+  res.render('Admin', { title: 'terms' });
+});
 
 module.exports = router;
