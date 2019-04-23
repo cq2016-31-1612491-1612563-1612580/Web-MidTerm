@@ -487,10 +487,8 @@
             <input type="submit" class="form-control" value="Log in">
           </div>
           <div class="sub-w3l">
-            <div class="custom-control custom-checkbox mr-sm-2">
-              <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
-              <label class="custom-control-label" for="customControlAutosizing">Quên mật khẩu?</label>
-            </div>
+            <a href="#" data-toggle="modal" data-target="#exampleModal3" class="text-blue">
+                            <i class="fas fa-sign-in-alt mr-2"></i> Quên mật khẩu </a>
           </div>
           <p class="text-center dont-do mt-3">Không có tài khoản?
             <a href="#" data-toggle="modal" data-target="#exampleModal2">
@@ -501,6 +499,36 @@
     </div>
   </div>
 </div>
+
+<!-- forget password modal -->
+<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center">Quên mật khẩu</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="#" method="post">
+          <div class="form-group">
+            <label class="col-form-label">Username</label>
+            <input type="text" class="form-control" placeholder=" " name="Name" required="">
+          </div>
+          <div class="form-group">
+            <label class="col-form-label">Email</label>
+            <input type="text" class="form-control" placeholder=" " name="Email" required="">
+          </div>
+          <div class="right-w3l">
+            <input type="submit" class="form-control" value="Xác nhận">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- register -->
 <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog" role="document">
