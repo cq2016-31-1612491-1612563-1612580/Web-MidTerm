@@ -34,4 +34,17 @@ router.get('/signup', function(req, res, next) {
 router.get('/widgets', function(req, res, next) {
   res.render('widgets', { title: 'Widgets' });
 });
+
+router.get('/QuanLyDonDatHang', function(req, res, next) {
+  res.render('QuanLyDonDatHang', { title: 'QuanLyDonDatHang' });
+});
+
+router.get('/QuanLySanPham', function(req, res, next) {
+  res.render('QuanLySanPham', { title: 'QuanLySanPham' });
+});
+
+router.get('/QuanLyTaiKhoan', function(req, res, next) {
+  res.render('QuanLyTaiKhoan', { title: 'QuanLyTaiKhoan' });
+});
+
 module.exports = router;

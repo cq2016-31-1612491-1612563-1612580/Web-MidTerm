@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d46a42a-32b5-4e48-ad7a-6ada67a21696" name="Default Changelist" comment="" />
+    <list default="true" id="8d46a42a-32b5-4e48-ad7a-6ada67a21696" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin-page/views/QuanLyDonDatHang.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-page/views/QuanLySanPham.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-page/views/QuanLyTaiKhoan.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-page/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/public/stylesheets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-page/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-page/views/charts.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/views/charts.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-page/views/compose.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/views/compose.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-page/views/inbox.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/views/inbox.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-page/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/views/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-page/views/login.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/views/login.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-page/views/signup.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/views/signup.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-page/views/widgets.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/views/widgets.hbs" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,10 +28,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/routes/index.js">
+        <entry file="file://$PROJECT_DIR$/admin-page/views/widgets.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="476">
+              <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -53,6 +67,18 @@
         <option value="$PROJECT_DIR$/page admin/index.html" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/index.hbs" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/routes/index.js" />
+        <option value="$PROJECT_DIR$/admin-page/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/admin-page/views/QuanLyTaiKhoan.hbs" />
+        <option value="$PROJECT_DIR$/admin-page/views/QuanLySanPham.hbs" />
+        <option value="$PROJECT_DIR$/admin-page/views/QuanLyDonDatHang.hbs" />
+        <option value="$PROJECT_DIR$/admin-page/routes/index.js" />
+        <option value="$PROJECT_DIR$/admin-page/views/index.hbs" />
+        <option value="$PROJECT_DIR$/admin-page/views/charts.hbs" />
+        <option value="$PROJECT_DIR$/admin-page/views/compose.hbs" />
+        <option value="$PROJECT_DIR$/admin-page/views/inbox.hbs" />
+        <option value="$PROJECT_DIR$/admin-page/views/login.hbs" />
+        <option value="$PROJECT_DIR$/admin-page/views/signup.hbs" />
+        <option value="$PROJECT_DIR$/admin-page/views/widgets.hbs" />
       </list>
     </option>
   </component>
@@ -78,13 +104,19 @@
             <path>
               <item name="midterm" type="b2602c69:ProjectViewProjectNode" />
               <item name="midterm" type="462c0819:PsiDirectoryNode" />
-              <item name="1612491-1612563-1612580" type="462c0819:PsiDirectoryNode" />
+              <item name="admin-page" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="midterm" type="b2602c69:ProjectViewProjectNode" />
               <item name="midterm" type="462c0819:PsiDirectoryNode" />
-              <item name="1612491-1612563-1612580" type="462c0819:PsiDirectoryNode" />
+              <item name="admin-page" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="midterm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="midterm" type="462c0819:PsiDirectoryNode" />
+              <item name="admin-page" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -125,12 +157,12 @@
       <workItem from="1555938730516" duration="1724000" />
       <workItem from="1555946813381" duration="2211000" />
       <workItem from="1556014454015" duration="1069000" />
-      <workItem from="1556016690204" duration="789000" />
+      <workItem from="1556016690204" duration="2196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6147000" />
+    <option name="totallyTimeSpent" value="7554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -217,10 +249,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin-page/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="89" column="18" lean-forward="true" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-page/views/QuanLyTaiKhoan.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-page/views/QuanLySanPham.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-page/views/charts.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="138" column="21" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-page/views/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="191" column="21" lean-forward="true" selection-start-line="172" selection-start-column="14" selection-end-line="191" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="-772">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-page/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-page/views/compose.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="127" column="16" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-page/views/error.hbs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-page/views/inbox.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="127" column="16" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-page/views/login.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="126" column="16" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-page/views/QuanLyDonDatHang.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-page/views/signup.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="125" column="21" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-page/views/widgets.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
         </state>
       </provider>
     </entry>
