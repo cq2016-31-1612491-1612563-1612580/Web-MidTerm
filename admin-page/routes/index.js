@@ -47,4 +47,7 @@ router.get('/QuanLyTaiKhoan', function(req, res, next) {
   res.render('QuanLyTaiKhoan', { title: 'QuanLyTaiKhoan' });
 });
 
+router.get('/forgot', function(req, res, next) {
+  res.render('Forgot', { title: 'Forgot' });
+});
 module.exports = router;
