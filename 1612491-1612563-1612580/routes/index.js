@@ -58,7 +58,7 @@ router.get('/single2', function(req, res) {
   res.render('single2', { title: 'single2' });
 });
 
-router.get('/terms', function(req, res) {
+router.get('/terms',        function(req, res) {
   res.render('terms', { title: 'terms' });
 });
 
