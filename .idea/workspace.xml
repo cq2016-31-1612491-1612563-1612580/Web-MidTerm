@@ -2,19 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d46a42a-32b5-4e48-ad7a-6ada67a21696" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin-page/views/QuanLyDonDatHang.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-page/views/QuanLySanPham.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-page/views/QuanLyTaiKhoan.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/midterm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-page/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/public/stylesheets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-page/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-page/views/charts.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/views/charts.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-page/views/compose.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/views/compose.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-page/views/inbox.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/views/inbox.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-page/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/views/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-page/views/login.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/views/login.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-page/views/signup.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/views/signup.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-page/views/widgets.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/views/widgets.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/about.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/about.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/checkout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/checkout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/contact.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/contact.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/faqs.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/faqs.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/help.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/help.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/payment.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/payment.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/privacy.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/privacy.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/product.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/product.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/product2.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/product2.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/single.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/single.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/single2.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/single2.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/terms.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/terms.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/charts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/compose.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/css/SidebarNav.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/css/export.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/css/graph.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/css/jqcandlestick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/css/monthly.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/css/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/i1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/i2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/i3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/i4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/img-sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/img1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/mail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/search-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/slider1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/slider2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/slider3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/slider4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/slider5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/slider6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/slider7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/tick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/images/weather.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/inbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/Chart.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/Chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/SidebarNav.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/SimpleChart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/amcharts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/chartinator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/classie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/export.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/images/dragIconRoundBig.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/images/lens.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/index1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/index2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/jquery-1.11.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/jquery.flot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/jquery.jqcandlestick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/jquery.nicescroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/light.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/metisMenu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/modernizr.custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/monthly.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/pie-chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/serial.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/js/validator.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/w3layouts-License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page admin/widgets.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,17 +114,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin-page/views/widgets.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,7 +129,17 @@
       <find>log in</find>
       <find>pass</find>
       <find>Log in</find>
+      <find>follow</find>
+      <find>follo</find>
+      <find>font</find>
+      <find>log</find>
+      <find>fas</find>
+      <find>far</find>
+      <find>fab</find>
     </findStrings>
+    <replaceStrings>
+      <replace>fa</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,7 +153,6 @@
         <option value="$PROJECT_DIR$/page admin/ProductManagerment.html" />
         <option value="$PROJECT_DIR$/page admin/OderManagerment.html" />
         <option value="$PROJECT_DIR$/page admin/index.html" />
-        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/index.hbs" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/routes/index.js" />
         <option value="$PROJECT_DIR$/admin-page/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/admin-page/views/QuanLyTaiKhoan.hbs" />
@@ -79,6 +166,19 @@
         <option value="$PROJECT_DIR$/admin-page/views/login.hbs" />
         <option value="$PROJECT_DIR$/admin-page/views/signup.hbs" />
         <option value="$PROJECT_DIR$/admin-page/views/widgets.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/index.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/about.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/checkout.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/contact.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/faqs.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/help.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/payment.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/privacy.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/product.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/product2.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/single.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/single2.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/terms.hbs" />
       </list>
     </option>
   </component>
@@ -94,6 +194,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,25 +205,18 @@
             <path>
               <item name="midterm" type="b2602c69:ProjectViewProjectNode" />
               <item name="midterm" type="462c0819:PsiDirectoryNode" />
-              <item name="admin-page" type="462c0819:PsiDirectoryNode" />
+              <item name="1612491-1612563-1612580" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="midterm" type="b2602c69:ProjectViewProjectNode" />
               <item name="midterm" type="462c0819:PsiDirectoryNode" />
-              <item name="admin-page" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="midterm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="midterm" type="462c0819:PsiDirectoryNode" />
-              <item name="admin-page" type="462c0819:PsiDirectoryNode" />
+              <item name="1612491-1612563-1612580" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,16 +251,16 @@
       <workItem from="1555938730516" duration="1724000" />
       <workItem from="1555946813381" duration="2211000" />
       <workItem from="1556014454015" duration="1069000" />
-      <workItem from="1556016690204" duration="2196000" />
+      <workItem from="1556016690204" duration="2441000" />
+      <workItem from="1556104781659" duration="3491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7554000" />
+    <option name="totallyTimeSpent" value="11290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -239,13 +333,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="764">
-          <caret line="1664" column="29" selection-start-line="1664" selection-start-column="29" selection-end-line="1664" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -340,6 +427,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/about.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="1052" column="73" lean-forward="true" selection-start-line="1052" selection-start-column="73" selection-end-line="1052" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/checkout.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="1227" column="75" selection-start-line="1227" selection-start-column="72" selection-end-line="1227" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/contact.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="1074" column="56" selection-start-line="1074" selection-start-column="56" selection-end-line="1074" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/faqs.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="1113" column="56" selection-start-line="1113" selection-start-column="56" selection-end-line="1113" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/help.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="1128" column="56" selection-start-line="1128" selection-start-column="56" selection-end-line="1128" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/payment.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="74" column="55" lean-forward="true" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/privacy.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="1057" column="56" selection-start-line="1057" selection-start-column="56" selection-end-line="1057" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/product.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="1656" column="56" selection-start-line="1656" selection-start-column="56" selection-end-line="1656" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/product2.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="1543" column="44" selection-start-line="1543" selection-start-column="44" selection-end-line="1543" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/single.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="1090" column="56" selection-start-line="1090" selection-start-column="56" selection-end-line="1090" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/single2.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="1088" column="71" selection-start-line="1088" selection-start-column="71" selection-end-line="1088" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/terms.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="1062" column="25" lean-forward="true" selection-start-line="1062" selection-start-column="25" selection-end-line="1062" selection-end-column="25" />
         </state>
       </provider>
     </entry>
