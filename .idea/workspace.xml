@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d46a42a-32b5-4e48-ad7a-6ada67a21696" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-page/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/public/stylesheets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-page/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-page/views/QuanLySanPham.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/views/QuanLySanPham.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-page/views/Top10.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/views/Top10.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-page/views/QuanLyDonDatHang.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/views/QuanLyDonDatHang.hbs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,20 +24,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin-page/views/Top10.hbs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin-page/views/QuanLyDonDatHang.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="406" column="28" selection-start-line="406" selection-start-column="28" selection-end-line="406" selection-end-column="28" />
+            <state relative-caret-position="359">
+              <caret line="391" column="40" selection-start-line="391" selection-start-column="40" selection-end-line="391" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin-page/views/Top10.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2677">
+              <caret line="401" column="25" lean-forward="true" selection-end-line="543" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin-page/public/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="8410" column="19" lean-forward="true" selection-start-line="8410" selection-start-column="19" selection-end-line="8410" selection-end-column="19" />
+            <state relative-caret-position="181">
+              <caret line="8401" column="5" lean-forward="true" selection-start-line="8401" selection-start-column="5" selection-end-line="8401" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -69,8 +74,8 @@
       <find>far</find>
       <find>fab</find>
       <find>main-page</find>
-      <find>contai</find>
       <find>container</find>
+      <find>contai</find>
     </findStrings>
     <replaceStrings>
       <replace>fa</replace>
@@ -90,7 +95,6 @@
         <option value="$PROJECT_DIR$/page admin/index.html" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/routes/index.js" />
         <option value="$PROJECT_DIR$/admin-page/views/QuanLyTaiKhoan.hbs" />
-        <option value="$PROJECT_DIR$/admin-page/views/QuanLyDonDatHang.hbs" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/index.hbs" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/about.hbs" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/checkout.hbs" />
@@ -116,6 +120,7 @@
         <option value="$PROJECT_DIR$/admin-page/views/Top10.hbs" />
         <option value="$PROJECT_DIR$/admin-page/views/QuanLySanPham.hbs" />
         <option value="$PROJECT_DIR$/admin-page/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/admin-page/views/QuanLyDonDatHang.hbs" />
       </list>
     </option>
   </component>
@@ -191,12 +196,12 @@
       <workItem from="1556016690204" duration="2441000" />
       <workItem from="1556104781659" duration="3491000" />
       <workItem from="1556108928940" duration="1599000" />
-      <workItem from="1556160001902" duration="5637000" />
+      <workItem from="1556160001902" duration="6031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18526000" />
+    <option name="totallyTimeSpent" value="18920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -411,13 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin-page/views/QuanLyDonDatHang.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin-page/views/signup.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -439,6 +437,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin-page/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="8401" column="5" lean-forward="true" selection-start-line="8401" selection-start-column="5" selection-end-line="8401" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-page/views/Top10.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2677">
+          <caret line="401" column="25" lean-forward="true" selection-end-line="543" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin-page/views/QuanLySanPham.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
@@ -446,17 +458,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin-page/views/Top10.hbs">
+    <entry file="file://$PROJECT_DIR$/admin-page/views/QuanLyDonDatHang.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="406" column="28" selection-start-line="406" selection-start-column="28" selection-end-line="406" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin-page/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="8410" column="19" lean-forward="true" selection-start-line="8410" selection-start-column="19" selection-end-line="8410" selection-end-column="19" />
+        <state relative-caret-position="359">
+          <caret line="391" column="40" selection-start-line="391" selection-start-column="40" selection-end-line="391" selection-end-column="40" />
         </state>
       </provider>
     </entry>
