@@ -47,6 +47,10 @@ router.get('/QuanLyTaiKhoan', function(req, res, next) {
   res.render('QuanLyTaiKhoan', { title: 'QuanLyTaiKhoan' });
 });
 
+router.get('/Top10', function(req, res, next) {
+  res.render('Top10', { title: 'Top10' });
+});
+
 router.get('/forgot', function(req, res, next) {
   res.render('Forgot', { title: 'Forgot' });
 });

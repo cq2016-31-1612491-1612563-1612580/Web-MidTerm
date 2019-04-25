@@ -8464,6 +8464,20 @@ h4.asd label {
 		font-size: 1em;
 	}
 }
+.title3
+{
+    width: 100px;
+}
+.imgofProduct
+{
+    margin-right: 40%;
+    float: left;
+}
+.nameofProduct
+{
+    width: 40%;
+    float: left;
+}
 /*--//responsive-design---*/
 
 
