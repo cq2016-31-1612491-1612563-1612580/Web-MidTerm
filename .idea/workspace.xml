@@ -2,22 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d46a42a-32b5-4e48-ad7a-6ada67a21696" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1612491-1612563-1612580/controllers/aboutController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1612491-1612563-1612580/controllers/cartController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1612491-1612563-1612580/controllers/homeController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1612491-1612563-1612580/controllers/productController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1612491-1612563-1612580/controllers/productinstanceController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1612491-1612563-1612580/models/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1612491-1612563-1612580/models/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1612491-1612563-1612580/models/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1612491-1612563-1612580/models/product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1612491-1612563-1612580/models/productinstance.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1612491-1612563-1612580/routes/catalog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-page/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/public/stylesheets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-page/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/views/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/controllers/homeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/controllers/homeController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/models/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/models/product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/.bin/uglifyjs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/.bin/uglifyjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/extend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/extend/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/extend/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/extend/public/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/extend/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/extend/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/extend/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/extend/views/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/extend/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/extend/views/layout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/layout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partial.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partial.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partials/partial1.html" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partials/partial1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partials/partial2.html" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partials/partial2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partials/partial3.html" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partials/partial3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partials/partial4.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partials/partial4.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partials/partial5.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partials/partial5.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/lib/async.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/lib/async.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/lib/hbs.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/lib/hbs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/bin/uglifyjs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/bin/uglifyjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/ast.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/ast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/compress.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/compress.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/minify.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/minify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/mozilla-ast.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/mozilla-ast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/output.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/output.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/propmangle.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/propmangle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/scope.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/scope.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/sourcemap.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/sourcemap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/transform.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/transform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/tools/domprops.json" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/tools/domprops.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/tools/exit.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/tools/exit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/tools/exports.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/tools/exports.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/tools/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/tools/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/tools/props.html" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/tools/props.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/routes/catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/routes/catalog.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,15 +65,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/routes/catalog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            <state relative-caret-position="240">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/models/home.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/controllers/productController.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/controllers/homeController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -122,20 +172,20 @@
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/controllers/productinstanceController.js" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/controllers/cartController.js" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/controllers/aboutController.js" />
-        <option value="$PROJECT_DIR$/1612491-1612563-1612580/controllers/homeController.js" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/models/about.js" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/models/cart.js" />
-        <option value="$PROJECT_DIR$/1612491-1612563-1612580/models/home.js" />
-        <option value="$PROJECT_DIR$/1612491-1612563-1612580/models/product.js" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/models/productinstance.js" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/routes/index.js" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/models/product.js" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/models/home.js" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/app.js" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/controllers/homeController.js" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/routes/catalog.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="676" />
+    <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -164,7 +214,19 @@
               <item name="midterm" type="b2602c69:ProjectViewProjectNode" />
               <item name="midterm" type="462c0819:PsiDirectoryNode" />
               <item name="1612491-1612563-1612580" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="midterm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="midterm" type="462c0819:PsiDirectoryNode" />
+              <item name="1612491-1612563-1612580" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="midterm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="midterm" type="462c0819:PsiDirectoryNode" />
+              <item name="1612491-1612563-1612580" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="midterm" type="b2602c69:ProjectViewProjectNode" />
@@ -183,6 +245,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -214,18 +277,19 @@
       <workItem from="1556104781659" duration="3491000" />
       <workItem from="1556108928940" duration="1599000" />
       <workItem from="1556160001902" duration="11429000" />
-      <workItem from="1556507592949" duration="6222000" />
+      <workItem from="1556507592949" duration="11434000" />
+      <workItem from="1556592352039" duration="4217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30540000" />
+    <option name="totallyTimeSpent" value="39969000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="735" extended-state="0" />
+    <frame x="-7" y="0" width="697" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19271624" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15933232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -251,14 +315,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/admin/css/export.css" />
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/public/javascripts/minicart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3240">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page admin/widgets.html" />
     <entry file="file://$PROJECT_DIR$/page admin/phpMyAdmin.php" />
     <entry file="file://$PROJECT_DIR$/page admin/css/style.css" />
@@ -460,25 +516,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/controllers/productinstanceController.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/controllers/cartController.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/models/about.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/models/home.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/models/cart.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/models/product.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/models/productinstance.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/routes/users.js">
@@ -488,35 +532,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/controllers/aboutController.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/controllers/homeController.js">
+    <entry file="file://$PROJECT_DIR$/../New folder/thamkhao/express-locallibrary-tutorial-master/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/controllers/productinstanceController.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/controllers/productController.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/models/product.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="58" lean-forward="true" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/models/productinstance.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/routes/catalog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        <state relative-caret-position="240">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/controllers/productController.js">
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/models/home.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/controllers/homeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

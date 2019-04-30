@@ -2,11 +2,11 @@ var express = require('express');
 var router = express.Router();
 
 //require for controller
-var about_controller = require('controllers/aboutController');
-var cart_controller = require('controllers/cartController');
-var home_controller = require('controllers/homeController');
-var product_controller = require('controllers/productController');
-var productinstance_controller = require('controllers/productinstanceController');
+var about_controller = require('../controllers/aboutController');
+var cart_controller = require('../controllers/cartController');
+var home_controller = require('../controllers/homeController');
+var product_controller = require('../controllers/productController');
+var productinstance_controller = require('../controllers/productinstanceController');
 
 
 /* GET home page. */
@@ -17,9 +17,9 @@ router.post('/', function(req, res, next) {
 */
 
 /*get catalog home page*/
-router.post('/',product_controller.index);
+router.get('/',home_controller.index);
 
-
+/*
 router.get('/index', function(req, res, next) {
     res.render('index', { title: 'index' });
 });
@@ -27,9 +27,9 @@ router.get('/index', function(req, res, next) {
 router.post('/index', function(req, res, next) {
     res.render('index', { title: 'index' });
 });
-
+*/
 /*ĐÂY LÀ PHẦN ROUTER*/
-
+/*
 router.get('/checkout', function(req, res) {
     res.render('checkout', {title: 'Checkout'});
 });
@@ -90,5 +90,5 @@ router.get('/terms', function(req, res) {
 router.get('/admin/', function(req, res, next) {
     res.render('Admin', { title: 'terms' });
 });
-
+*/
 module.exports = router;
