@@ -4,52 +4,21 @@
     <list default="true" id="8d46a42a-32b5-4e48-ad7a-6ada67a21696" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/controllers/homeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/controllers/homeController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/models/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/models/product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/.bin/uglifyjs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/.bin/uglifyjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/extend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/extend/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/extend/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/extend/public/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/extend/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/extend/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/extend/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/extend/views/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/extend/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/extend/views/layout.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/layout.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partial.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partial.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partials/partial1.html" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partials/partial1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partials/partial2.html" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partials/partial2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partials/partial3.html" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partials/partial3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partials/partial4.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partials/partial4.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partials/partial5.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/examples/partial/views/partials/partial5.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/lib/async.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/lib/async.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/lib/hbs.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/lib/hbs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/hbs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/bin/uglifyjs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/bin/uglifyjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/ast.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/ast.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/compress.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/compress.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/minify.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/minify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/mozilla-ast.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/mozilla-ast.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/output.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/output.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/parse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/propmangle.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/propmangle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/scope.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/scope.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/sourcemap.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/sourcemap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/transform.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/transform.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/lib/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/tools/domprops.json" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/tools/domprops.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/tools/exit.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/tools/exit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/tools/exports.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/tools/exports.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/tools/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/tools/node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/tools/props.html" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/node_modules/uglify-js/tools/props.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/routes/catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/routes/catalog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/about.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/about.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/checkout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/checkout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/contact.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/contact.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/faqs.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/faqs.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/help.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/help.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/payment.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/payment.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/privacy.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/privacy.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/product.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/product.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/product2.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/product2.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/single.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/single.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/single2.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/single2.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/terms.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/terms.hbs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -61,40 +30,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/routes/catalog.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/models/home.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/controllers/homeController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -124,9 +60,14 @@
       <find>chat</find>
       <find>chart.js</find>
       <find>biểu đồ cột</find>
+      <find>logo</find>
+      <find>c</find>
+      <find>payment</find>
+      <find>images</find>
     </findStrings>
     <replaceStrings>
       <replace>fa</replace>
+      <replace>/images</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -141,19 +82,6 @@
         <option value="$PROJECT_DIR$/page admin/ProductManagerment.html" />
         <option value="$PROJECT_DIR$/page admin/OderManagerment.html" />
         <option value="$PROJECT_DIR$/page admin/index.html" />
-        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/index.hbs" />
-        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/about.hbs" />
-        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/checkout.hbs" />
-        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/contact.hbs" />
-        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/faqs.hbs" />
-        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/help.hbs" />
-        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/payment.hbs" />
-        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/privacy.hbs" />
-        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/product.hbs" />
-        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/product2.hbs" />
-        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/single.hbs" />
-        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/single2.hbs" />
-        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/terms.hbs" />
         <option value="$PROJECT_DIR$/admin-page/views/charts.hbs" />
         <option value="$PROJECT_DIR$/admin-page/views/compose.hbs" />
         <option value="$PROJECT_DIR$/admin-page/views/forgot.hbs" />
@@ -168,24 +96,37 @@
         <option value="$PROJECT_DIR$/admin-page/views/QuanLyTaiKhoan.hbs" />
         <option value="$PROJECT_DIR$/admin-page/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/admin-page/views/index.hbs" />
-        <option value="$PROJECT_DIR$/1612491-1612563-1612580/controllers/productController.js" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/controllers/productinstanceController.js" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/controllers/cartController.js" />
-        <option value="$PROJECT_DIR$/1612491-1612563-1612580/controllers/aboutController.js" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/models/about.js" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/models/cart.js" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/models/productinstance.js" />
-        <option value="$PROJECT_DIR$/1612491-1612563-1612580/routes/index.js" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/models/product.js" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/models/home.js" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/controllers/productController.js" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/controllers/aboutController.js" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/app.js" />
-        <option value="$PROJECT_DIR$/1612491-1612563-1612580/controllers/homeController.js" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/about.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/checkout.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/index.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/contact.hbs" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/routes/catalog.js" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/controllers/homeController.js" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/routes/index.js" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/faqs.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/help.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/payment.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/privacy.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/product.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/product2.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/single.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/single2.hbs" />
+        <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/terms.hbs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -232,7 +173,19 @@
               <item name="midterm" type="b2602c69:ProjectViewProjectNode" />
               <item name="midterm" type="462c0819:PsiDirectoryNode" />
               <item name="1612491-1612563-1612580" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="midterm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="midterm" type="462c0819:PsiDirectoryNode" />
+              <item name="1612491-1612563-1612580" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="midterm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="midterm" type="462c0819:PsiDirectoryNode" />
+              <item name="1612491-1612563-1612580" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,7 +198,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../New folder/thamkhao/express-locallibrary-tutorial-master" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -279,17 +232,21 @@
       <workItem from="1556160001902" duration="11429000" />
       <workItem from="1556507592949" duration="11434000" />
       <workItem from="1556592352039" duration="4217000" />
+      <workItem from="1556600928886" duration="3656000" />
+      <workItem from="1556686305316" duration="1717000" />
+      <workItem from="1556768366740" duration="1781000" />
+      <workItem from="1556845982665" duration="2375000" />
+      <workItem from="1556963048363" duration="6811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39969000" />
+    <option name="totallyTimeSpent" value="56309000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="697" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15933232" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11681548" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -315,7 +272,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/page admin/widgets.html" />
     <entry file="file://$PROJECT_DIR$/page admin/phpMyAdmin.php" />
     <entry file="file://$PROJECT_DIR$/page admin/css/style.css" />
     <entry file="file://$PROJECT_DIR$/page admin/ProductManagerment.html" />
@@ -323,97 +279,6 @@
     <entry file="file://$PROJECT_DIR$/page admin/index.html" />
     <entry file="file://$PROJECT_DIR$/admin-page/views/error.hbs">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/about.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="1052" column="73" lean-forward="true" selection-start-line="1052" selection-start-column="73" selection-end-line="1052" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/checkout.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="1227" column="75" selection-start-line="1227" selection-start-column="72" selection-end-line="1227" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/contact.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="1074" column="56" selection-start-line="1074" selection-start-column="56" selection-end-line="1074" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/faqs.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="1113" column="56" selection-start-line="1113" selection-start-column="56" selection-end-line="1113" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/help.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="1128" column="56" selection-start-line="1128" selection-start-column="56" selection-end-line="1128" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/payment.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="74" column="55" lean-forward="true" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/privacy.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="1057" column="56" selection-start-line="1057" selection-start-column="56" selection-end-line="1057" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/product.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="1656" column="56" selection-start-line="1656" selection-start-column="56" selection-end-line="1656" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/product2.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="1543" column="44" selection-start-line="1543" selection-start-column="44" selection-end-line="1543" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/single.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="1090" column="56" selection-start-line="1090" selection-start-column="56" selection-end-line="1090" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/single2.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="1088" column="71" selection-start-line="1088" selection-start-column="71" selection-end-line="1088" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/terms.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="1062" column="25" lean-forward="true" selection-start-line="1062" selection-start-column="25" selection-end-line="1062" selection-end-column="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin-page/views/charts.hbs">
       <provider selected="true" editor-type-id="text-editor">
@@ -525,16 +390,6 @@
     <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/models/cart.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/controllers/aboutController.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../New folder/thamkhao/express-locallibrary-tutorial-master/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-216">
@@ -545,18 +400,8 @@
     <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/controllers/productinstanceController.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/controllers/productController.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/models/product.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/bin/www">
       <provider selected="true" editor-type-id="text-editor">
@@ -568,27 +413,152 @@
     <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/models/productinstance.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/routes/catalog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/models/home.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/controllers/productController.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/controllers/aboutController.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/SETUP/vuejs/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1056">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/about.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/checkout.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="168">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/contact.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="1122" column="22" lean-forward="true" selection-start-line="1122" selection-start-column="22" selection-end-line="1122" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/routes/catalog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/controllers/homeController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="92">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/faqs.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="557" column="49" selection-start-line="557" selection-start-column="49" selection-end-line="557" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/help.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="1173" column="45" selection-start-line="1173" selection-start-column="45" selection-end-line="1173" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/payment.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="1257" column="45" selection-start-line="1257" selection-start-column="45" selection-end-line="1257" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/privacy.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="1102" column="45" selection-start-line="1102" selection-start-column="45" selection-end-line="1102" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/product.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="550" column="42" selection-start-line="550" selection-start-column="36" selection-end-line="550" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/product2.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="550" column="42" selection-start-line="550" selection-start-column="36" selection-end-line="550" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/single.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="550" column="42" selection-start-line="550" selection-start-column="36" selection-end-line="550" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/single2.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="550" column="42" selection-start-line="550" selection-start-column="36" selection-end-line="550" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/terms.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="558" column="45" selection-start-line="558" selection-start-column="39" selection-end-line="558" selection-end-column="45" />
         </state>
       </provider>
     </entry>
