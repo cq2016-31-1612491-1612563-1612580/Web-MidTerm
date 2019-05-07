@@ -18,8 +18,9 @@ router.post('/', function(req, res, next) {
 
 /*get catalog home page*/
 router.get('/',home_controller.index);
+router.post('/',home_controller.index);
 router.get('/index',home_controller.index);
-
+router.post('/index',home_controller.index);
 router.get('/about',home_controller.about);
 router.get('/contact',home_controller.contact);
 router.get('/checkout',home_controller.checkout);
@@ -29,9 +30,13 @@ router.get('/help',home_controller.help);
 router.get('/payment',home_controller.payment);
 router.get('/privacy',home_controller.privacy);
 router.get('/product',home_controller.product);
+router.post('/product',home_controller.product);
 router.get('/product2',home_controller.product2);
+router.post('/product2',home_controller.product2);
 router.get('/single',home_controller.single);
+router.post('/single',home_controller.single);
 router.get('/single2',home_controller.single2);
+router.post('/single2',home_controller.single2);
 router.get('/terms',home_controller.terms);
 /*
 router.get('/index', function(req, res, next) {

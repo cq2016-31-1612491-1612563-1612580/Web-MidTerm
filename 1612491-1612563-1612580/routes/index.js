@@ -54,7 +54,15 @@ router.get('/product', function (req,res) {
   res.redirect('/catalog/product');
 });
 
+router.post('/product', function (req,res) {
+  res.redirect('/catalog/product');
+});
+
 router.get('/product2', function (req,res) {
+  res.redirect('/catalog/product2');
+});
+
+router.post('/product2', function (req,res) {
   res.redirect('/catalog/product2');
 });
 
@@ -62,7 +70,15 @@ router.get('/single', function (req,res) {
   res.redirect('/catalog/single');
 });
 
+router.post('/single', function (req,res) {
+  res.redirect('/catalog/single');
+});
+
 router.get('/single2', function (req,res) {
+  res.redirect('/catalog/single2');
+});
+
+router.post('/single2', function (req,res) {
   res.redirect('/catalog/single2');
 });
 
