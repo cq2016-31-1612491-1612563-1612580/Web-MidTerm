@@ -11,50 +11,46 @@ exports.index = function (req,res,next) {
     res.render('index', { title: 'index' });
 };
 
-exports.about = function (req,res) {
-    res.render('about', { title: 'About' });
+exports.charts = function (req,res) {
+    res.render('charts', { title: 'Charts' });
 };
 
-exports.contact = function (req,res,next) {
-    res.render('contact', { title: 'Contact' });
+exports.compose = function (req,res,next) {
+    res.render('compose', { title: 'Compose' });
 };
 
-exports.checkout = function (req,res) {
-    res.render('checkout', { title: 'Checkout' });
+exports.forgot = function (req,res) {
+    res.render('forgot', { title: 'Forgot' });
 };
 
-exports.faqs = function (req,res) {
-    res.render('faqs', { title: 'Faqs' });
+exports.inbox = function (req,res) {
+    res.render('inbox', { title: 'Inbox' });
 };
 
-exports.help = function (req,res) {
-    res.render('help', { title: 'Help' });
+exports.login = function (req,res) {
+    res.render('login', { title: 'Login' });
 };
 
-exports.payment = function (req,res) {
-    res.render('payment', { title: 'Payment' });
+exports.QuanLyDonDatHang = function (req,res) {
+    res.render('QuanLyDonDatHang', { title: 'Quan Ly Don Dat Hang' });
 };
 
-exports.privacy = function (req,res) {
-    res.render('privacy', { title: 'Privacy' });
+exports.QuanLySanPham = function (req,res) {
+    res.render('QuanLySanPham', { title: 'Quan Ly San Pham' });
 };
 
-exports.product = function (req,res) {
-    res.render('product', { title: 'Product' });
+exports.QuanLyTaiKhoan = function (req,res) {
+    res.render('QuanLyTaiKhoan', { title: 'Quan Ly Tai Khoan' });
 };
 
-exports.product2 = function (req,res) {
-    res.render('product2', { title: 'Product2' });
+exports.signup = function (req,res) {
+    res.render('signup', { title: 'Sign Up' });
 };
 
-exports.single = function (req,res) {
-    res.render('single', { title: 'Single' });
+exports.Top10 = function (req,res) {
+    res.render('Top10', { title: 'Top 10' });
 };
 
-exports.single2 = function (req,res) {
-    res.render('single2', { title: 'Single2' });
-};
-
-exports.terms = function (req,res) {
-    res.render('terms', { title: 'Terms' });
+exports.widgets = function (req,res) {
+    res.render('widgets', { title: 'Widgets' });
 };

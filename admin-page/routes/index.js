@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-//Get home page
+/* GET home page. */
 router.get('/', function (req,res) {
   res.redirect('/catalog');
 });
@@ -10,52 +10,48 @@ router.get('/index', function (req,res,next) {
   res.redirect('/catalog');
 });
 
-router.get('/about', function (req,res) {
-  res.redirect('/catalog/about');
+router.get('/charts', function (req,res) {
+  res.redirect('/catalog/charts');
 });
 
-router.get('/contact', function (req,res,next) {
-  res.redirect('/catalog/contact');
+router.get('/compose', function (req,res,next) {
+  res.redirect('/catalog/compose');
 });
 
-router.get('/checkout', function (req,res) {
-  res.redirect('/catalog/checkout');
+router.get('/forgot', function (req,res) {
+  res.redirect('/catalog/forgot');
 });
 
-router.get('/faqs', function (req,res) {
-  res.redirect('/catalog/faqs');
+router.get('/inbox', function (req,res) {
+  res.redirect('/catalog/inbox');
 });
 
-router.get('/help', function (req,res) {
-  res.redirect('/catalog/help');
+router.get('/login', function (req,res) {
+  res.redirect('/catalog/login');
 });
 
-router.get('/payment', function (req,res) {
-  res.redirect('/catalog/payment');
+router.get('/QuanLyDonDatHang', function (req,res) {
+  res.redirect('/catalog/QuanLyDonDatHang');
 });
 
-router.get('/privacy', function (req,res) {
-  res.redirect('/catalog/privacy');
+router.get('/QuanLySanPham', function (req,res) {
+  res.redirect('/catalog/QuanLySanPham');
 });
 
-router.get('/product', function (req,res) {
-  res.redirect('/catalog/product');
+router.get('/QuanLyTaiKhoan', function (req,res) {
+  res.redirect('/catalog/QuanLyTaiKhoan');
 });
 
-router.get('/product2', function (req,res) {
-  res.redirect('/catalog/product2');
+router.get('/signup', function (req,res) {
+  res.redirect('/catalog/signupController');
 });
 
-router.get('/single', function (req,res) {
-  res.redirect('/catalog/single');
+router.get('/Top10', function (req,res) {
+  res.redirect('/catalog/Top10');
 });
 
-router.get('/single2', function (req,res) {
-  res.redirect('/catalog/single2');
-});
-
-router.get('/terms', function (req,res) {
-  res.redirect('/catalog/terms');
+router.get('/widgets', function (req,res) {
+  res.redirect('/catalog/widgets');
 });
 
 module.exports = router;

@@ -1,1795 +1,1043 @@
-<!--<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
 -->
-<!doctype html>
-<html lang="zxx">
-
+<!DOCTYPE HTML>
+<html>
 <head>
-    <title>Electro Store Ecommerce Category Bootstrap Responsive Web Template | Home :: w3layouts</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <meta name="keywords" content="Electro Store Responsive web template, Bootstrap Web Templates,
-	 Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free
-	  webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"
-    />
-    <script>
-        addEventListener("load", function () {
-            setTimeout(hideURLbar, 0);
-        }, false);
+<title>Glance Design Dashboard an Admin Panel Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Glance Design Dashboard Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 
-        function hideURLbar() {
-            window.scrollTo(0, 1);
-        }
-    </script>
+<!-- Bootstrap Core CSS -->
+<link href="/stylesheets/bootstrap.css" rel='stylesheet' type='text/css' />
 
+<!-- Custom CSS -->
+<link href="/stylesheets/style.css" rel='stylesheet' type='text/css' />
 
-    <!-- Custom-Files -->
-    <link href="/stylesheets/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-    <!-- Bootstrap css css/style.css-->
-    <link href="/stylesheets/style1.css" rel="stylesheet" type="text/css" media="all" />
-    <!-- Main css css/fontawesome-all.css-->
-    <link rel="stylesheet" href="/stylesheets/font-awesome.css" type="text/css">
-    <!-- Font-Awesome-Icons-CSS css/popuo-box.css-->
-    <link href="/stylesheets/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
-    <!-- pop-up-box css/menu.css-->
-    <link href="/stylesheets/menu.css" rel="stylesheet" type="text/css" media="all" />
-    <!-- menu style -->
-    <!-- //Custom-Files -->
+<!-- font-awesome icons CSS -->
+<link href="/stylesheets/font-awesome.css" rel="stylesheet">
+<!-- //font-awesome icons CSS-->
 
-    <!-- web fonts -->
-    <link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
-          rel="stylesheet">
-    <!-- //web fonts -->
+<!-- side nav css file -->
+<link href='/stylesheets/SidebarNav.min.css' media='all' rel='stylesheet' type='text/css'/>
+<!-- //side nav css file -->
 
-</head>
+ <!-- js-->
+<script src="/javascripts/jquery-1.11.1.min.js"></script>
+<script src="/javascripts/modernizr.custom.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!--webfonts-->
+<link href="//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+<!--//webfonts-->
 
-<body>
-<!-- top-header -->
-<div class="agile-main-top">
-    <div class="container-fluid">
-        <div class="row main-top-w3l py-2">
-            <div class="col-lg-4 header-most-top">
-                <p class="text-white text-lg-left text-center">Nơi cung cấp những deal tốt nhất
-                    <i class="fa fa-shopping-cart ml-1"></i>
-                </p>
-            </div>
-            <div class="col-lg-8 header-right mt-lg-0 mt-2">
-                <!-- header lists -->
-                <ul>
-                    <li class="text-center border-right text-white">
-                        <a class="play-icon popup-with-zoom-anim text-white" href="#small-dialog1">
-                            <i class="fa fa-map-marker mr-2"></i>Chọn địa điểm</a>
-                    </li>
-                    <li class="text-center border-right text-white">
-                        <a href="#" data-toggle="modal" data-target="#exampleModal" class="text-white">
-                            <i class="fa fa-truck mr-2"></i>Theo dõi hoá đơn</a>
-                    </li>
-                    <li class="text-center border-right text-white">
-                        <i class="fa fa-phone mr-2"></i> 001 234 5678
-                    </li>
-                    <li class="text-center border-right text-white">
-                        <a href="#" data-toggle="modal" data-target="#exampleModal" class="text-white">
-                            <i class="fa fa-sign-in mr-2"></i> Đăng nhập </a>
-                    </li>
-                    <li class="text-center text-white">
-                        <a href="#" data-toggle="modal" data-target="#exampleModal2" class="text-white">
-                            <i class="fa fa-sign-out mr-2"></i>Đăng kí </a>
-                    </li>
-                </ul>
-                <!-- //header lists -->
-            </div>
-        </div>
-    </div>
-</div>
+<!-- chart -->
+<script src="/javascripts/Chart.js"></script>
+<!-- //chart -->
 
-<!-- Button trigger modal(select-location) -->
-<div id="small-dialog1" class="mfp-hide">
-  <div class="select-city">
-    <h3>
-      <i class="fa fa-map-marker"></i> Xin Hãy Chọn Địa Điểm</h3>
-    <select class="list_of_cities">
-      <optgroup label="Popular Cities">
-        <option selected style="display:none;color:#eee;">Chọn Thành Phố</option>
-        <option>Birmingham</option>
-        <option>Anchorage</option>
-        <option>Phoenix</option>
-        <option>Little Rock</option>
-        <option>Los Angeles</option>
-        <option>Denver</option>
-        <option>Bridgeport</option>
-        <option>Wilmington</option>
-        <option>Jacksonville</option>
-        <option>Atlanta</option>
-        <option>Honolulu</option>
-        <option>Boise</option>
-        <option>Chicago</option>
-        <option>Indianapolis</option>
-      </optgroup>
-      <optgroup label="Alabama">
-        <option>Birmingham</option>
-        <option>Montgomery</option>
-        <option>Mobile</option>
-        <option>Huntsville</option>
-        <option>Tuscaloosa</option>
-      </optgroup>
-      <optgroup label="Alaska">
-        <option>Anchorage</option>
-        <option>Fairbanks</option>
-        <option>Juneau</option>
-        <option>Sitka</option>
-        <option>Ketchikan</option>
-      </optgroup>
-      <optgroup label="Arizona">
-        <option>Phoenix</option>
-        <option>Tucson</option>
-        <option>Mesa</option>
-        <option>Chandler</option>
-        <option>Glendale</option>
-      </optgroup>
-      <optgroup label="Arkansas">
-        <option>Little Rock</option>
-        <option>Fort Smith</option>
-        <option>Fayetteville</option>
-        <option>Springdale</option>
-        <option>Jonesboro</option>
-      </optgroup>
-      <optgroup label="California">
-        <option>Los Angeles</option>
-        <option>San Diego</option>
-        <option>San Jose</option>
-        <option>San Francisco</option>
-        <option>Fresno</option>
-      </optgroup>
-      <optgroup label="Colorado">
-        <option>Denver</option>
-        <option>Colorado</option>
-        <option>Aurora</option>
-        <option>Fort Collins</option>
-        <option>Lakewood</option>
-      </optgroup>
-      <optgroup label="Connecticut">
-        <option>Bridgeport</option>
-        <option>New Haven</option>
-        <option>Hartford</option>
-        <option>Stamford</option>
-        <option>Waterbury</option>
-      </optgroup>
-      <optgroup label="Delaware">
-        <option>Wilmington</option>
-        <option>Dover</option>
-        <option>Newark</option>
-        <option>Bear</option>
-        <option>Middletown</option>
-      </optgroup>
-      <optgroup label="Florida">
-        <option>Jacksonville</option>
-        <option>Miami</option>
-        <option>Tampa</option>
-        <option>St. Petersburg</option>
-        <option>Orlando</option>
-      </optgroup>
-      <optgroup label="Georgia">
-        <option>Atlanta</option>
-        <option>Augusta</option>
-        <option>Columbus</option>
-        <option>Savannah</option>
-        <option>Athens</option>
-      </optgroup>
-      <optgroup label="Hawaii">
-        <option>Honolulu</option>
-        <option>Pearl City</option>
-        <option>Hilo</option>
-        <option>Kailua</option>
-        <option>Waipahu</option>
-      </optgroup>
-      <optgroup label="Idaho">
-        <option>Boise</option>
-        <option>Nampa</option>
-        <option>Meridian</option>
-        <option>Idaho Falls</option>
-        <option>Pocatello</option>
-      </optgroup>
-      <optgroup label="Illinois">
-        <option>Chicago</option>
-        <option>Aurora</option>
-        <option>Rockford</option>
-        <option>Joliet</option>
-        <option>Naperville</option>
-      </optgroup>
-      <optgroup label="Indiana">
-        <option>Indianapolis</option>
-        <option>Fort Wayne</option>
-        <option>Evansville</option>
-        <option>South Bend</option>
-        <option>Hammond</option>
-      </optgroup>
-      <optgroup label="Iowa">
-        <option>Des Moines</option>
-        <option>Cedar Rapids</option>
-        <option>Davenport</option>
-        <option>Sioux City</option>
-        <option>Waterloo</option>
-      </optgroup>
-      <optgroup label="Kansas">
-        <option>Wichita</option>
-        <option>Overland Park</option>
-        <option>Kansas City</option>
-        <option>Topeka</option>
-        <option>Olathe </option>
-      </optgroup>
-      <optgroup label="Kentucky">
-        <option>Louisville</option>
-        <option>Lexington</option>
-        <option>Bowling Green</option>
-        <option>Owensboro</option>
-        <option>Covington</option>
-      </optgroup>
-      <optgroup label="Louisiana">
-        <option>New Orleans</option>
-        <option>Baton Rouge</option>
-        <option>Shreveport</option>
-        <option>Metairie</option>
-        <option>Lafayette</option>
-      </optgroup>
-      <optgroup label="Maine">
-        <option>Portland</option>
-        <option>Lewiston</option>
-        <option>Bangor</option>
-        <option>South Portland</option>
-        <option>Auburn</option>
-      </optgroup>
-      <optgroup label="Maryland">
-        <option>Baltimore</option>
-        <option>Frederick</option>
-        <option>Rockville</option>
-        <option>Gaithersburg</option>
-        <option>Bowie</option>
-      </optgroup>
-      <optgroup label="Massachusetts">
-        <option>Boston</option>
-        <option>Worcester</option>
-        <option>Springfield</option>
-        <option>Lowell</option>
-        <option>Cambridge</option>
-      </optgroup>
-      <optgroup label="Michigan">
-        <option>Detroit</option>
-        <option>Grand Rapids</option>
-        <option>Warren</option>
-        <option>Sterling Heights</option>
-        <option>Lansing</option>
-      </optgroup>
-      <optgroup label="Minnesota">
-        <option>Minneapolis</option>
-        <option>St. Paul</option>
-        <option>Rochester</option>
-        <option>Duluth</option>
-        <option>Bloomington</option>
-      </optgroup>
-      <optgroup label="Mississippi">
-        <option>Jackson</option>
-        <option>Gulfport</option>
-        <option>Southaven</option>
-        <option>Hattiesburg</option>
-        <option>Biloxi</option>
-      </optgroup>
-      <optgroup label="Missouri">
-        <option>Kansas City</option>
-        <option>St. Louis</option>
-        <option>Springfield</option>
-        <option>Independence</option>
-        <option>Columbia</option>
-      </optgroup>
-      <optgroup label="Montana">
-        <option>Billings</option>
-        <option>Missoula</option>
-        <option>Great Falls</option>
-        <option>Bozeman</option>
-        <option>Butte-Silver Bow</option>
-      </optgroup>
-      <optgroup label="Nebraska">
-        <option>Omaha</option>
-        <option>Lincoln</option>
-        <option>Bellevue</option>
-        <option>Grand Island</option>
-        <option>Kearney</option>
-      </optgroup>
-      <optgroup label="Nevada">
-        <option>Las Vegas</option>
-        <option>Henderson</option>
-        <option>North Las Vegas</option>
-        <option>Reno</option>
-        <option>Sunrise Manor</option>
-      </optgroup>
-      <optgroup label="New Hampshire">
-        <option>Manchesters</option>
-        <option>Nashua</option>
-        <option>Concord</option>
-        <option>Dover</option>
-        <option>Rochester</option>
-      </optgroup>
-      <optgroup label="New Jersey">
-        <option>Newark</option>
-        <option>Jersey City</option>
-        <option>Paterson</option>
-        <option>Elizabeth</option>
-        <option>Edison</option>
-      </optgroup>
-      <optgroup label="New Mexico">
-        <option>Albuquerque</option>
-        <option>Las Cruces</option>
-        <option>Rio Rancho</option>
-        <option>Santa Fe</option>
-        <option>Roswell</option>
-      </optgroup>
-      <optgroup label="New York">
-        <option>New York</option>
-        <option>Buffalo</option>
-        <option>Rochester</option>
-        <option>Yonkers</option>
-        <option>Syracuse</option>
-      </optgroup>
-      <optgroup label="North Carolina">
-        <option>Charlotte</option>
-        <option>Raleigh</option>
-        <option>Greensboro</option>
-        <option>Winston-Salem</option>
-        <option>Durham</option>
-      </optgroup>
-      <optgroup label="North Dakota">
-        <option>Fargo</option>
-        <option>Bismarck</option>
-        <option>Grand Forks</option>
-        <option>Minot</option>
-        <option>West Fargo</option>
-      </optgroup>
-      <optgroup label="Ohio">
-        <option>Columbus</option>
-        <option>Cleveland</option>
-        <option>Cincinnati</option>
-        <option>Toledo</option>
-        <option>Akron</option>
-      </optgroup>
-      <optgroup label="Oklahoma">
-        <option>Oklahoma City</option>
-        <option>Tulsa</option>
-        <option>Norman</option>
-        <option>Broken Arrow</option>
-        <option>Lawton</option>
-      </optgroup>
-      <optgroup label="Oregon">
-        <option>Portland</option>
-        <option>Eugene</option>
-        <option>Salem</option>
-        <option>Gresham</option>
-        <option>Hillsboro</option>
-      </optgroup>
-      <optgroup label="Pennsylvania">
-        <option>Philadelphia</option>
-        <option>Pittsburgh</option>
-        <option>Allentown</option>
-        <option>Erie</option>
-        <option>Reading</option>
-      </optgroup>
-      <optgroup label="Rhode Island">
-        <option>Providence</option>
-        <option>Warwick</option>
-        <option>Cranston</option>
-        <option>Pawtucket</option>
-        <option>East Providence</option>
-      </optgroup>
-      <optgroup label="South Carolina">
-        <option>Columbia</option>
-        <option>Charleston</option>
-        <option>North Charleston</option>
-        <option>Mount Pleasant</option>
-        <option>Rock Hill</option>
-      </optgroup>
-      <optgroup label="South Dakota">
-        <option>Sioux Falls</option>
-        <option>Rapid City</option>
-        <option>Aberdeen</option>
-        <option>Brookings</option>
-        <option>Watertown</option>
-      </optgroup>
-      <optgroup label="Tennessee">
-        <option>Memphis</option>
-        <option>Nashville</option>
-        <option>Knoxville</option>
-        <option>Chattanooga</option>
-        <option>Clarksville</option>
-      </optgroup>
-      <optgroup label="Texas">
-        <option>Houston</option>
-        <option>San Antonio</option>
-        <option>Dallas</option>
-        <option>Austin</option>
-        <option>Fort Worth</option>
-      </optgroup>
-      <optgroup label="Utah">
-        <option>Salt Lake City</option>
-        <option>West Valley City</option>
-        <option>Provo</option>
-        <option>West Jordan</option>
-        <option>Orem</option>
-      </optgroup>
-      <optgroup label="Vermont">
-        <option>Burlington</option>
-        <option>Essex</option>
-        <option>South Burlington</option>
-        <option>Colchester</option>
-        <option>Rutland</option>
-      </optgroup>
-      <optgroup label="Virginia">
-        <option>Virginia Beach</option>
-        <option>Norfolk</option>
-        <option>Chesapeake</option>
-        <option>Arlington</option>
-        <option>Richmond</option>
-      </optgroup>
-      <optgroup label="Washington">
-        <option>Seattle</option>
-        <option>Spokane</option>
-        <option>Tacoma</option>
-        <option>Vancouver</option>
-        <option>Bellevue</option>
-      </optgroup>
-      <optgroup label="West Virginia">
-        <option>Charleston</option>
-        <option>Huntington</option>
-        <option>Parkersburg</option>
-        <option>Morgantown</option>
-        <option>Wheeling</option>
-      </optgroup>
-      <optgroup label="Wisconsin">
-        <option>Milwaukee</option>
-        <option>Madison</option>
-        <option>Green Bay</option>
-        <option>Kenosha</option>
-        <option>Racine</option>
-      </optgroup>
-      <optgroup label="Wyoming">
-        <option>Cheyenne</option>
-        <option>Casper</option>
-        <option>Laramie</option>
-        <option>Gillette</option>
-        <option>Rock Springs</option>
-      </optgroup>
-    </select>
-    <div class="clearfix"></div>
-  </div>
-</div>
-<!-- //shop locator (popup) -->
+<!-- Metis Menu -->
+<script src="/javascripts/metisMenu.min.js"></script>
+<script src="/javascripts/custom.js"></script>
+<link href="/stylesheets/custom.css" rel="stylesheet">
+<!--//Metis Menu -->
+<style>
+#chartdiv {
+  width: 100%;
+  height: 295px;
+}
+</style>
+<!--pie-chart --><!-- index page sales reviews visitors pie chart -->
+<script src="/javascripts/pie-chart.js" type="text/javascript"></script>
+ <script type="text/javascript">
 
-<!-- modals -->
-<!-- log in -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title text-center">Đăng Nhập</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form action="#" method="post">
-          <div class="form-group">
-            <label class="col-form-label">Username</label>
-            <input type="text" class="form-control" placeholder=" " name="Name" required="">
-          </div>
-          <div class="form-group">
-            <label class="col-form-label">Password</label>
-            <input type="password" class="form-control" placeholder=" " name="Password" required="">
-          </div>
-          <div class="right-w3l">
-            <input type="submit" class="form-control" value="Log in">
-          </div>
-          <div class="sub-w3l">
-            <a href="#" data-toggle="modal" data-target="#exampleModal3" class="text-blue">
-                            <i class="fa fa-sign-in-alt mr-2"></i> Quên mật khẩu </a>
-          </div>
-          <p class="text-center dont-do mt-3">Không có tài khoản?
-            <a href="#" data-toggle="modal" data-target="#exampleModal2">
-              Đăng kí ngay</a>
-          </p>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- forget password modal -->
-<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title text-center">Quên mật khẩu</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form action="#" method="post">
-          <div class="form-group">
-            <label class="col-form-label">Username</label>
-            <input type="text" class="form-control" placeholder=" " name="Name" required="">
-          </div>
-          <div class="form-group">
-            <label class="col-form-label">Email</label>
-            <input type="text" class="form-control" placeholder=" " name="Email" required="">
-          </div>
-          <div class="right-w3l">
-            <input type="submit" class="form-control" value="Xác nhận">
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- register -->
-<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Đăng kí</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form action="#" method="post">
-          <div class="form-group">
-            <label class="col-form-label">Tên</label>
-            <input type="text" class="form-control" placeholder=" " name="Name" required="">
-          </div>
-          <div class="form-group">
-            <label class="col-form-label">Email</label>
-            <input type="email" class="form-control" placeholder=" " name="Email" required="">
-          </div>
-          <div class="form-group">
-            <label class="col-form-label">Password</label>
-            <input type="password" class="form-control" placeholder=" " name="Password" id="password1" required="">
-          </div>
-          <div class="form-group">
-            <label class="col-form-label">Confirm Password</label>
-            <input type="password" class="form-control" placeholder=" " name="Confirm Password" id="password2" required="">
-          </div>
-          <div class="right-w3l">
-            <input type="submit" class="form-control" value="Register">
-          </div>
-          <div class="sub-w3l">
-            <div class="custom-control custom-checkbox mr-sm-2">
-              <input type="checkbox" class="custom-control-input" id="customControlAutosizing2">
-              <label class="custom-control-label" for="customControlAutosizing2">Tôi chấp hành những chính sách và điều kiện</label>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- //modal -->
-<!-- //top-header -->
-
-<!-- header-bottom css/menu.css images/logo2.png-->
-<div class="header-bot">
-    <div class="container">
-        <div class="row header-bot_inner_wthreeinfo_header_mid">
-            <!-- logo -->
-            <div class="col-md-3 logo_agile">
-                <h1 class="text-center">
-                    <a href="index" class="font-weight-bold font-italic">
-                        <img src="images/logo2.png" alt=" " class="img-fluid">Electro Store
-                    </a>
-                </h1>
-            </div>
-            <!-- //logo -->
-            <!-- header-bot -->
-            <div class="col-md-9 header mt-4 mb-md-0 mb-4">
-                <div class="row">
-                    <!-- search -->
-                    <div class="col-10 agileits_search">
-                        <form class="form-inline" action="#" method="post">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search" required>
-                            <button class="btn my-2 my-sm-0" type="submit" id="timkiem">Tìm kiếm</button>
-                        </form>
-                    </div>
-                    <!-- //search -->
-                    <!-- cart details -->
-                    <div class="col-2 top_nav_right text-center mt-sm-0 mt-2">
-                        <div class="wthreecartaits wthreecartaits2 cart cart box_1">
-                            <form action="#" method="post" class="last">
-                                <input type="hidden" name="cmd" value="_cart">
-                                <input type="hidden" name="display" value="1">
-                                <button class="btn w3view-cart" type="submit" name="submit" value="">
-                                    <i class="fa fa-cart-arrow-down"></i>
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                    <!-- //cart details -->
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- shop locator (popup) -->
-<!-- //header-bottom -->
-<!-- navigation -->
-<div class="navbar-inner">
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="agileits-navi_search">
-                <form action="#" method="post">
-                    <select id="agileinfo-nav_search" name="agileinfo_search" class="border" required="">
-                        <option value="">Tất cả danh mục</option>
-                        <option value="Televisions">TV</option>
-                        <option value="Headphones">Tai nghe</option>
-                        <option value="Computers">Máy tính</option>
-                        <option value="Appliances">Thiết bị gia dụng</option>
-                        <option value="Mobiles">Điện thoại</option>
-                        <option value="Fruits &amp; Vegetables">Tv &amp; Video</option>
-                        <option value="iPad & Tablets">iPad & Tablets</option>
-                        <option value="Cameras & Camcorders">Cameras & Máy quay</option>
-                        <option value="Home Audio & Theater">Audio & Theater</option>
-                    </select>
-                </form>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto text-center mr-xl-5">
-                    <li class="nav-item active mr-lg-2 mb-lg-0 mb-2">
-                        <a class="nav-link" href="index">Trang chủ
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown mr-lg-2 mb-lg-0 mb-2">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Đồ Điện Tử
-                        </a>
-                        <div class="dropdown-menu">
-                            <div class="agile_inner_drop_nav_info p-4">
-                                <h5 class="mb-3">Điện thoại, Máy tính</h5>
-                                <div class="row">
-                                    <div class="col-sm-6 multi-gd-img">
-                                        <ul class="multi-column-dropdown">
-                                            <li>
-                                                <a href="product">Tất cả điện thoại</a>
-                                            </li>
-                                            <li>
-                                                <a href="product">Tất cả phụ kiện điện thoại</a>
-                                            </li>
-                                            <li>
-                                                <a href="product">Cases & Covers</a>
-                                            </li>
-                                            <li>
-                                                <a href="product">Bảo vệ màn hình</a>
-                                            </li>
-                                            <li>
-                                                <a href="product">Sạc dự phòng</a>
-                                            </li>
-                                            <li>
-                                                <a href="product">Hàng trưng bày</a>
-                                            </li>
-                                            <li>
-                                                <a href="product">Tablets</a>
-                                            </li>
-                                            <li>
-                                                <a href="product">Thiết bị đeo tay</a>
-                                            </li>
-                                            <li>
-                                                <a href="product">Smart Home</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-6 multi-gd-img">
-                                        <ul class="multi-column-dropdown">
-                                            <li>
-                                                <a href="product">Laptops</a>
-                                            </li>
-                                            <li>
-                                                <a href="product">Ổ cứng</a>
-                                            </li>
-                                            <li>
-                                                <a href="product">Máy in</a>
-                                            </li>
-                                            <li>
-                                                <a href="product">Thiết bị mạng</a>
-                                            </li>
-                                            <li>
-                                                <a href="product">Phụ kiện máy tính</a>
-                                            </li>
-                                            <li>
-                                                <a href="product">Game Zone</a>
-                                            </li>
-                                            <li>
-                                                <a href="product">Phần mềm</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown mr-lg-2 mb-lg-0 mb-2">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Đồ Gia Dụng
-                        </a>
-                        <div class="dropdown-menu">
-                            <div class="agile_inner_drop_nav_info p-4">
-                                <h5 class="mb-3">TV, Đồ gia dụng điện tử</h5>
-                                <div class="row">
-                                    <div class="col-sm-6 multi-gd-img">
-                                        <ul class="multi-column-dropdown">
-                                            <li>
-                                                <a href="product2">TV</a>
-                                            </li>
-                                            <li>
-                                                <a href="product2">Hệ thống giải trí tại nhà</a>
-                                            </li>
-                                            <li>
-                                                <a href="product2">Headphones</a>
-                                            </li>
-                                            <li>
-                                                <a href="product2">Loa</a>
-                                            </li>
-                                            <li>
-                                                <a href="product2">Máy nghe nhạc MP3 và phụ kiện</a>
-                                            </li>
-                                            <li>
-                                                <a href="product2">Phụ kiện âm thanh và hình ảnh</a>
-                                            </li>
-                                            <li>
-                                                <a href="product2">Camera</a>
-                                            </li>
-                                            <li>
-                                                <a href="product2">Camera cơ</a>
-                                            </li>
-                                            <li>
-                                                <a href="product2">Phụ kiện camera</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-6 multi-gd-img">
-                                        <ul class="multi-column-dropdown">
-                                            <li>
-                                                <a href="product2">Nhạc cụ</a>
-                                            </li>
-                                            <li>
-                                                <a href="product2">Gaming Consoles</a>
-                                            </li>
-                                            <li>
-                                                <a href="product2">Tất cả đồ điện</a>
-                                            </li>
-                                            <li>
-                                                <a href="product2">Máy lạnh</a>
-                                            </li>
-                                            <li>
-                                                <a href="product2">Tủ lạnh</a>
-                                            </li>
-                                            <li>
-                                                <a href="product2">Máy giặt</a>
-                                            </li>
-                                            <li>
-                                                <a href="product2">Đồ dùng bếp</a>
-                                            </li>
-                                            <li>
-                                                <a href="product2">Sưởi và làm mát</a>
-                                            </li>
-                                            <li>
-                                                <a href="product2">Tất cả đồ gia dụng</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item mr-lg-2 mb-lg-0 mb-2">
-                        <a class="nav-link" href="about">Về Chúng Tôi</a>
-                    </li>
-                    <li class="nav-item mr-lg-2 mb-lg-0 mb-2">
-                        <a class="nav-link" href="product">Sản Phẩm Mới</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact">Liên Hệ Với Chúng Tôi</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-</div>
-<!-- //navigation -->
-
-<!-- banner -->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <!-- Indicators-->
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="carousel-item item1 active">
-            <div class="container">
-                <div class="w3l-space-banner">
-                    <div class="carousel-caption p-lg-5 p-sm-4 p-3">
-                        <p>Hoàn trả
-                            <span>10%</span></p>
-                        <h3 class="font-weight-bold pt-2 pb-lg-5 pb-4">
-                            <span>Big</span>
-                            Sale
-                        </h3>
-                        <a class="button2" href="product">Mua ngay </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item item2">
-            <div class="container">
-                <div class="w3l-space-banner">
-                    <div class="carousel-caption p-lg-5 p-sm-4 p-3">
-                        <p>earbuds
-                            <span>Wireless</span> cao cấp</p>
-                        <h3 class="font-weight-bold pt-2 pb-lg-5 pb-4">
-                            <span>Headphone</span>
-                            <p>Tốt nhất</p>
-                        </h3>
-                        <a class="button2" href="product">Mua ngay </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item item3">
-            <div class="container">
-                <div class="w3l-space-banner">
-                    <div class="carousel-caption p-lg-5 p-sm-4 p-3">
-                        <p>Hoàn trả
-                            <span>10%</span></p>
-                        <h3 class="font-weight-bold pt-2 pb-lg-5 pb-4">Tiêu chuẩn
-                            <span>Mới</span>
-                        </h3>
-                        <a class="button2" href="product">Mua ngay </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item item4">
-            <div class="container">
-                <div class="w3l-space-banner">
-                    <div class="carousel-caption p-lg-5 p-sm-4 p-3">
-                        <p>Giảm giá
-                            <span>40%</span></p>
-                        <h3 class="font-weight-bold pt-2 pb-lg-5 pb-4">Giảm giá
-                            <span>Hôm nay</span>
-                        </h3>
-                        <a class="button2" href="product">Mua ngay </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-<!-- //banner -->
-
-<!-- top Products -->
-<div class="ads-grid py-sm-5 py-4">
-    <div class="container py-xl-4 py-lg-2">
-        <!-- tittle heading -->
-        <h3 class="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">
-            <span>S</span>ản
-            <span>P</span>hẩm
-            <span>M</span>ới</h3>
-        <!-- //tittle heading -->
-        <div class="row">
-            <!-- product left -->
-            <div class="agileinfo-ads-display col-lg-9">
-                <div class="wrapper">
-                    <!-- first section -->
-                    <div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mb-4">
-                        <h3 class="heading-tittle text-center font-italic">Các Dòng Điện Thoại Mới</h3>
-                        <div class="row">
-                            <div class="col-md-4 product-men mt-5">
-                                <div class="men-pro-item simpleCart_shelfItem">
-                                    <div class="men-thumb-item text-center">
-                                        <img src="images/m1.jpg" alt="">
-                                        <div class="men-cart-pro">
-                                            <div class="inner-men-cart-pro">
-                                                <a href="single" class="link-product-add-cart">Xem Nhanh</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item-info-product text-center border-top mt-4">
-                                        <h4 class="pt-1">
-                                            <a href="single">Samsung Galaxy J7</a>
-                                        </h4>
-                                        <div class="info-product-price my-2">
-                                            <span class="item_price">$200.00</span>
-                                            <del>$280.00</del>
-                                        </div>
-                                        <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-                                            <form action="#" method="post">
-                                                <fieldset>
-                                                    <input type="hidden" name="cmd" value="_cart" />
-                                                    <input type="hidden" name="add" value="1" />
-                                                    <input type="hidden" name="business" value=" " />
-                                                    <input type="hidden" name="item_name" value="Samsung Galaxy J7" />
-                                                    <input type="hidden" name="amount" value="200.00" />
-                                                    <input type="hidden" name="discount_amount" value="1.00" />
-                                                    <input type="hidden" name="currency_code" value="USD" />
-                                                    <input type="hidden" name="return" value=" " />
-                                                    <input type="hidden" name="cancel_return" value=" " />
-                                                    <input type="submit" name="submit" value="Thêm vào giỏ hàng" class="button btn" />
-                                                </fieldset>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 product-men mt-5">
-                                <div class="men-pro-item simpleCart_shelfItem">
-                                    <div class="men-thumb-item text-center">
-                                        <img src="images/m2.jpg" alt="">
-                                        <div class="men-cart-pro">
-                                            <div class="inner-men-cart-pro">
-                                                <a href="single" class="link-product-add-cart">Xem Nhanh</a>
-                                            </div>
-                                        </div>
-                                        <span class="product-new-top">New</span>
-
-                                    </div>
-                                    <div class="item-info-product text-center border-top mt-4">
-                                        <h4 class="pt-1">
-                                            <a href="single">OPPO A37f</a>
-                                        </h4>
-                                        <div class="info-product-price my-2">
-                                            <span class="item_price">$230.00</span>
-                                            <del>$250.00</del>
-                                        </div>
-                                        <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-                                            <form action="#" method="post">
-                                                <fieldset>
-                                                    <input type="hidden" name="cmd" value="_cart" />
-                                                    <input type="hidden" name="add" value="1" />
-                                                    <input type="hidden" name="business" value=" " />
-                                                    <input type="hidden" name="item_name" value="OPPO A37f" />
-                                                    <input type="hidden" name="amount" value="230.00" />
-                                                    <input type="hidden" name="discount_amount" value="1.00" />
-                                                    <input type="hidden" name="currency_code" value="USD" />
-                                                    <input type="hidden" name="return" value=" " />
-                                                    <input type="hidden" name="cancel_return" value=" " />
-                                                    <input type="submit" name="submit" value="Thêm vào giỏ hàng" class="button btn" />
-                                                </fieldset>
-                                            </form>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 product-men mt-5">
-                                <div class="men-pro-item simpleCart_shelfItem">
-                                    <div class="men-thumb-item text-center">
-                                        <img src="images/m3.jpg" alt="">
-                                        <div class="men-cart-pro">
-                                            <div class="inner-men-cart-pro">
-                                                <a href="single" class="link-product-add-cart">Xem Nhanh</a>
-                                            </div>
-                                        </div>
-                                        <span class="product-new-top">New</span>
-
-                                    </div>
-                                    <div class="item-info-product text-center border-top mt-4">
-                                        <h4 class="pt-1">
-                                            <a href="single">Apple iPhone X</a>
-                                        </h4>
-                                        <div class="info-product-price my-2">
-                                            <span class="item_price">$280.00</span>
-                                            <del>$300.00</del>
-                                        </div>
-                                        <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-                                            <form action="#" method="post">
-                                                <fieldset>
-                                                    <input type="hidden" name="cmd" value="_cart" />
-                                                    <input type="hidden" name="add" value="1" />
-                                                    <input type="hidden" name="business" value=" " />
-                                                    <input type="hidden" name="item_name" value="Apple iPhone X" />
-                                                    <input type="hidden" name="amount" value="280.00" />
-                                                    <input type="hidden" name="discount_amount" value="1.00" />
-                                                    <input type="hidden" name="currency_code" value="USD" />
-                                                    <input type="hidden" name="return" value=" " />
-                                                    <input type="hidden" name="cancel_return" value=" " />
-                                                    <input type="submit" name="submit" value="Thêm vào giỏ hàng" class="button btn" />
-                                                </fieldset>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- //first section -->
-                    <!-- second section -->
-                    <div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mb-4">
-                        <h3 class="heading-tittle text-center font-italic">Tv & Audio</h3>
-                        <div class="row">
-                            <div class="col-md-4 product-men mt-5">
-                                <div class="men-pro-item simpleCart_shelfItem">
-                                    <div class="men-thumb-item text-center">
-                                        <img src="images/m4.jpg" alt="">
-                                        <div class="men-cart-pro">
-                                            <div class="inner-men-cart-pro">
-                                                <a href="single" class="link-product-add-cart">Xem Nhanh</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item-info-product text-center border-top mt-4">
-                                        <h4 class="pt-1">
-                                            <a href="single">Sony 80 cm (32 inches)</a>
-                                        </h4>
-                                        <div class="info-product-price my-2">
-                                            <span class="item_price">$320.00</span>
-                                            <del>$340.00</del>
-                                        </div>
-                                        <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-                                            <form action="#" method="post">
-                                                <fieldset>
-                                                    <input type="hidden" name="cmd" value="_cart" />
-                                                    <input type="hidden" name="add" value="1" />
-                                                    <input type="hidden" name="business" value=" " />
-                                                    <input type="hidden" name="item_name" value="Sony 80 cm (32 inches)" />
-                                                    <input type="hidden" name="amount" value="320.00" />
-                                                    <input type="hidden" name="discount_amount" value="1.00" />
-                                                    <input type="hidden" name="currency_code" value="USD" />
-                                                    <input type="hidden" name="return" value=" " />
-                                                    <input type="hidden" name="cancel_return" value=" " />
-                                                    <input type="submit" name="submit" value="Thêm vào giỏ hàng" class="button btn" />
-                                                </fieldset>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 product-men mt-5">
-                                <div class="men-pro-item simpleCart_shelfItem">
-                                    <div class="men-thumb-item text-center">
-                                        <img src="images/m5.jpg" alt="">
-                                        <div class="men-cart-pro">
-                                            <div class="inner-men-cart-pro">
-                                                <a href="single" class="link-product-add-cart">Xem Nhanh</a>
-                                            </div>
-                                        </div>
-                                        <span class="product-new-top">New</span>
-
-                                    </div>
-                                    <div class="item-info-product text-center border-top mt-4">
-                                        <h4 class="pt-1">
-                                            <a href="single">Loa Artis</a>
-                                        </h4>
-                                        <div class="info-product-price my-2">
-                                            <span class="item_price">$349.00</span>
-                                            <del>$399.00</del>
-                                        </div>
-                                        <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-                                            <form action="#" method="post">
-                                                <fieldset>
-                                                    <input type="hidden" name="cmd" value="_cart" />
-                                                    <input type="hidden" name="add" value="1" />
-                                                    <input type="hidden" name="business" value=" " />
-                                                    <input type="hidden" name="item_name" value="Artis Speaker" />
-                                                    <input type="hidden" name="amount" value="349.00" />
-                                                    <input type="hidden" name="discount_amount" value="1.00" />
-                                                    <input type="hidden" name="currency_code" value="USD" />
-                                                    <input type="hidden" name="return" value=" " />
-                                                    <input type="hidden" name="cancel_return" value=" " />
-                                                    <input type="submit" name="submit" value="Thêm vào giỏ hàng" class="button btn" />
-                                                </fieldset>
-                                            </form>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 product-men mt-5">
-                                <div class="men-pro-item simpleCart_shelfItem">
-                                    <div class="men-thumb-item text-center">
-                                        <img src="images/m6.jpg" alt="">
-                                        <div class="men-cart-pro">
-                                            <div class="inner-men-cart-pro">
-                                                <a href="single" class="link-product-add-cart">Xem Nhanh</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item-info-product text-center border-top mt-4">
-                                        <h4 class="pt-1">
-                                            <a href="single">Loa Philips</a>
-                                        </h4>
-                                        <div class="info-product-price my-2">
-                                            <span class="item_price">$249.00</span>
-                                            <del>$300.00</del>
-                                        </div>
-                                        <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-                                            <form action="#" method="post">
-                                                <fieldset>
-                                                    <input type="hidden" name="cmd" value="_cart" />
-                                                    <input type="hidden" name="add" value="1" />
-                                                    <input type="hidden" name="business" value=" " />
-                                                    <input type="hidden" name="item_name" value="Philips Speakers" />
-                                                    <input type="hidden" name="amount" value="249.00" />
-                                                    <input type="hidden" name="discount_amount" value="1.00" />
-                                                    <input type="hidden" name="currency_code" value="USD" />
-                                                    <input type="hidden" name="return" value=" " />
-                                                    <input type="hidden" name="cancel_return" value=" " />
-                                                    <input type="submit" name="submit" value="Thêm vào giỏ hàng" class="button btn" />
-                                                </fieldset>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- //second section -->
-                    <!-- third section -->
-                    <div class="product-sec1 product-sec2 px-sm-5 px-3">
-                        <div class="row">
-                            <h3 class="col-md-4 effect-bg">Lễ hội mùa hè</h3>
-                            <p class="w3l-nut-middle">Giảm giá 10%</p>
-                            <div class="col-md-8 bg-right-nut">
-                                <img src="images/image1.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- //third section -->
-                    <!-- fourth section -->
-                    <div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mt-4">
-                        <h3 class="heading-tittle text-center font-italic">Đồ Gia Dụng Lớn</h3>
-                        <div class="row">
-                            <div class="col-md-4 product-men mt-5">
-                                <div class="men-pro-item simpleCart_shelfItem">
-                                    <div class="men-thumb-item text-center">
-                                        <img src="images/m7.jpg" alt="">
-                                        <div class="men-cart-pro">
-                                            <div class="inner-men-cart-pro">
-                                                <a href="single" class="link-product-add-cart">Xem Nhanh</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <span class="product-new-top">New</span>
-                                    <div class="item-info-product text-center border-top mt-4">
-                                        <h4 class="pt-1">
-                                            <a href="single">Whirlpool 245</a>
-                                        </h4>
-                                        <div class="info-product-price my-2">
-                                            <span class="item_price">$230.00</span>
-                                            <del>$280.00</del>
-                                        </div>
-                                        <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-                                            <form action="#" method="post">
-                                                <fieldset>
-                                                    <input type="hidden" name="cmd" value="_cart" />
-                                                    <input type="hidden" name="add" value="1" />
-                                                    <input type="hidden" name="business" value=" " />
-                                                    <input type="hidden" name="item_name" value="Whirlpool 245" />
-                                                    <input type="hidden" name="amount" value="230.00" />
-                                                    <input type="hidden" name="discount_amount" value="1.00" />
-                                                    <input type="hidden" name="currency_code" value="USD" />
-                                                    <input type="hidden" name="return" value=" " />
-                                                    <input type="hidden" name="cancel_return" value=" " />
-                                                    <input type="submit" name="submit" value="Thêm vào giỏ hàng" class="button btn" />
-                                                </fieldset>
-                                            </form>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 product-men mt-5">
-                                <div class="men-pro-item simpleCart_shelfItem">
-                                    <div class="men-thumb-item text-center">
-                                        <img src="images/m8.jpg" alt="">
-                                        <div class="men-cart-pro">
-                                            <div class="inner-men-cart-pro">
-                                                <a href="single" class="link-product-add-cart">Xem Nhanh</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item-info-product text-center border-top mt-4">
-                                        <h4 class="pt-1">
-                                            <a href="single">Máy Giặt BPL</a>
-                                        </h4>
-                                        <div class="info-product-price my-2">
-                                            <span class="item_price">$180.00</span>
-                                            <del>$200.00</del>
-                                        </div>
-                                        <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-                                            <form action="#" method="post">
-                                                <fieldset>
-                                                    <input type="hidden" name="cmd" value="_cart" />
-                                                    <input type="hidden" name="add" value="1" />
-                                                    <input type="hidden" name="business" value=" " />
-                                                    <input type="hidden" name="item_name" value="BPL Washing Machine" />
-                                                    <input type="hidden" name="amount" value="180.00" />
-                                                    <input type="hidden" name="discount_amount" value="1.00" />
-                                                    <input type="hidden" name="currency_code" value="USD" />
-                                                    <input type="hidden" name="return" value=" " />
-                                                    <input type="hidden" name="cancel_return" value=" " />
-                                                    <input type="submit" name="submit" value="Thêm vào giỏ hàng" class="button btn" />
-                                                </fieldset>
-                                            </form>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 product-men mt-5">
-                                <div class="men-pro-item simpleCart_shelfItem">
-                                    <div class="men-thumb-item text-center">
-                                        <img src="images/m9.jpg" alt="">
-                                        <div class="men-cart-pro">
-                                            <div class="inner-men-cart-pro">
-                                                <a href="single" class="link-product-add-cart">Xem Nhanh</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item-info-product text-center border-top mt-4">
-                                        <h4 class="pt-1">
-                                            <a href="single">Microwave Oven</a>
-                                        </h4>
-                                        <div class="info-product-price my-2">
-                                            <span class="item_price">$199.00</span>
-                                            <del>$299.00</del>
-                                        </div>
-                                        <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-                                            <form action="#" method="post">
-                                                <fieldset>
-                                                    <input type="hidden" name="cmd" value="_cart" />
-                                                    <input type="hidden" name="add" value="1" />
-                                                    <input type="hidden" name="business" value=" " />
-                                                    <input type="hidden" name="item_name" value="Microwave Oven" />
-                                                    <input type="hidden" name="amount" value="199.00" />
-                                                    <input type="hidden" name="discount_amount" value="1.00" />
-                                                    <input type="hidden" name="currency_code" value="USD" />
-                                                    <input type="hidden" name="return" value=" " />
-                                                    <input type="hidden" name="cancel_return" value=" " />
-                                                    <input type="submit" name="submit" value="Thêm vào giỏ hàng" class="button btn" />
-                                                </fieldset>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- //fourth section -->
-                </div>
-            </div>
-            <!-- //product left -->
-
-            <!-- product right -->
-            <div class="col-lg-3 mt-lg-0 mt-4 p-lg-0">
-                <div class="side-bar p-sm-4 p-3">
-                    <div class="search-hotel border-bottom py-2">
-                        <h3 class="agileits-sear-head mb-3">Tìm Ở Đây..</h3>
-                        <form action="#" method="post">
-                            <input type="search" placeholder="Tên sản phẩm..." name="search" required="">
-                            <input type="submit" value=" ">
-                        </form>
-                    </div>
-                    <!-- price -->
-                    <div class="range border-bottom py-2">
-                        <h3 class="agileits-sear-head mb-3">Giá</h3>
-                        <div class="w3l-range">
-                            <ul>
-                                <li>
-                                    <a href="#">Dưới $1,000</a>
-                                </li>
-                                <li class="my-1">
-                                    <a href="#">$1,000 - $5,000</a>
-                                </li>
-                                <li>
-                                    <a href="#">$5,000 - $10,000</a>
-                                </li>
-                                <li class="my-1">
-                                    <a href="#">$10,000 - $20,000</a>
-                                </li>
-                                <li>
-                                    <a href="#">$20,000 $30,000</a>
-                                </li>
-                                <li class="mt-1">
-                                    <a href="#">Trên $30,000</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- //price -->
-                    <!-- discounts -->
-                    <div class="left-side border-bottom py-2">
-                        <h3 class="agileits-sear-head mb-3">Giảm Giá</h3>
-                        <ul>
-                            <li>
-                                <input type="checkbox" class="checked">
-                                <span class="span">Trên 5%</span>
-                            </li>
-                            <li>
-                                <input type="checkbox" class="checked">
-                                <span class="span">Trên 10%</span>
-                            </li>
-                            <li>
-                                <input type="checkbox" class="checked">
-                                <span class="span">Trên 20%</span>
-                            </li>
-                            <li>
-                                <input type="checkbox" class="checked">
-                                <span class="span">Trên 30%</span>
-                            </li>
-                            <li>
-                                <input type="checkbox" class="checked">
-                                <span> class="span"Trên 50%</span>
-                            </li>
-                            <li>
-                                <input type="checkbox" class="checked">
-                                <span class="span">Trên 60%</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- //discounts -->
-                    <!-- reviews -->
-                    <div class="customer-rev border-bottom left-side py-2">
-                        <h3 class="agileits-sear-head mb-3">Đánh Giá Của Khách Hàng</h3>
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <span>5.0</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <span>4.0</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-half"></i>
-                                    <span>3.5</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <span>3.0</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-half"></i>
-                                    <span>2.5</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- //reviews -->
-                    <!-- bestseller-->
-                    <div class="f-grid py-2">
-                        <h3 class="agileits-sear-head mb-3">Best Seller</h3>
-                        <div class="box-scroll">
-                            <div class="scroll">
-                                <div class="row">
-                                    <div class="col-lg-3 col-sm-2 col-3 left-mar">
-                                        <img src="images/k1.jpg" alt="" class="img-fluid">
-                                    </div>
-                                    <div class="col-lg-9 col-sm-10 col-9 w3_mvd">
-                                        <a href="">Samsung Galaxy On7 Prime (Gold, 4GB RAM + 64GB Memory)</a>
-                                        <a href="" class="price-mar mt-2">$12,990.00</a>
-                                    </div>
-                                </div>
-                                <div class="row my-4">
-                                    <div class="col-lg-3 col-sm-2 col-3 left-mar">
-                                        <img src="images/k2.jpg" alt="" class="img-fluid">
-                                    </div>
-                                    <div class="col-lg-9 col-sm-10 col-9 w3_mvd">
-                                        <a href="">Haier 195 L 4 Star Direct-Cool Single Door Refrigerator</a>
-                                        <a href="" class="price-mar mt-2">$12,499.00</a>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-3 col-sm-2 col-3 left-mar">
-                                        <img src="images/k3.jpg" alt="" class="img-fluid">
-                                    </div>
-                                    <div class="col-lg-9 col-sm-10 col-9 w3_mvd">
-                                        <a href="">Ambrane 13000 mAh Power Bank (P-1310 Premium)</a>
-                                        <a href="" class="price-mar mt-2">$1,199.00 </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- //best seller -->
-                </div>
-                <!-- //product right -->
-            </div>
-        </div>
-    </div>
-</div>
-<!-- //top products -->
-
-<!-- middle section -->
-<div class="join-w3l1 py-sm-5 py-4">
-    <div class="container py-xl-4 py-lg-2">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="join-agile text-left p-4">
-                    <div class="row">
-                        <div class="col-sm-7 offer-name">
-                            <h6>Âm Thanh Trung Thực, Rõ Nét</h6>
-                            <h4 class="mt-2 mb-3">Branded Headphones</h4>
-                            <p>Sale up 25%</p>
-                        </div>
-                        <div class="col-sm-5 offerimg-w3l">
-                            <img src="images/off1.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 mt-lg-0 mt-5">
-                <div class="join-agile text-left p-4">
-                    <div class="row ">
-                        <div class="col-sm-7 offer-name">
-                            <h6>Điện Thoại To Hơn</h6>
-                            <h4 class="mt-2 mb-3">Smart Phones 5</h4>
-                            <p>Miễn phí ship nếu hoá đơn trên $100</p>
-                        </div>
-                        <div class="col-sm-5 offerimg-w3l">
-                            <img src="images/off2.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- middle section -->
-
-<!-- footer -->
-<footer>
-    <div class="footer-top-first">
-        <div class="container py-md-5 py-sm-4 py-3">
-            <!-- footer first section -->
-            <h2 class="footer-top-head-w3l font-weight-bold mb-2">Electronics :</h2>
-            <p class="footer-main mb-4">
-                Nếu bạn đang xem xét việc mua một chiếc laptop mới, tìm một cái radio mới cho xe hoặc mua một cái TV HD,
-                chúng tôi sẽ tìm chính xác những gì bạn cần ở một mức giá hợp lí. Mỗi ngày chúng tôi sẽ cung cấp những thiết bị với giá rẻ như TV, máy tính, điện thoại...</p>
-            <!-- //footer first section -->
-            <!-- footer second section -->
-            <div class="row w3l-grids-footer border-top border-bottom py-sm-4 py-3">
-                <div class="col-md-4 offer-footer">
-                    <div class="row">
-                        <div class="col-4 icon-fot">
-                            <i class="fa fa-dollar"></i>
-                        </div>
-                        <div class="col-8 text-form-footer">
-                            <h3>Miễn Phí Ship</h3>
-                            <p>đơn hàng trên $100</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 offer-footer my-md-0 my-4">
-                    <div class="row">
-                        <div class="col-4 icon-fot">
-                            <i class="fa fa-truck"></i>
-                        </div>
-                        <div class="col-8 text-form-footer">
-                            <h3>Giao Hàng Nhanh</h3>
-                            <p>toàn cầu</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 offer-footer">
-                    <div class="row">
-                        <div class="col-4 icon-fot">
-                            <i class="fa fa-thumbs-up"></i>
-                        </div>
-                        <div class="col-8 text-form-footer">
-                            <h3>Lựa Chọn Tốt</h3>
-                            <p>về sản phẩm</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- //footer second section -->
-        </div>
-    </div>
-    <!-- footer third section -->
-    <div class="w3l-middlefooter-sec">
-        <div class="container py-md-5 py-sm-4 py-3">
-            <div class="row footer-info w3-agileits-info">
-                <!-- footer categories -->
-                <div class="col-md-3 col-sm-6 footer-grids">
-                    <h3 class="text-white font-weight-bold mb-3">Danh Mục</h3>
-                    <ul>
-                        <li class="mb-3">
-                            <a href="product">Điện Thoại </a>
-                        </li>
-                        <li class="mb-3">
-                            <a href="product">Máy Tính</a>
-                        </li>
-                        <li class="mb-3">
-                            <a href="product">TV, Audio</a>
-                        </li>
-                        <li class="mb-3">
-                            <a href="product2">Điện Thoại Thông Minh</a>
-                        </li>
-                        <li class="mb-3">
-                            <a href="product">Máy Giặt</a>
-                        </li>
-                        <li>
-                            <a href="product2">Tủ Lạnh</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- //footer categories -->
-                <!-- quick links -->
-                <div class="col-md-3 col-sm-6 footer-grids mt-sm-0 mt-4">
-                    <h3 class="text-white font-weight-bold mb-3">Link Nhanh</h3>
-                    <ul>
-                        <li class="mb-3">
-                            <a href="about">Về Chúng Tôi</a>
-                        </li>
-                        <li class="mb-3">
-                            <a href="contact">Liên Hệ Với Chúng Tôi</a>
-                        </li>
-                        <li class="mb-3">
-                            <a href="help">Giúp Đỡ</a>
-                        </li>
-                        <li class="mb-3">
-                            <a href="faqs">Faqs</a>
-                        </li>
-                        <li class="mb-3">
-                            <a href="terms">Điều Khoản Sử Dụng</a>
-                        </li>
-                        <li>
-                            <a href="privacy">Chính Sách Riêng Tư</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-6 footer-grids mt-md-0 mt-4">
-                    <h3 class="text-white font-weight-bold mb-3">Liên Hệ</h3>
-                    <ul>
-                        <li class="mb-3">
-                            <i class="fa fa-map-marker"></i> 123 Sebastian, USA.</li>
-                        <li class="mb-3">
-                            <i class="fa fa-mobile"></i> 333 222 3333 </li>
-                        <li class="mb-3">
-                            <i class="fa fa-phone"></i> +222 11 4444 </li>
-                        <li class="mb-3">
-                            <i class="fa fa-envelope-open"></i>
-                            <a href="mailto:example@mail.com"> mail 1@example.com</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-envelope-open"></i>
-                            <a href="mailto:example@mail.com"> mail 2@example.com</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-6 footer-grids w3l-agileits mt-md-0 mt-4">
-                    <!-- newsletter -->
-                    <h3 class="text-white font-weight-bold mb-3">Đăng Kí Nhận Tin Tức</h3>
-                    <p class="mb-3">Giao hàng MIỄN PHÍ cho đơn hàng đầu tiên!</p>
-                    <form action="#" method="post">
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Email" name="email" required="">
-                            <input type="submit" value="Go">
-                        </div>
-                    </form>
-                    <!-- //newsletter -->
-                    <!-- social icons -->
-                    <div class="footer-grids  w3l-socialmk mt-3">
-                        <h3 class="text-white font-weight-bold mb-3">Follow chúng tôi trên</h3>
-                        <div class="social">
-                            <ul>
-                                <li>
-                                    <a class="icon fb" href="#">
-                                        <i class="fa fa-facebook-f"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="icon tw" href="#">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="icon gp" href="#">
-                                        <i class="fa fa-google-plus"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- //social icons -->
-                </div>
-            </div>
-            <!-- //quick links -->
-        </div>
-    </div>
-    <!-- //footer third section -->
-</footer>
-<!-- //footer -->
-<!-- copyright -->
-<div class="copy-right py-3">
-    <div class="container">
-        <p class="text-center text-white">© 2018 Electro Store. All rights reserved | Design by
-            <a href="http://w3layouts.com"> W3layouts.</a>
-        </p>
-    </div>
-</div>
-<!-- //copyright -->
-
-<!-- js-files -->
-<!-- jquery js/jquery-2.2.3.min.js-->
-<script src="javascripts/jquery-2.2.3.min.js"></script>
-<!-- //jquery -->
-
-<!-- nav smooth scroll -->
-<script>
-    $(document).ready(function () {
-        $(".dropdown").hover(
-                function () {
-                    $('.dropdown-menu', this).stop(true, true).slideDown("fat");
-                    $(this).toggleClass('open');
-                },
-                function () {
-                    $('.dropdown-menu', this).stop(true, true).slideUp("fat");
-                    $(this).toggleClass('open');
+        $(document).ready(function () {
+            $('#demo-pie-1').pieChart({
+                barColor: '#2dde98',
+                trackColor: '#eee',
+                lineCap: 'round',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
                 }
-        );
-    });
+            });
+
+            $('#demo-pie-2').pieChart({
+                barColor: '#8e43e7',
+                trackColor: '#eee',
+                lineCap: 'butt',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+            $('#demo-pie-3').pieChart({
+                barColor: '#ffc168',
+                trackColor: '#eee',
+                lineCap: 'square',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
 
 
-</script>
-<!-- //nav smooth scroll -->
-
-<!-- popup modal (for location) js/jquery.magnific-popup.js-->
-<script src="javascripts/jquery.magnific-popup.js"></script>
-<script>
-    $(document).ready(function () {
-        $('.popup-with-zoom-anim').magnificPopup({
-            type: 'inline',
-            fixedContentPos: false,
-            fixedBgPos: true,
-            overflowY: 'auto',
-            closeBtnInside: true,
-            preloader: false,
-            midClick: true,
-            removalDelay: 300,
-            mainClass: 'my-mfp-zoom-in'
         });
 
-    });
-</script>
-<!-- //popup modal (for location)-->
+    </script>
+<!-- //pie-chart --><!-- index page sales reviews visitors pie chart -->
 
-<!-- cart-js js/minicart.js-->
-<script src="javascripts/minicart.js"></script>
-<script>
-    paypals.minicarts.render(); //use only unique class names other than paypals.minicarts.Also Replace same class name in css and minicart.min.js
+	<!-- requried-jsfiles-for owl -->
+					<link href="/stylesheets/owl.carousel.css" rel="stylesheet">
+					<script src="/javascripts/owl.carousel.js"></script>
+						<script>
+							$(document).ready(function() {
+								$("#owl-demo").owlCarousel({
+									items : 3,
+									lazyLoad : true,
+									autoPlay : true,
+									pagination : true,
+									nav:true,
+								});
+							});
+						</script>
+					<!-- //requried-jsfiles-for owl -->
+</head>
+<body class="cbp-spmenu-push">
+	<div class="main-content">
+	<div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+		<!--left-fixed -navigation-->
+		<aside class="sidebar-left">
+      <nav class="navbar navbar-inverse">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <h1><a class="navbar-brand" href="index"><span class="fa fa-area-chart"></span> Glance<span class="dashboard_text">Design dashboard</span></a></h1>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="sidebar-menu">
+              <li class="header">MAIN NAVIGATION</li>
+              <li class="treeview">
+                <a href="index">
+                <i class="fa fa-dashboard"></i> <span>Trang Chủ</span>
+                </a>
+              </li>
 
-    paypals.minicarts.cart.on('checkout', function (evt) {
-        var items = this.items(),
-                len = items.length,
-                total = 0,
-                i;
+              <li class="treeview">
+                <a href="charts">
+                <i class="fa fa-pie-chart"></i>
+                <span>Biểu đồ</span>
+                <span class="label label-primary pull-right">mới</span>
+                </a>
+              </li>
+              <li class="treeview">
 
-        // Count the number of each item in the cart
-        for (i = 0; i < len; i++) {
-            total += items[i].get('quantity');
-        }
-    });
-</script>
-<!-- //cart-js -->
-
-<!-- password-script -->
-<script>
-    window.onload = function () {
-        document.getElementById("password1").onchange = validatePassword;
-        document.getElementById("password2").onchange = validatePassword;
-    }
-
-    function validatePassword() {
-        var pass2 = document.getElementById("password2").value;
-        var pass1 = document.getElementById("password1").value;
-        if (pass1 != pass2)
-            document.getElementById("password2").setCustomValidity("Passwords Không Khớp");
-        else
-            document.getElementById("password2").setCustomValidity('');
-        //empty string means no validation error.jade
-    }
-</script>
-<!-- //password-script -->
-
-<!-- scroll seller js/scroll.js-->
-<script src="javascripts/scroll.js"></script>
-<!-- //scroll seller -->
-
-<!-- smoothscroll js/SmoothScroll.min.js-->
-<script src="javascripts/SmoothScroll.min.js"></script>
-<!-- //smoothscroll -->
-
-<!-- start-smooth-scrolling js/move-top.js js/easing.js-->
-<script src="javascripts/move-top.js"></script>
-<script src="javascripts/easing.js"></script>
-<script>
-    jQuery(document).ready(function ($) {
-        $(".scroll").click(function (event) {
-            event.preventDefault();
-
-            $('html,body').animate({
-                scrollTop: $(this.hash).offset().top
-            }, 1000);
-        });
-    });
-
-    document.getElementById("timkiem").onclick = function () {
-        function FunTimkiem() {
-            document.getElementById("timkiem").innerHTML="checked";
-        }};
+			  <li>
+                <a href="widgets">
+                <i class="fa fa-th"></i> <span>Widgets</span>
+                <small class="label pull-right label-info">08</small>
+                </a>
+              </li>
 
 
-</script>
-<!-- //end-smooth-scrolling -->
+              <li class="treeview">
+                <a href="#">
+                <i class="fa fa-envelope"></i> <span>Hộp Thư </span>
+                <i class="fa fa-angle-left pull-right"></i><small class="label pull-right label-info1">08</small><span class="label label-primary1 pull-right">02</span></a>
+                <ul class="treeview-menu">
+                  <li><a href="inbox"><i class="fa fa-angle-right"></i> Hộp Thư Đến </a></li>
+                  <li><a href="compose"><i class="fa fa-angle-right"></i> Soạn Thư </a></li>
+                </ul>
+              </li>
+              <li class="treeview">
+                <a href="#">
+                <i class="fa fa-folder"></i> <span>Đăng Nhập/Đăng Kí</span>
+                <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                  <li><a href="login"><i class="fa fa-angle-right"></i> Đăng Nhập</a></li>
+                  <li><a href="signup"><i class="fa fa-angle-right"></i> Đăng Kí</a></li>
 
-<!-- smooth-scrolling-of-move-up -->
-<script>
-    $(document).ready(function () {
-        /*
-        var defaults = {
-            containerID: 'toTop', // fading element id
-            containerHoverID: 'toTopHover', // fading element hover id
-            scrollSpeed: 1200,
-            easingType: 'linear'
+                </ul>
+              </li>
+
+                <li class="treeview">
+                    <a href="QuanLyTaiKhoan">
+                        <i class="fa fa-folder"></i> <span>Quản lý tài khoản</span>
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                </li>
+
+                <li class="treeview">
+                    <a href="QuanLySanPham">
+                        <i class="fa fa-folder"></i> <span>Quản lý sản phẩm</span>
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                </li>
+
+                <li class="treeview">
+                    <a href="QuanLyDonDatHang">
+                        <i class="fa fa-folder"></i> <span>Quản lý đơn đặt hàng</span>
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                </li>
+                <li class="treeview">
+                    <a href="Top10">
+                        <i class="fa fa-folder"></i> <span>Top10</span>
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </nav>
+    </aside>
+	</div>
+		<!--left-fixed -navigation-->
+
+		<!-- header-starts -->
+		<div class="sticky-header header-section ">
+			<div class="header-left">
+				<!--toggle button start-->
+				<button id="showLeftPush"><i class="fa fa-bars"></i></button>
+				<!--toggle button end-->
+				<div class="profile_details_left"><!--notifications of menu start -->
+					<ul class="nofitications-dropdown">
+						<li class="dropdown head-dpdn">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-envelope"></i><span class="badge">4</span></a>
+							<ul class="dropdown-menu">
+								<li>
+									<div class="notification_header">
+										<h3>Bạn có 3 tin nhắn</h3>
+									</div>
+								</li>
+								<li><a href="#">
+								   <div class="user_img"><img src="/images/1.jpg" alt=""></div>
+								   <div class="notification_desc">
+									<p>Lorem ipsum dolor amet</p>
+									<p><span>1 giờ trước</span></p>
+									</div>
+								   <div class="clearfix"></div>
+								</a></li>
+								<li class="odd"><a href="#">
+									<div class="user_img"><img src="/images/4.jpg" alt=""></div>
+								   <div class="notification_desc">
+									<p>Lorem ipsum dolor amet </p>
+									<p><span>1 giờ trước</span></p>
+									</div>
+								  <div class="clearfix"></div>
+								</a></li>
+								<li><a href="#">
+								   <div class="user_img"><img src="/images/3.jpg" alt=""></div>
+								   <div class="notification_desc">
+									<p>Lorem ipsum dolor amet </p>
+									<p><span>1 giờ trước</span></p>
+									</div>
+								   <div class="clearfix"></div>
+								</a></li>
+								<li><a href="#">
+								   <div class="user_img"><img src="/images/2.jpg" alt=""></div>
+								   <div class="notification_desc">
+									<p>Lorem ipsum dolor amet </p>
+									<p><span>1 giờ trước</span></p>
+									</div>
+								   <div class="clearfix"></div>
+								</a></li>
+								<li>
+									<div class="notification_bottom">
+										<a href="#">Xem tất cả tin nhắn</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown head-dpdn">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-bell"></i><span class="badge blue">4</span></a>
+							<ul class="dropdown-menu">
+								<li>
+									<div class="notification_header">
+										<h3>Bạn có 3 thông báo</h3>
+									</div>
+								</li>
+								<li><a href="#">
+									<div class="user_img"><img src="/images/4.jpg" alt=""></div>
+								   <div class="notification_desc">
+									<p>Lorem ipsum dolor amet</p>
+									<p><span>1 giờ trước</span></p>
+									</div>
+								  <div class="clearfix"></div>
+								 </a></li>
+								 <li class="odd"><a href="#">
+									<div class="user_img"><img src="/images/1.jpg" alt=""></div>
+								   <div class="notification_desc">
+									<p>Lorem ipsum dolor amet </p>
+									<p><span>1 giờ trước</span></p>
+									</div>
+								   <div class="clearfix"></div>
+								 </a></li>
+								 <li><a href="#">
+									<div class="user_img"><img src="/images/3.jpg" alt=""></div>
+								   <div class="notification_desc">
+									<p>Lorem ipsum dolor amet </p>
+									<p><span>1 giờ trước</span></p>
+									</div>
+								   <div class="clearfix"></div>
+								 </a></li>
+								<li><a href="#">
+								   <div class="user_img"><img src="/images/2.jpg" alt=""></div>
+								   <div class="notification_desc">
+									<p>Lorem ipsum dolor amet </p>
+									<p><span>1 giờ trước</span></p>
+									</div>
+								   <div class="clearfix"></div>
+								</a></li>
+								 <li>
+									<div class="notification_bottom">
+										<a href="#">Xem tất cả thông báo</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown head-dpdn">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-tasks"></i><span class="badge blue1">8</span></a>
+							<ul class="dropdown-menu">
+								<li>
+									<div class="notification_header">
+										<h3>Bạn có 8 công việc đang chờ</h3>
+									</div>
+								</li>
+								<li><a href="#">
+									<div class="task-info">
+										<span class="task-desc">Cập Nhật Cơ Sở Dữ Liệu</span><span class="percentage">40%</span>
+										<div class="clearfix"></div>
+									</div>
+									<div class="progress progress-striped active">
+										<div class="bar yellow" style="width:40%;"></div>
+									</div>
+								</a></li>
+								<li><a href="#">
+									<div class="task-info">
+										<span class="task-desc">Hoàn Thành Trang Chủ</span><span class="percentage">90%</span>
+									   <div class="clearfix"></div>
+									</div>
+									<div class="progress progress-striped active">
+										 <div class="bar green" style="width:90%;"></div>
+									</div>
+								</a></li>
+								<li><a href="#">
+									<div class="task-info">
+										<span class="task-desc">Mobile App</span><span class="percentage">33%</span>
+										<div class="clearfix"></div>
+									</div>
+								   <div class="progress progress-striped active">
+										 <div class="bar red" style="width: 33%;"></div>
+									</div>
+								</a></li>
+								<li><a href="#">
+									<div class="task-info">
+										<span class="task-desc">Vấn Đề Đã Sửa</span><span class="percentage">80%</span>
+									   <div class="clearfix"></div>
+									</div>
+									<div class="progress progress-striped active">
+										 <div class="bar  blue" style="width: 80%;"></div>
+									</div>
+								</a></li>
+								<li>
+									<div class="notification_bottom">
+										<a href="#">Xem tất cả công việc đang chờ</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+				<!--notification menu end -->
+				<div class="clearfix"> </div>
+			</div>
+			<div class="header-right">
+
+
+				<!--search-box-->
+				<div class="search-box">
+					<form class="input">
+						<input class="sb-search-input input__field--madoka" placeholder="Tìm Kiếm..." type="search" id="input-31" />
+						<label class="input__label" for="input-31">
+							<svg class="graphic" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none">
+								<path d="m0,0l404,0l0,77l-404,0l0,-77z"/>
+							</svg>
+						</label>
+					</form>
+				</div><!--//end-search-box-->
+
+				<div class="profile_details">
+					<ul>
+						<li class="dropdown profile_details_drop">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+								<div class="profile_img">
+									<span class="prfil-img"><img src="/images/2.jpg" alt=""> </span>
+									<div class="user-name">
+										<p>Admin Name</p>
+										<span>Administrator</span>
+									</div>
+									<i class="fa fa-angle-down lnr"></i>
+									<i class="fa fa-angle-up lnr"></i>
+									<div class="clearfix"></div>
+								</div>
+							</a>
+							<ul class="dropdown-menu drp-mnu">
+								<li> <a href="#"><i class="fa fa-cog"></i> Cài Đặt</a> </li>
+								<li> <a href="#"><i class="fa fa-user"></i> My Account</a> </li>
+								<li> <a href="#"><i class="fa fa-suitcase"></i> Profile</a> </li>
+								<li> <a href="#"><i class="fa fa-sign-out"></i> Đăng Xuất</a> </li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<!-- //header-ends -->
+		<!-- main content start-->
+		<div id="page-wrapper">
+			<div class="main-page">
+			<div class="col_3">
+        	<div class="col-md-3 widget widget1">
+        		<div class="r3_counter_box">
+                    <i class="pull-left fa fa-dollar icon-rounded"></i>
+                    <div class="stats">
+                      <h5><strong>$452</strong></h5>
+                      <span>Doanh Thu Tổng</span>
+                    </div>
+                </div>
+        	</div>
+        	<div class="col-md-3 widget widget1">
+        		<div class="r3_counter_box">
+                    <i class="pull-left fa fa-laptop user1 icon-rounded"></i>
+                    <div class="stats">
+                      <h5><strong>$1019</strong></h5>
+                      <span>Doanh Thu Online</span>
+                    </div>
+                </div>
+        	</div>
+        	<div class="col-md-3 widget widget1">
+        		<div class="r3_counter_box">
+                    <i class="pull-left fa fa-money user2 icon-rounded"></i>
+                    <div class="stats">
+                      <h5><strong>$1012</strong></h5>
+                      <span>Chi Phí</span>
+                    </div>
+                </div>
+        	</div>
+        	<div class="col-md-3 widget widget1">
+        		<div class="r3_counter_box">
+                    <i class="pull-left fa fa-pie-chart dollar1 icon-rounded"></i>
+                    <div class="stats">
+                      <h5><strong>$450</strong></h5>
+                      <span>Sử Dụng</span>
+                    </div>
+                </div>
+        	 </div>
+        	<div class="col-md-3 widget">
+        		<div class="r3_counter_box">
+                    <i class="pull-left fa fa-users dollar2 icon-rounded"></i>
+                    <div class="stats">
+                      <h5><strong>1450</strong></h5>
+                      <span>Tổng User</span>
+                    </div>
+                </div>
+        	 </div>
+        	<div class="clearfix"> </div>
+		</div>
+
+		<div class="row-one widgettable">
+			<div class="col-md-7 content-top-2 card">
+				<div class="agileinfo-cdr">
+					<div class="card-header">
+                        <h3>Doanh Thu Tuần</h3>
+                    </div>
+
+						<div id="Linegraph" style="width: 98%; height: 350px">
+						</div>
+
+				</div>
+			</div>
+			<div class="col-md-3 stat">
+				<div class="content-top-1">
+				<div class="col-md-6 top-content">
+					<h5>Bán</h5>
+					<label>1283+</label>
+				</div>
+				<div class="col-md-6 top-content1">
+					<div id="demo-pie-1" class="pie-title-center" data-percent="45"> <span class="pie-value"></span> </div>
+				</div>
+				 <div class="clearfix"> </div>
+				</div>
+				<div class="content-top-1">
+				<div class="col-md-6 top-content">
+					<h5>Đánh Giá</h5>
+					<label>2262+</label>
+				</div>
+				<div class="col-md-6 top-content1">
+					<div id="demo-pie-2" class="pie-title-center" data-percent="75"> <span class="pie-value"></span> </div>
+				</div>
+				 <div class="clearfix"> </div>
+				</div>
+				<div class="content-top-1">
+				<div class="col-md-6 top-content">
+					<h5>Lượt Truy Cập</h5>
+					<label>12589+</label>
+				</div>
+				<div class="col-md-6 top-content1">
+					<div id="demo-pie-3" class="pie-title-center" data-percent="90"> <span class="pie-value"></span> </div>
+				</div>
+				 <div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="col-md-2 stat">
+				<div class="content-top">
+					<div class="top-content facebook">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+					</div>
+					<ul class="info">
+						<li class="col-md-6"><b>1,296</b><p>Friends</p></li>
+						<li class="col-md-6"><b>647</b><p>Likes</p></li>
+						<div class="clearfix"></div>
+					</ul>
+				</div>
+				<div class="content-top">
+					<div class="top-content twitter">
+						<a href="#"><i class="fa fa-twitter"></i></a>
+					</div>
+					<ul class="info">
+						<li class="col-md-6"><b>1,997</b><p>Followers</p></li>
+						<li class="col-md-6"><b>389</b><p>Tweets</p></li>
+						<div class="clearfix"></div>
+					</ul>
+				</div>
+				<div class="content-top">
+					<div class="top-content google-plus">
+						<a href="#"><i class="fa fa-google-plus"></i></a>
+					</div>
+					<ul class="info">
+						<li class="col-md-6"><b>1,216</b><p>Followers</p></li>
+						<li class="col-md-6"><b>321</b><p>shares</p></li>
+						<div class="clearfix"></div>
+					</ul>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+
+				<div class="charts">
+					<div class="col-md-4 charts-grids widget">
+						<div class="card-header">
+							<h3>Biểu đồ cột</h3>
+						</div>
+
+						<div id="container" style="width: 100%; height:270px;">
+							<canvas id="canvas"></canvas>
+						</div>
+						<button id="randomizeData">Random Dữ Liệu</button>
+						<button id="addDataset">Thêm Dataset</button>
+						<button id="removeDataset">Xoá Dataset</button>
+						<button id="addData">Thêm Dữ Liệu</button>
+						<button id="removeData">Xoá Dữ Liệu</button>
+
+					</div>
+
+					<div class="col-md-4 charts-grids widget states-mdl">
+						<div class="card-header">
+							<h3>Biểu đồ cột & đường</h3>
+						</div>
+						<div id="chartdiv"></div>
+					</div>
+
+					<div class="clearfix"> </div>
+				</div>
+
+                <div class="col-md-7 content-top-2 card">
+                    <div class="agileinfo-cdr">
+                        <canvas id="countries" width="600" height="400"></canvas>
+
+                    </div>
+                </div>
+
+	<!-- for amcharts js -->
+			<script src="/javascripts/amcharts.js"></script>
+			<script src="/javascripts/serial.js"></script>
+			<script src="/javascripts/export.min.js"></script>
+			<link rel="stylesheet" href="/stylesheets/export.css" type="text/css" media="all" />
+			<script src="/javascripts/light.js"></script>
+	<!-- for amcharts js -->
+
+	<!--footer-->
+	<div class="footer">
+	   <p>&copy; 2018 Glance Design Dashboard. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank">w3layouts</a></p>
+	</div>
+    <!--//footer-->
+	</div>
+
+	<!-- new added graphs chart js-->
+
+    <script src="/javascripts/Chart.bundle.js"></script>
+    <script src="/javascripts/utils.js"></script>
+
+	<script>
+        var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        var color = Chart.helpers.color;
+        var barChartData = {
+            labels: ["January", "February", "March", "April", "May", "June", "July"],
+            datasets: [{
+                label: 'Dataset 1',
+                backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
+                borderColor: window.chartColors.red,
+                borderWidth: 1,
+                data: [
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor()
+                ]
+            }, {
+                label: 'Dataset 2',
+                backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
+                borderColor: window.chartColors.blue,
+                borderWidth: 1,
+                data: [
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor()
+                ]
+            }]
+
         };
-        */
-        $().UItoTop({
-            easingType: 'easeOutQuart'
+
+        window.onload = function() {
+            var ctx = document.getElementById("canvas").getContext("2d");
+            window.myBar = new Chart(ctx, {
+                type: 'bar',
+                data: barChartData,
+                options: {
+                    responsive: true,
+                    legend: {
+                        position: 'top',
+                    },
+                    title: {
+                        display: true,
+                        text: 'Chart.js Bar Chart'
+                    }
+                }
+            });
+
+        };
+
+        document.getElementById('randomizeData').addEventListener('click', function() {
+            var zero = Math.random() < 0.2 ? true : false;
+            barChartData.datasets.forEach(function(dataset) {
+                dataset.data = dataset.data.map(function() {
+                    return zero ? 0.0 : randomScalingFactor();
+                });
+
+            });
+            window.myBar.update();
         });
 
-    });
-</script>
-<!-- //smooth-scrolling-of-move-up -->
+        var colorNames = Object.keys(window.chartColors);
+        document.getElementById('addDataset').addEventListener('click', function() {
+            var colorName = colorNames[barChartData.datasets.length % colorNames.length];;
+            var dsColor = window.chartColors[colorName];
+            var newDataset = {
+                label: 'Dataset ' + barChartData.datasets.length,
+                backgroundColor: color(dsColor).alpha(0.5).rgbString(),
+                borderColor: dsColor,
+                borderWidth: 1,
+                data: []
+            };
 
-<!-- for bootstrap working js/bootstrap.js-->
-<script src="javascripts/bootstrap.js"></script>
-<!-- //for bootstrap working -->
-<!-- //js-files -->
+            for (var index = 0; index < barChartData.labels.length; ++index) {
+                newDataset.data.push(randomScalingFactor());
+            }
+
+            barChartData.datasets.push(newDataset);
+            window.myBar.update();
+        });
+
+        document.getElementById('addData').addEventListener('click', function() {
+            if (barChartData.datasets.length > 0) {
+                var month = MONTHS[barChartData.labels.length % MONTHS.length];
+                barChartData.labels.push(month);
+
+                for (var index = 0; index < barChartData.datasets.length; ++index) {
+                    //window.myBar.addData(randomScalingFactor(), index);
+                    barChartData.datasets[index].data.push(randomScalingFactor());
+                }
+
+                window.myBar.update();
+            }
+        });
+
+        document.getElementById('removeDataset').addEventListener('click', function() {
+            barChartData.datasets.splice(0, 1);
+            window.myBar.update();
+        });
+
+        document.getElementById('removeData').addEventListener('click', function() {
+            barChartData.labels.splice(-1, 1); // remove the label first
+
+            barChartData.datasets.forEach(function(dataset, datasetIndex) {
+                dataset.data.pop();
+            });
+
+            window.myBar.update();
+        });
+    </script>
+	<!-- new added graphs chart js-->
+
+	<!-- Classie --><!-- for toggle left push menu script -->
+		<script src="/javascripts/classie.js"></script>
+		<script>
+			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+				showLeftPush = document.getElementById( 'showLeftPush' ),
+				body = document.body;
+
+			showLeftPush.onclick = function() {
+				classie.toggle( this, 'active' );
+				classie.toggle( body, 'cbp-spmenu-push-toright' );
+				classie.toggle( menuLeft, 'cbp-spmenu-open' );
+				disableOther( 'showLeftPush' );
+			};
+
+
+			function disableOther( button ) {
+				if( button !== 'showLeftPush' ) {
+					classie.toggle( showLeftPush, 'disabled' );
+				}
+			}
+		</script>
+	<!-- //Classie --><!-- //for toggle left push menu script -->
+
+	<!--scrolling js-->
+	<script src="/javascripts/jquery.nicescroll.js"></script>
+	<script src="/javascripts/scripts.js"></script>
+	<!--//scrolling js-->
+
+	<!-- side nav js -->
+	<script src='/javascripts/SidebarNav.min.js' type='text/javascript'></script>
+	<script>
+      $('.sidebar-menu').SidebarNav()
+    </script>
+	<!-- //side nav js -->
+
+	<!-- for index page weekly sales java script -->
+	<script src="/javascripts/SimpleChart.js"></script>
+    <script>
+        var graphdata1 = {
+            linecolor: "#CCA300",
+            title: "Monday",
+            values: [
+            { X: "6:00", Y: 10.00 },
+            { X: "7:00", Y: 20.00 },
+            { X: "8:00", Y: 40.00 },
+            { X: "9:00", Y: 34.00 },
+            { X: "10:00", Y: 40.25 },
+            { X: "11:00", Y: 28.56 },
+            { X: "12:00", Y: 18.57 },
+            { X: "13:00", Y: 34.00 },
+            { X: "14:00", Y: 40.89 },
+            { X: "15:00", Y: 12.57 },
+            { X: "16:00", Y: 28.24 },
+            { X: "17:00", Y: 18.00 },
+            { X: "18:00", Y: 34.24 },
+            { X: "19:00", Y: 40.58 },
+            { X: "20:00", Y: 12.54 },
+            { X: "21:00", Y: 28.00 },
+            { X: "22:00", Y: 18.00 },
+            { X: "23:00", Y: 34.89 },
+            { X: "0:00", Y: 40.26 },
+            { X: "1:00", Y: 28.89 },
+            { X: "2:00", Y: 18.87 },
+            { X: "3:00", Y: 34.00 },
+            { X: "4:00", Y: 40.00 }
+            ]
+        };
+        var graphdata2 = {
+            linecolor: "#00CC66",
+            title: "Tuesday",
+            values: [
+              { X: "6:00", Y: 100.00 },
+            { X: "7:00", Y: 120.00 },
+            { X: "8:00", Y: 140.00 },
+            { X: "9:00", Y: 134.00 },
+            { X: "10:00", Y: 140.25 },
+            { X: "11:00", Y: 128.56 },
+            { X: "12:00", Y: 118.57 },
+            { X: "13:00", Y: 134.00 },
+            { X: "14:00", Y: 140.89 },
+            { X: "15:00", Y: 112.57 },
+            { X: "16:00", Y: 128.24 },
+            { X: "17:00", Y: 118.00 },
+            { X: "18:00", Y: 134.24 },
+            { X: "19:00", Y: 140.58 },
+            { X: "20:00", Y: 112.54 },
+            { X: "21:00", Y: 128.00 },
+            { X: "22:00", Y: 118.00 },
+            { X: "23:00", Y: 134.89 },
+            { X: "0:00", Y: 140.26 },
+            { X: "1:00", Y: 128.89 },
+            { X: "2:00", Y: 118.87 },
+            { X: "3:00", Y: 134.00 },
+            { X: "4:00", Y: 180.00 }
+            ]
+        };
+        var graphdata3 = {
+            linecolor: "#FF99CC",
+            title: "Wednesday",
+            values: [
+              { X: "6:00", Y: 230.00 },
+            { X: "7:00", Y: 210.00 },
+            { X: "8:00", Y: 214.00 },
+            { X: "9:00", Y: 234.00 },
+            { X: "10:00", Y: 247.25 },
+            { X: "11:00", Y: 218.56 },
+            { X: "12:00", Y: 268.57 },
+            { X: "13:00", Y: 274.00 },
+            { X: "14:00", Y: 280.89 },
+            { X: "15:00", Y: 242.57 },
+            { X: "16:00", Y: 298.24 },
+            { X: "17:00", Y: 208.00 },
+            { X: "18:00", Y: 214.24 },
+            { X: "19:00", Y: 214.58 },
+            { X: "20:00", Y: 211.54 },
+            { X: "21:00", Y: 248.00 },
+            { X: "22:00", Y: 258.00 },
+            { X: "23:00", Y: 234.89 },
+            { X: "0:00", Y: 210.26 },
+            { X: "1:00", Y: 248.89 },
+            { X: "2:00", Y: 238.87 },
+            { X: "3:00", Y: 264.00 },
+            { X: "4:00", Y: 270.00 }
+            ]
+        };
+        var graphdata4 = {
+            linecolor: "Random",
+            title: "Thursday",
+            values: [
+              { X: "6:00", Y: 300.00 },
+            { X: "7:00", Y: 410.98 },
+            { X: "8:00", Y: 310.00 },
+            { X: "9:00", Y: 314.00 },
+            { X: "10:00", Y: 310.25 },
+            { X: "11:00", Y: 318.56 },
+            { X: "12:00", Y: 318.57 },
+            { X: "13:00", Y: 314.00 },
+            { X: "14:00", Y: 310.89 },
+            { X: "15:00", Y: 512.57 },
+            { X: "16:00", Y: 318.24 },
+            { X: "17:00", Y: 318.00 },
+            { X: "18:00", Y: 314.24 },
+            { X: "19:00", Y: 310.58 },
+            { X: "20:00", Y: 312.54 },
+            { X: "21:00", Y: 318.00 },
+            { X: "22:00", Y: 318.00 },
+            { X: "23:00", Y: 314.89 },
+            { X: "0:00", Y: 310.26 },
+            { X: "1:00", Y: 318.89 },
+            { X: "2:00", Y: 518.87 },
+            { X: "3:00", Y: 314.00 },
+            { X: "4:00", Y: 310.00 }
+            ]
+        };
+        var Piedata = {
+            linecolor: "Random",
+            title: "Profit",
+            values: [
+              { X: "Monday", Y: 50.00 },
+            { X: "Tuesday", Y: 110.98 },
+            { X: "Wednesday", Y: 70.00 },
+            { X: "Thursday", Y: 204.00 },
+            { X: "Friday", Y: 80.25 },
+            { X: "Saturday", Y: 38.56 },
+            { X: "Sunday", Y: 98.57 }
+            ]
+        };
+        $(function () {
+            $("#Bargraph").SimpleChart({
+                ChartType: "Bar",
+                toolwidth: "50",
+                toolheight: "25",
+                axiscolor: "#E6E6E6",
+                textcolor: "#6E6E6E",
+                showlegends: true,
+                data: [graphdata4, graphdata3, graphdata2, graphdata1],
+                legendsize: "140",
+                legendposition: 'bottom',
+                xaxislabel: 'Hours',
+                title: 'Lợi nhuận tuần',
+                yaxislabel: 'Profit in $'
+            });
+            $("#sltchartype").on('change', function () {
+                $("#Bargraph").SimpleChart('ChartType', $(this).val());
+                $("#Bargraph").SimpleChart('reload', 'true');
+            });
+            $("#Hybridgraph").SimpleChart({
+                ChartType: "Hybrid",
+                toolwidth: "50",
+                toolheight: "25",
+                axiscolor: "#E6E6E6",
+                textcolor: "#6E6E6E",
+                showlegends: true,
+                data: [graphdata4],
+                legendsize: "140",
+                legendposition: 'bottom',
+                xaxislabel: 'Hours',
+                title: 'Lợi nhuận tuần',
+                yaxislabel: 'Profit in $'
+            });
+            $("#Linegraph").SimpleChart({
+                ChartType: "Line",
+                toolwidth: "50",
+                toolheight: "25",
+                axiscolor: "#E6E6E6",
+                textcolor: "#6E6E6E",
+                showlegends: false,
+                data: [graphdata4, graphdata3, graphdata2, graphdata1],
+                legendsize: "140",
+                legendposition: 'bottom',
+                xaxislabel: 'Hours',
+                title: 'Lợi nhuận tuần',
+                yaxislabel: 'Profit in $'
+            });
+            $("#Areagraph").SimpleChart({
+                ChartType: "Area",
+                toolwidth: "50",
+                toolheight: "25",
+                axiscolor: "#E6E6E6",
+                textcolor: "#6E6E6E",
+                showlegends: true,
+                data: [graphdata4, graphdata3, graphdata2, graphdata1],
+                legendsize: "140",
+                legendposition: 'bottom',
+                xaxislabel: 'Hours',
+                title: 'Lợi nhuận tuần',
+                yaxislabel: 'Profit in $'
+            });
+            $("#Scatterredgraph").SimpleChart({
+                ChartType: "Scattered",
+                toolwidth: "50",
+                toolheight: "25",
+                axiscolor: "#E6E6E6",
+                textcolor: "#6E6E6E",
+                showlegends: true,
+                data: [graphdata4, graphdata3, graphdata2, graphdata1],
+                legendsize: "140",
+                legendposition: 'bottom',
+                xaxislabel: 'Hours',
+                title: 'Lợi nhuận tuần',
+                yaxislabel: 'Profit in $'
+            });
+            $("#Piegraph").SimpleChart({
+                ChartType: "Pie",
+                toolwidth: "50",
+                toolheight: "25",
+                axiscolor: "#E6E6E6",
+                textcolor: "#6E6E6E",
+                showlegends: true,
+                showpielables: true,
+                data: [Piedata],
+                legendsize: "250",
+                legendposition: 'right',
+                xaxislabel: 'Hours',
+                title: 'Lợi nhuận tuần',
+                yaxislabel: 'Profit in $'
+            });
+
+            $("#Stackedbargraph").SimpleChart({
+                ChartType: "Stacked",
+                toolwidth: "50",
+                toolheight: "25",
+                axiscolor: "#E6E6E6",
+                textcolor: "#6E6E6E",
+                showlegends: true,
+                data: [graphdata3, graphdata2, graphdata1],
+                legendsize: "140",
+                legendposition: 'bottom',
+                xaxislabel: 'Hours',
+                title: 'Lợi nhuận tuần',
+                yaxislabel: 'Profit in $'
+            });
+
+            $("#StackedHybridbargraph").SimpleChart({
+                ChartType: "StackedHybrid",
+                toolwidth: "50",
+                toolheight: "25",
+                axiscolor: "#E6E6E6",
+                textcolor: "#6E6E6E",
+                showlegends: true,
+                data: [graphdata3, graphdata2, graphdata1],
+                legendsize: "140",
+                legendposition: 'bottom',
+                xaxislabel: 'Hours',
+                title: 'Lợi nhuận tuần',
+                yaxislabel: 'Profit in $'
+            });
+        });
+
+    </script>
+	<!-- //for index page weekly sales java script -->
+
+    <!--draw pie chart-->
+    <script>
+        var pieData = [
+            {
+                value: 20,
+                color:"#878BB6"
+            },
+            {
+                value : 40,
+                color : "#4ACAB4"
+            },
+            {
+                value : 10,
+                color : "#FF8153"
+            },
+            {
+                value : 30,
+                color : "#FFEA88"
+            }
+        ];
+
+        // pie chart options
+        var pieOptions = {
+            segmentShowStroke : false,
+            animateScale : true
+        }
+
+        // get pie chart canvas
+        var countries= document.getElementById("countries").getContext("2d");
+
+        // draw pie chart
+        new Chart(countries).Pie(pieData, pieOptions);
+    </script>
+	<!-- Bootstrap Core JavaScript -->
+   <script src="/javascripts/bootstrap.js"> </script>
+	<!-- //Bootstrap Core JavaScript -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </body>
-
 </html>
