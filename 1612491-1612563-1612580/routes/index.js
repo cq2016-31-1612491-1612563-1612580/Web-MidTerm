@@ -22,7 +22,15 @@ router.get('/about', function (req,res) {
   res.redirect('/catalog/about');
 });
 
+router.post('/about', function (req,res) {
+  res.redirect('/catalog/about');
+});
+
 router.get('/contact', function (req,res,next) {
+  res.redirect('/catalog/contact');
+});
+
+router.post('/contact', function (req,res,next) {
   res.redirect('/catalog/contact');
 });
 
