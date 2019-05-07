@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8d46a42a-32b5-4e48-ad7a-6ada67a21696" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/about.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/about.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/checkout - Copy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/checkout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/checkout.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/contact.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/contact.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/index - Copy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1612491-1612563-1612580/views/product.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/1612491-1612563-1612580/views/product.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-page/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/admin-page/views/index.hbs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,38 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/routes/catalog.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/controllers/homeController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/product.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="716">
-              <caret line="568" column="36" selection-start-line="568" selection-start-column="36" selection-end-line="568" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+            <state relative-caret-position="822">
+              <caret line="1723" column="18" selection-start-line="1723" selection-start-column="18" selection-end-line="1723" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -95,6 +63,7 @@
       <find>javascripts</find>
       <find>images</find>
       <find>tìm kiếm</find>
+      <find>countries</find>
     </findStrings>
     <replaceStrings>
       <replace>fa</replace>
@@ -127,7 +96,6 @@
         <option value="$PROJECT_DIR$/admin-page/views/QuanLyDonDatHang.hbs" />
         <option value="$PROJECT_DIR$/admin-page/views/QuanLyTaiKhoan.hbs" />
         <option value="$PROJECT_DIR$/admin-page/public/stylesheets/style.css" />
-        <option value="$PROJECT_DIR$/admin-page/views/index.hbs" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/controllers/productinstanceController.js" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/models/about.js" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/models/cart.js" />
@@ -153,6 +121,7 @@
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/checkout.hbs" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/contact.hbs" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/controllers/homeController.js" />
+        <option value="$PROJECT_DIR$/admin-page/views/index.hbs" />
         <option value="$PROJECT_DIR$/1612491-1612563-1612580/views/product.hbs" />
       </list>
     </option>
@@ -170,7 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,24 +155,13 @@
               <item name="midterm" type="b2602c69:ProjectViewProjectNode" />
               <item name="midterm" type="462c0819:PsiDirectoryNode" />
               <item name="1612491-1612563-1612580" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="midterm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="midterm" type="462c0819:PsiDirectoryNode" />
-              <item name="1612491-1612563-1612580" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="midterm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="midterm" type="462c0819:PsiDirectoryNode" />
-              <item name="1612491-1612563-1612580" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,11 +212,12 @@
       <workItem from="1557040143003" duration="27000" />
       <workItem from="1557196281648" duration="146000" />
       <workItem from="1557228144725" duration="1333000" />
+      <workItem from="1557230094213" duration="1757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58635000" />
+    <option name="totallyTimeSpent" value="60392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -383,13 +341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="388" column="42" lean-forward="true" selection-start-line="388" selection-start-column="42" selection-end-line="388" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin-page/views/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="567" column="33" lean-forward="true" selection-start-line="567" selection-start-column="33" selection-end-line="567" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -541,13 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/routes/catalog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/single.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -555,24 +499,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/routes/catalog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/controllers/homeController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        <state relative-caret-position="504">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-page/views/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1484">
+          <caret line="570" lean-forward="true" selection-start-line="570" selection-end-line="570" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#10;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#11;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1612491-1612563-1612580/views/product.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="568" column="36" selection-start-line="568" selection-start-column="36" selection-end-line="568" selection-end-column="36" />
+        <state relative-caret-position="822">
+          <caret line="1723" column="18" selection-start-line="1723" selection-start-column="18" selection-end-line="1723" selection-end-column="18" />
         </state>
       </provider>
     </entry>
