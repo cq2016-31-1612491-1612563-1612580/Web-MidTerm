@@ -18,11 +18,12 @@ router.post('/', function(req, res, next) {
 
 /*get catalog home page*/
 router.get('/',home_controller.index);
-router.get('/',home_controller.index);
+router.get('/index',home_controller.index);
 
 router.get('/about',home_controller.about);
 router.get('/contact',home_controller.contact);
 router.get('/checkout',home_controller.checkout);
+router.post('/checkout', home_controller.checkout);
 router.get('/faqs',home_controller.faqs);
 router.get('/help',home_controller.help);
 router.get('/payment',home_controller.payment);

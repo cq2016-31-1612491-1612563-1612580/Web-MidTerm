@@ -19,7 +19,7 @@ exports.contact = function (req,res,next) {
     res.render('contact', { title: 'Contact' });
 };
 
-exports.checkout = function (req,res) {
+exports.checkout = function (req,res, next) {
     res.render('checkout', { title: 'Checkout' });
 };
 

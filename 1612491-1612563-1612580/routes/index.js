@@ -6,7 +6,15 @@ router.get('/', function (req,res) {
   res.redirect('/catalog');
 });
 
+router.post('/', function (req,res) {
+  res.redirect('/catalog');
+});
+
 router.get('/index', function (req,res,next) {
+  res.redirect('/catalog');
+});
+
+router.post('/index', function (req,res,next) {
   res.redirect('/catalog');
 });
 
@@ -19,6 +27,10 @@ router.get('/contact', function (req,res,next) {
 });
 
 router.get('/checkout', function (req,res) {
+  res.redirect('/catalog/checkout');
+});
+
+router.post('/checkout', function (req,res) {
   res.redirect('/catalog/checkout');
 });
 
