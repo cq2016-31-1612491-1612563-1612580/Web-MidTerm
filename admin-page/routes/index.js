@@ -1,57 +1,61 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Index' });
+//Get home page
+router.get('/', function (req,res) {
+  res.redirect('/catalog');
 });
 
-/* Other page */
-router.get('/index', function(req, res, next) {
-  res.render('index', { title: 'Index' });
+router.get('/index', function (req,res,next) {
+  res.redirect('/catalog');
 });
 
-router.get('/charts', function(req, res, next) {
-  res.render('charts', { title: 'Charts' });
+router.get('/about', function (req,res) {
+  res.redirect('/catalog/about');
 });
 
-router.get('/compose', function(req, res, next) {
-  res.render('compose', { title: 'Compose' });
+router.get('/contact', function (req,res,next) {
+  res.redirect('/catalog/contact');
 });
 
-router.get('/inbox', function(req, res, next) {
-  res.render('inbox', { title: 'Inbox' });
+router.get('/checkout', function (req,res) {
+  res.redirect('/catalog/checkout');
 });
 
-router.get('/login', function(req, res, next) {
-  res.render('Login', { title: 'Login' });
+router.get('/faqs', function (req,res) {
+  res.redirect('/catalog/faqs');
 });
 
-router.get('/signup', function(req, res, next) {
-  res.render('signup', { title: 'Sign up' });
+router.get('/help', function (req,res) {
+  res.redirect('/catalog/help');
 });
 
-router.get('/widgets', function(req, res, next) {
-  res.render('widgets', { title: 'Widgets' });
+router.get('/payment', function (req,res) {
+  res.redirect('/catalog/payment');
 });
 
-router.get('/QuanLyDonDatHang', function(req, res, next) {
-  res.render('QuanLyDonDatHang', { title: 'QuanLyDonDatHang' });
+router.get('/privacy', function (req,res) {
+  res.redirect('/catalog/privacy');
 });
 
-router.get('/QuanLySanPham', function(req, res, next) {
-  res.render('QuanLySanPham', { title: 'QuanLySanPham' });
+router.get('/product', function (req,res) {
+  res.redirect('/catalog/product');
 });
 
-router.get('/QuanLyTaiKhoan', function(req, res, next) {
-  res.render('QuanLyTaiKhoan', { title: 'QuanLyTaiKhoan' });
+router.get('/product2', function (req,res) {
+  res.redirect('/catalog/product2');
 });
 
-router.get('/Top10', function(req, res, next) {
-  res.render('Top10', { title: 'Top10' });
+router.get('/single', function (req,res) {
+  res.redirect('/catalog/single');
 });
 
-router.get('/forgot', function(req, res, next) {
-  res.render('Forgot', { title: 'Forgot' });
+router.get('/single2', function (req,res) {
+  res.redirect('/catalog/single2');
 });
+
+router.get('/terms', function (req,res) {
+  res.redirect('/catalog/terms');
+});
+
 module.exports = router;
