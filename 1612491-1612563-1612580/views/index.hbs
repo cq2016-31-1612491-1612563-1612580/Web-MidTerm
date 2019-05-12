@@ -903,24 +903,24 @@
                     <!-- first section -->
                     <div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mb-4">
                         <h3 class="heading-tittle text-center font-italic">Các Dòng Điện Thoại Mới</h3>
-                        <div class="row">
+                        <div class="row">{{#each NewProduct}}
                             <div class="col-md-4 product-men mt-5">
                                 <div class="men-pro-item simpleCart_shelfItem">
                                     <div class="men-thumb-item text-center">
-                                        <img src="/images/m1.jpg" alt="">
+                                        <img src={{this.image}} alt="">
                                         <div class="men-cart-pro">
                                             <div class="inner-men-cart-pro">
-                                                <a href="single" class="link-product-add-cart">Xem Nhanh</a>
+                                                <a href={{this.uri}} class="link-product-add-cart">Xem Nhanh</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item-info-product text-center border-top mt-4">
                                         <h4 class="pt-1">
-                                            <a href="single">Samsung Galaxy J7</a>
+                                            <a href="{{this.uri}}">{{this.name}}</a>
                                         </h4>
                                         <div class="info-product-price my-2">
-                                            <span class="item_price">$200.00</span>
-                                            <del>$280.00</del>
+                                            <span class="item_price">{{this.sales}}</span>
+                                            <del>{{this.price}}</del>
                                         </div>
                                         <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
                                             <form action="checkout" method="post">
@@ -928,8 +928,8 @@
                                                     <input type="hidden" name="cmd" value="_cart" />
                                                     <input type="hidden" name="add" value="1" />
                                                     <input type="hidden" name="business" value=" " />
-                                                    <input type="hidden" name="item_name" value="Samsung Galaxy J7" />
-                                                    <input type="hidden" name="amount" value="200.00" />
+                                                    <input type="hidden" name="item_name" value={{this.name}} />
+                                                    <input type="hidden" name="amount" value={{this.sales}} />
                                                     <input type="hidden" name="discount_amount" value="1.00" />
                                                     <input type="hidden" name="currency_code" value="USD" />
                                                     <input type="hidden" name="return" value=" " />
@@ -941,6 +941,9 @@
                                     </div>
                                 </div>
                             </div>
+                        {{/each}}
+                            <!--HAI SAN PHAM CON LAI DUOC DONG BANG DE DEBUG-->
+                            <!--
                             <div class="col-md-4 product-men mt-5">
                                 <div class="men-pro-item simpleCart_shelfItem">
                                     <div class="men-thumb-item text-center">
@@ -979,8 +982,10 @@
                                         </div>
 
                                     </div>
+
                                 </div>
                             </div>
+
                             <div class="col-md-4 product-men mt-5">
                                 <div class="men-pro-item simpleCart_shelfItem">
                                     <div class="men-thumb-item text-center">
@@ -1020,6 +1025,9 @@
                                     </div>
                                 </div>
                             </div>
+
+                            -->
+
                         </div>
                     </div>
                     <!-- //first section -->
@@ -1027,23 +1035,24 @@
                     <div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mb-4">
                         <h3 class="heading-tittle text-center font-italic">Tv & Audio</h3>
                         <div class="row">
+                            {{#each TVAudi}}
                             <div class="col-md-4 product-men mt-5">
                                 <div class="men-pro-item simpleCart_shelfItem">
                                     <div class="men-thumb-item text-center">
-                                        <img src="/images/m4.jpg" alt="">
+                                        <img src={{this.image}} alt="">
                                         <div class="men-cart-pro">
                                             <div class="inner-men-cart-pro">
-                                                <a href="single" class="link-product-add-cart">Xem Nhanh</a>
+                                                <a href={{this.uri}} class="link-product-add-cart">Xem Nhanh</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item-info-product text-center border-top mt-4">
                                         <h4 class="pt-1">
-                                            <a href="single">Sony 80 cm (32 inches)</a>
+                                            <a href="single">{{this.name}}</a>
                                         </h4>
                                         <div class="info-product-price my-2">
-                                            <span class="item_price">$320.00</span>
-                                            <del>$340.00</del>
+                                            <span class="item_price">{{this.sales}}</span>
+                                            <del>{{this.price}}</del>
                                         </div>
                                         <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
                                             <form action="checkout" method="post">
@@ -1051,8 +1060,8 @@
                                                     <input type="hidden" name="cmd" value="_cart" />
                                                     <input type="hidden" name="add" value="1" />
                                                     <input type="hidden" name="business" value=" " />
-                                                    <input type="hidden" name="item_name" value="Sony 80 cm (32 inches)" />
-                                                    <input type="hidden" name="amount" value="320.00" />
+                                                    <input type="hidden" name="item_name" value={{this.name}} />
+                                                    <input type="hidden" name="amount" value={{this.sales}} />
                                                     <input type="hidden" name="discount_amount" value="1.00" />
                                                     <input type="hidden" name="currency_code" value="USD" />
                                                     <input type="hidden" name="return" value=" " />
@@ -1064,6 +1073,9 @@
                                     </div>
                                 </div>
                             </div>
+                                {{/each}}
+                            <!--HAI SAN PHAM CON LAI DUOC DONG BANG DE DEBUG-->
+                            <!--
                             <div class="col-md-4 product-men mt-5">
                                 <div class="men-pro-item simpleCart_shelfItem">
                                     <div class="men-thumb-item text-center">
@@ -1141,12 +1153,14 @@
                                     </div>
                                 </div>
                             </div>
+                            -->
                         </div>
                     </div>
                     <!-- //second section -->
                     <!-- third section -->
                     <div class="product-sec1 product-sec2 px-sm-5 px-3">
                         <div class="row">
+
                             <h3 class="col-md-4 effect-bg">Lễ hội mùa hè</h3>
                             <p class="w3l-nut-middle">Giảm giá 10%</p>
                             <div class="col-md-8 bg-right-nut">
@@ -1159,24 +1173,25 @@
                     <div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mt-4">
                         <h3 class="heading-tittle text-center font-italic">Đồ Gia Dụng Lớn</h3>
                         <div class="row">
+                            {{#each Houseware}}
                             <div class="col-md-4 product-men mt-5">
                                 <div class="men-pro-item simpleCart_shelfItem">
                                     <div class="men-thumb-item text-center">
-                                        <img src="/images/m7.jpg" alt="">
+                                        <img src={{this.image}} alt="">
                                         <div class="men-cart-pro">
                                             <div class="inner-men-cart-pro">
-                                                <a href="single" class="link-product-add-cart">Xem Nhanh</a>
+                                                <a href={{this.uri}} class="link-product-add-cart">Xem Nhanh</a>
                                             </div>
                                         </div>
                                     </div>
                                     <span class="product-new-top">New</span>
                                     <div class="item-info-product text-center border-top mt-4">
                                         <h4 class="pt-1">
-                                            <a href="single">Whirlpool 245</a>
+                                            <a href={{this.uri}}>{{this.name}}</a>
                                         </h4>
                                         <div class="info-product-price my-2">
-                                            <span class="item_price">$230.00</span>
-                                            <del>$280.00</del>
+                                            <span class="item_price">{{this.sales}}</span>
+                                            <del>{{this.price}}</del>
                                         </div>
                                         <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
                                             <form action="checkout" method="post">
@@ -1184,8 +1199,8 @@
                                                     <input type="hidden" name="cmd" value="_cart" />
                                                     <input type="hidden" name="add" value="1" />
                                                     <input type="hidden" name="business" value=" " />
-                                                    <input type="hidden" name="item_name" value="Whirlpool 245" />
-                                                    <input type="hidden" name="amount" value="230.00" />
+                                                    <input type="hidden" name="item_name" value={{this.name}} />
+                                                    <input type="hidden" name="amount" value={{this.sales}} />
                                                     <input type="hidden" name="discount_amount" value="1.00" />
                                                     <input type="hidden" name="currency_code" value="USD" />
                                                     <input type="hidden" name="return" value=" " />
@@ -1198,6 +1213,9 @@
                                     </div>
                                 </div>
                             </div>
+                            {{/each}}
+                            <!--HAI SAN PHAM CON LAI DUOC DONG BANG DE DEBUG-->
+                            <!--
                             <div class="col-md-4 product-men mt-5">
                                 <div class="men-pro-item simpleCart_shelfItem">
                                     <div class="men-thumb-item text-center">
@@ -1273,6 +1291,7 @@
                                     </div>
                                 </div>
                             </div>
+                            -->
                         </div>
                     </div>
                     <!-- //fourth section -->

@@ -1,14 +1,124 @@
-var Home = require('../models/home');
-
-
-var async = require('async');
-
 exports.index = function (req,res) {
-    res.render('index', { title: 'index' });
+    res.render('index',{
+        NewProduct:[{
+            image: '/images/m1.jpg',
+            name: 'Samsung Galaxy J7',
+            sales: '$200.00',
+            price:'$280.00',
+            uri:'/single'
+        }, {
+            image: '/images/m2.jpg',
+            name: 'OPPO A37f',
+            sales: '$230.00',
+            price:'$250.00',
+            uri:'/single'
+        }, {
+            image: '/images/m3.jpg',
+            name: 'Apple iPhone X',
+            sales: '$280.00',
+            price:'$300.00',
+            uri:'/single'
+        }],
+        TVAudi:[{
+            name: 'Sony 80 cm (32 inches)',
+            image: '/images/m4.jpg',
+            sales: '$320.00 ',
+            price:'$340.00',
+            uri:'/single'
+        }, {
+            name: 'Loa Artis',
+            image: '/images/m5.jpg',
+            sales: '$349.00 ',
+            price:'$399.00',
+            uri:'/single'
+        }, {
+            name: 'Loa Philips',
+            image: '/images/m6.jpg',
+            sales: '$249.00 ',
+            price:'$300.00',
+            uri:'/single'
+        }],
+        Houseware:[{
+            name: 'Whirlpool 245',
+            image: '/images/m7.jpg',
+            sales: '$230.00 ',
+            price:'$280.00',
+            uri:'/single'
+        }, {
+            name: 'Máy Giặt BPL',
+            image: '/images/m8.jpg',
+            sales: '$180.00 ',
+            price:'$200.00',
+            uri:'/single'
+        }, {
+            name: 'Microwave Oven',
+            image: '/images/m9.jpg',
+            sales: '$199.00 ',
+            price:'$299.00',
+            uri:'/single'
+        }],
+    });
 };
 
 exports.index = function (req,res,next) {
-    res.render('index', { title: 'index' });
+    res.render('index', {
+        NewProduct: [{
+            image: '/images/m1.jpg',
+            name: 'Samsung Galaxy J7',
+            sales: '$200.00',
+            price:'$280.00',
+            uri:'/single'
+        }, {
+            image: '/images/m2.jpg',
+            name: 'OPPO A37f',
+            sales: '$230.00',
+            price:'$250.00',
+
+        }, {
+            image: '/images/m3.jpg',
+            name: 'Apple iPhone X',
+            sales: '$280.00',
+            price:'$300.00',
+
+        }],
+        TVAudi:[{
+            name: 'Sony 80 cm (32 inches)',
+            image: '/images/m4.jpg',
+            sales: '$320.00 ',
+            price:'$340.00',
+
+        }, {
+            name: 'Loa Artis',
+            image: '/images/m5.jpg',
+            sales: '$349.00 ',
+            price:'$399.00',
+
+        }, {
+            name: 'Loa Philips',
+            image: '/images/m6.jpg',
+            sales: '$249.00 ',
+            price:'$300.00',
+
+        }],
+        Houseware:[{
+            name: 'Whirlpool 245',
+            image: '/images/m7.jpg',
+            sales: '$230.00 ',
+            price:'$280.00',
+
+        }, {
+            name: 'Máy Giặt BPL',
+            image: '/images/m8.jpg',
+            sales: '$180.00 ',
+            price:'$200.00',
+
+        }, {
+            name: 'Microwave Oven',
+            image: '/images/m9.jpg',
+            sales: '$199.00 ',
+            price:'$299.00',
+        }],
+    });
 };
 
 exports.about = function (req,res) {
