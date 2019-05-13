@@ -192,3 +192,7 @@ exports.single2 = function (req,res) {
 exports.terms = function (req,res) {
     res.render('terms', { title: 'Terms' });
 };
+
+exports.singlephone2 = function (req, res) {
+  res.render('singlephone2', { title: 'Single Phone 2'});
+};
