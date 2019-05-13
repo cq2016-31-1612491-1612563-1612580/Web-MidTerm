@@ -39,8 +39,28 @@ exports.privacy = function (req,res) {
     res.render('privacy', { title: 'Privacy' });
 };
 
-exports.product = function (req,res) {
-    res.render('product', { title: 'Product' });
+exports.product = function (req,res, next) {
+    res.render('product', { 
+        PhoneProduct: [{
+            image: '/images/m1.jpg',
+            name: 'Samsung Galaxy J7',
+            sales: '$200.00',
+            price:'$280.00',
+            uri:'/single'
+        }, {
+            image: '/images/m2.jpg',
+            name: 'OPPO A37f',
+            sales: '$230.00',
+            price:'$250.00',
+
+        }, {
+            image: '/images/m3.jpg',
+            name: 'Apple iPhone X',
+            sales: '$280.00',
+            price:'$300.00',
+
+        }], 
+    });
 };
 
 exports.product2 = function (req,res) {
