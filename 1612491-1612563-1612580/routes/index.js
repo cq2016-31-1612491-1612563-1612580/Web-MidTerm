@@ -94,4 +94,12 @@ router.get('/terms', function (req,res) {
   res.redirect('/catalog/terms');
 });
 
+router.get('/singlephone2', function (req,res) {
+  res.redirect('/catalog/singlephone2');
+});
+
+router.post('/singlephone2', function (req,res) {
+  res.redirect('/catalog/singlephone2');
+});
+
 module.exports = router;

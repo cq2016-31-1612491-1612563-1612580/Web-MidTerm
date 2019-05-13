@@ -40,6 +40,7 @@ router.post('/single',home_controller.single);
 router.get('/single2',home_controller.single2);
 router.post('/single2',home_controller.single2);
 router.get('/terms',home_controller.terms);
+router.get('/singlephone2',home_controller.singlephone2);
 /*
 router.get('/index', function(req, res, next) {
     res.render('index', { title: 'index' });
