@@ -172,6 +172,44 @@ exports.product = function (req,res) {
             sales: '$280.00',
             uri:'/single'
         }],
+        PhoneProduct2: [{
+          image: '/images/mk1.jpg',
+          name: 'Infinix Hot S3',
+          sales: '$300.00',
+          price:'$320.00',
+          uri:'/single'
+        }, {
+          image: '/images/mk2.jpg',
+          name: 'Moto X4 (6 GB)',
+          sales: '$233.00',
+          price:'$240.00',
+          uri:'/single'
+        }, {
+          image: '/images/mk3.jpg',
+          name: 'iVooMi i Series',
+          sales: '$249.00',
+          price:'$260.00',
+          uri:'/single'
+        }],
+        PhoneProduct3: [{
+          image: '/images/mk5.jpg',
+          name: 'Acer Laptop',
+          sales: '$240.00',
+          price:'$260.00',
+          uri:'/single'
+        }, {
+          image: '/images/mk6.jpg',
+          name: 'Lenovo',
+          sales: '$300.00',
+          price:'$320.00',
+          uri:'/single'
+        }, {
+          image: '/images/mk7.jpg',
+          name: 'Intex Power Bank',
+          sales: '$100.00',
+          price:'$200.00',
+          uri:'/single'
+        }]
     });
 };
 
