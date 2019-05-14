@@ -822,44 +822,48 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<!-- first section -->
 						<div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mt-4">
 							<div class="row">
-								<div class="col-md-4 product-men">
-									<div class="men-pro-item simpleCart_shelfItem">
-										<div class="men-thumb-item text-center">
-											<img src="/images/m4.jpg" alt="">
-											<div class="men-cart-pro">
-												<div class="inner-men-cart-pro">
-													<a href="single" class="link-product-add-cart">Xem Nhanh</a>
+								{{#each TVProduct}}
+									<div class="col-md-4 product-men">
+										<div class="men-pro-item simpleCart_shelfItem">
+											<div class="men-thumb-item text-center">
+												<img src={{this.image}} alt="">
+												<div class="men-cart-pro">
+													<div class="inner-men-cart-pro">
+														<a href="{{this.uri}}" class="link-product-add-cart">Xem Nhanh</a>
+													</div>
 												</div>
 											</div>
-										</div>
-										<div class="item-info-product text-center border-top mt-4">
-											<h4 class="pt-1">
-												<a href="single">Sony 80 cm (32 inches)</a>
-											</h4>
-											<div class="info-product-price my-2">
-												<span class="item_price">$320.00</span>
-												<del>$340.00 </del>
-											</div>
-											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-												<form action="#" method="post">
-													<fieldset>
-														<input type="hidden" name="cmd" value="_cart" />
-														<input type="hidden" name="add" value="1" />
-														<input type="hidden" name="business" value=" " />
-														<input type="hidden" name="item_name" value="Sony 80 cm (32 inches)" />
-														<input type="hidden" name="amount" value="320.00" />
-														<input type="hidden" name="discount_amount" value="1.00" />
-														<input type="hidden" name="currency_code" value="USD" />
-														<input type="hidden" name="return" value=" " />
-														<input type="hidden" name="cancel_return" value=" " />
-														<input type="submit" name="submit" value="Thêm Vào Giỏ Hàng" class="button btn" />
-													</fieldset>
-												</form>
-											</div>
+											<div class="item-info-product text-center border-top mt-4">
+												<h4 class="pt-1">
+													<a href="{{this.uri}}">{{this.name}}</a>
+												</h4>
+												<div class="info-product-price my-2">
+													<span class="item_price">{{this.sales}}</span>
+													<del>{{this.price}}</del>
+												</div>
+												<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
+													<form action="checkout" method="post">
+														<fieldset>
+															<input type="hidden" name="cmd" value="_cart" />
+															<input type="hidden" name="add" value="1" />
+															<input type="hidden" name="business" value=" " />
+															<input type="hidden" name="item_name" value={{this.name}} />
+															<input type="hidden" name="amount" value={{this.sales}} />
+															<input type="hidden" name="discount_amount" value="1.00" />
+															<input type="hidden" name="currency_code" value="USD" />
+															<input type="hidden" name="return" value=" " />
+															<input type="hidden" name="cancel_return" value=" " />
+															<input type="submit" name="submit" value="Thêm vào giỏ hàng" class="button btn" />
+														</fieldset>
+													</form>
+												</div>
 
+											</div>
 										</div>
 									</div>
-								</div>
+								{{/each}}
+
+								<!--
 								<div class="col-md-4 product-men mt-md-0 mt-5">
 									<div class="men-pro-item simpleCart_shelfItem">
 										<div class="men-thumb-item text-center">
@@ -937,10 +941,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 										</div>
 									</div>
 								</div>
+								-->
 							</div>
 						</div>
-						<!-- //first section -->
-						<!-- second section  -->
+
+						<!--
 						<div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mt-4">
 							<div class="row">
 								<div class="col-md-4 product-men">
@@ -1059,8 +1064,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</div>
 							</div>
 						</div>
-						<!-- //second section -->
-						<!-- 3rd section -->
+						
+						
 						<div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mt-4">
 							<div class="row">
 								<div class="col-md-4 product-men">
@@ -1180,8 +1185,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</div>
 							</div>
 						</div>
-						<!-- //3rd section -->
-						<!-- fourth section -->
+						
 						<div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mt-4">
 							<div class="row">
 								<div class="col-md-4 product-men">
@@ -1300,7 +1304,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</div>
 							</div>
 						</div>
-						<!-- //fourth section -->
+						-->
 					</div>
 				</div>
 				<!-- //product left -->
