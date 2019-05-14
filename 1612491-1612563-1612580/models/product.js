@@ -7,6 +7,7 @@ const detail = async (id) => {
     return results[0];
 };
 
+
 exports.detail = detail;
 
 

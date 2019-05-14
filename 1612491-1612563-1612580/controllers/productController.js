@@ -1,7 +1,3 @@
-var Product = require('../models/product');
-
-
-var async = require('async');
 
 exports.index = function (req,res) {
     res.render('index', { title: 'index' });
@@ -52,7 +48,7 @@ exports.product = function (req,res, next) {
             name: 'OPPO A37f',
             sales: '$230.00',
             price:'$250.00',
-            uri: '/singlephone2'
+            uri: '/single'
 
         }, {
             image: '/images/m3.jpg',
@@ -70,7 +66,7 @@ exports.product2 = function (req,res) {
 };
 
 exports.single = function (req,res) {
-    res.render('single', { title: 'Single' });
+    res.render('single', {title: 'Single'});
 };
 
 exports.single2 = function (req,res) {
@@ -79,8 +75,4 @@ exports.single2 = function (req,res) {
 
 exports.terms = function (req,res) {
     res.render('terms', { title: 'Terms' });
-};
-
-exports.singlephone2 = function (req, res) {
-  res.render('singlephone2', { title: 'Single Phone 2'});
 };

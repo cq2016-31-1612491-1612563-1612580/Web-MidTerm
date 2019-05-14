@@ -73,7 +73,7 @@ exports.index = function (req,res,next) {
             name: 'OPPO A37f',
             sales: '$230.00',
             price:'$250.00',
-            uri: '/singlephone2'
+            uri: '/single'
 
         }, {
             image: '/images/m3.jpg',
@@ -182,7 +182,17 @@ exports.product2 = function (req,res) {
 };
 
 exports.single = function (req,res) {
-    res.render('single', { title: 'Single' });
+    res.render('single', {
+        maindetails:[{
+            image:'/images/m7.jpg',
+            name:'Whirlpool 245',
+            sales:'$230.00',
+            price:'$280.00',
+            image1:'/images/sii1.jpg',
+            image2:'/images/sii2.jpg',
+            image3:'/images/sii3.jpg',
+        }]
+    });
 };
 
 exports.single2 = function (req,res) {

@@ -814,21 +814,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</h3>
 			<!-- //tittle heading -->
 			<div class="row">
+                {{#each maindetails}}
 				<div class="col-lg-5 col-md-8 single-right-left ">
 					<div class="grid images_3_of_2">
 						<div class="flexslider">
 							<ul class="slides">
-								<li data-thumb="/images/si1.jpg">
+								<li data-thumb={{this.image1}}>
 									<div class="thumb-image">
-										<img src="/images/si1.jpg" data-imagezoom="true" class="img-fluid" alt=""> </div>
+										<img src={{this.image1}} data-imagezoom="true" class="img-fluid" alt=""> </div>
 								</li>
-								<li data-thumb="/images/si2.jpg">
+								<li data-thumb={{this.image2}}>
 									<div class="thumb-image">
-										<img src="/images/si2.jpg" data-imagezoom="true" class="img-fluid" alt=""> </div>
+										<img src={{this.image2}} data-imagezoom="true" class="img-fluid" alt=""> </div>
 								</li>
-								<li data-thumb="/images/si3.jpg">
+								<li data-thumb={{this.image3}}>
 									<div class="thumb-image">
-										<img src="/images/si3.jpg" data-imagezoom="true" class="img-fluid" alt=""> </div>
+										<img src={{this.image3}} data-imagezoom="true" class="img-fluid" alt=""> </div>
 								</li>
 							</ul>
 							<div class="clearfix"></div>
@@ -837,10 +838,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 
 				<div class="col-lg-7 single-right-left simpleCart_shelfItem">
-					<h3 class="mb-3">Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)</h3>
+					<h3 class="mb-3">{{this.name}}</h3>
 					<p class="mb-3">
-						<span class="item_price">$200.00</span>
-						<del class="mx-2 font-weight-light">$280.00</del>
+						<span class="item_price">{{this.sales}}</span>
+						<del class="mx-2 font-weight-light">{{this.price}}</del>
 						<label>Miễn phí Ship</label>
 					</p>
 					<div class="single-infoagile">
@@ -885,8 +886,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<input type="hidden" name="cmd" value="_cart" />
 									<input type="hidden" name="add" value="1" />
 									<input type="hidden" name="business" value=" " />
-									<input type="hidden" name="item_name" value="Samsung Galaxy J7 Prime" />
-									<input type="hidden" name="amount" value="200.00" />
+									<input type="hidden" name="item_name" value={{this.name}} />
+									<input type="hidden" name="amount" value={{this.sales}} />
 									<input type="hidden" name="discount_amount" value="1.00" />
 									<input type="hidden" name="currency_code" value="USD" />
 									<input type="hidden" name="return" value=" " />
@@ -897,6 +898,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 					</div>
 				</div>
+                {{/each}}
 			</div>
 		</div>
 	</div>
