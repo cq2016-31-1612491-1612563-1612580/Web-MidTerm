@@ -191,6 +191,14 @@ exports.single = function (req,res) {
             image1:'/images/sii1.jpg',
             image2:'/images/sii2.jpg',
             image3:'/images/sii3.jpg',
+        }, {
+          image: '/images/m1.jpg',
+          name: 'Samsung Galaxy J7',
+          sales: '$200.00',
+          price:'$280.00',
+          image1:'/images/sii1.jpg',
+          image2:'/images/sii2.jpg',
+          image3:'/images/sii3.jpg',
         }]
     });
 };
