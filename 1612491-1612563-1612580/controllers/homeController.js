@@ -164,21 +164,39 @@ exports.product = function (req,res) {
             name: 'OPPO A37f',
             sales: '$230.00',
             price:'$250.00',
-            uri:'/singlephone2'
+            uri:'/singlephone2',
 
         }, {
             image: '/images/m3.jpg',
             name: 'Apple iPhone X',
             sales: '$280.00',
-            price:'$300.00',
-            uri: '/single'
-
-        }],
+            uri:'/single'
+        }], 
     });
 };
 
 exports.product2 = function (req,res) {
-    res.render('product2', { title: 'Product2' });
+    res.render('product2', { 
+        TVProduct:[{
+                name: 'Sony 80 cm (32 inches)',
+                image: '/images/m4.jpg',
+                sales: '$320.00 ',
+                price:'$340.00',
+
+                }, {
+                name: 'Loa Artis',
+                image: '/images/m5.jpg',
+                sales: '$349.00 ',
+                price:'$399.00',
+
+                }, {
+                name: 'Loa Philips',
+                image: '/images/m6.jpg',
+                sales: '$249.00 ',
+                price:'$300.00',
+
+            }],
+        });
 };
 
 exports.single = function (req,res) {
