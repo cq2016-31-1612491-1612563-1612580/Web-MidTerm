@@ -862,110 +862,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 										</div>
 									</div>
 								{{/each}}
-
-								<!--
-								<div class="col-md-4 product-men mt-md-0 mt-5">
-									<div class="men-pro-item simpleCart_shelfItem">
-										<div class="men-thumb-item text-center">
-											<img src="/images/m5.jpg" alt="">
-											<div class="men-cart-pro">
-												<div class="inner-men-cart-pro">
-													<a href="single" class="link-product-add-cart">Xem Nhanh</a>
-												</div>
-											</div>
-											<span class="product-new-top">New</span>
-
-										</div>
-										<div class="item-info-product text-center border-top mt-4">
-											<h4 class="pt-1">
-												<a href="single">Loa Artis</a>
-											</h4>
-											<div class="info-product-price my-2">
-												<span class="item_price">$349.00</span>
-												<del>$399.00</del>
-											</div>
-											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-												<form action="#" method="post">
-													<fieldset>
-														<input type="hidden" name="cmd" value="_cart" />
-														<input type="hidden" name="add" value="1" />
-														<input type="hidden" name="business" value=" " />
-														<input type="hidden" name="item_name" value="Artis Speaker" />
-														<input type="hidden" name="amount" value="349.00" />
-														<input type="hidden" name="discount_amount" value="1.00" />
-														<input type="hidden" name="currency_code" value="USD" />
-														<input type="hidden" name="return" value=" " />
-														<input type="hidden" name="cancel_return" value=" " />
-														<input type="submit" name="submit" value="Thêm Vào Giỏ Hàng" class="button btn" />
-													</fieldset>
-												</form>
-											</div>
-
-										</div>
-									</div>
-								</div>
-								<div class="col-md-4 product-men mt-md-0 mt-5">
-									<div class="men-pro-item simpleCart_shelfItem">
-										<div class="men-thumb-item text-center">
-											<img src="/images/m6.jpg" alt="">
-											<div class="men-cart-pro">
-												<div class="inner-men-cart-pro">
-													<a href="single" class="link-product-add-cart">Xem Nhanh</a>
-												</div>
-											</div>
-										</div>
-										<div class="item-info-product text-center border-top mt-4">
-											<h4 class="pt-1">
-												<a href="single">Loa Philips</a>
-											</h4>
-											<div class="info-product-price my-2">
-												<span class="item_price">$249.00</span>
-												<del>$300.00</del>
-											</div>
-											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-												<form action="#" method="post">
-													<fieldset>
-														<input type="hidden" name="cmd" value="_cart" />
-														<input type="hidden" name="add" value="1" />
-														<input type="hidden" name="business" value=" " />
-														<input type="hidden" name="item_name" value="Philips Speakers" />
-														<input type="hidden" name="amount" value="249.00" />
-														<input type="hidden" name="discount_amount" value="1.00" />
-														<input type="hidden" name="currency_code" value="USD" />
-														<input type="hidden" name="return" value=" " />
-														<input type="hidden" name="cancel_return" value=" " />
-														<input type="submit" name="submit" value="Thêm Vào Giỏ Hàng" class="button btn" />
-													</fieldset>
-												</form>
-											</div>
-										</div>
-									</div>
-								</div>
-								-->
 							</div>
 						</div>
+						
 
-						<!--
 						<div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mt-4">
 							<div class="row">
+								{{#each Houseware}}
 								<div class="col-md-4 product-men">
 									<div class="men-pro-item simpleCart_shelfItem">
 										<div class="men-thumb-item text-center">
-											<img src="/images/m7.jpg" alt="">
+											<img src={{this.image}} alt="">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single" class="link-product-add-cart">Xem Nhanh</a>
+													<a href={{this.uri}} class="link-product-add-cart">Xem Nhanh</a>
 												</div>
 											</div>
 										</div>
 										<span class="product-new-top">New</span>
 										<div class="item-info-product text-center border-top mt-4">
 											<h4 class="pt-1">
-												<a href="single">Whirlpool 245</a>
+												<a href={{this.uri}}>{{this.name}}</a>
 											</h4>
 											<div class="info-product-price my-2">
-												<span class="item_price">$230.00</span>
-												<del>$280.00</del>
+												<span class="item_price">{{this.sales}}</span>
+												<del>{{this.price}}</del>
 											</div>
 											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 												<form action="#" method="post">
@@ -973,8 +894,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 														<input type="hidden" name="cmd" value="_cart" />
 														<input type="hidden" name="add" value="1" />
 														<input type="hidden" name="business" value=" " />
-														<input type="hidden" name="item_name" value="Whirlpool 245" />
-														<input type="hidden" name="amount" value="230.00" />
+														<input type="hidden" name="item_name" value={{this.name}} />
+														<input type="hidden" name="amount" value="{{this.sales}}" />
 														<input type="hidden" name="discount_amount" value="1.00" />
 														<input type="hidden" name="currency_code" value="USD" />
 														<input type="hidden" name="return" value=" " />
@@ -987,104 +908,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 										</div>
 									</div>
 								</div>
-								<div class="col-md-4 product-men mt-md-0 mt-5">
-									<div class="men-pro-item simpleCart_shelfItem">
-										<div class="men-thumb-item text-center">
-											<img src="/images/m8.jpg" alt="">
-											<div class="men-cart-pro">
-												<div class="inner-men-cart-pro">
-													<a href="single" class="link-product-add-cart">Xem Nhanh</a>
-												</div>
-											</div>
-										</div>
-										<div class="item-info-product text-center border-top mt-4">
-											<h4 class="pt-1">
-												<a href="single">Máy Giặt BPL</a>
-											</h4>
-											<div class="info-product-price my-2">
-												<span class="item_price">$180.00</span>
-												<del>$200.00</del>
-											</div>
-											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-												<form action="#" method="post">
-													<fieldset>
-														<input type="hidden" name="cmd" value="_cart" />
-														<input type="hidden" name="add" value="1" />
-														<input type="hidden" name="business" value=" " />
-														<input type="hidden" name="item_name" value="BPL Washing Machine" />
-														<input type="hidden" name="amount" value="180.00" />
-														<input type="hidden" name="discount_amount" value="1.00" />
-														<input type="hidden" name="currency_code" value="USD" />
-														<input type="hidden" name="return" value=" " />
-														<input type="hidden" name="cancel_return" value=" " />
-														<input type="submit" name="submit" value="Thêm Vào Giỏ Hàng" class="button btn" />
-													</fieldset>
-												</form>
-											</div>
-
-										</div>
-									</div>
-								</div>
-								<div class="col-md-4 product-men mt-md-0 mt-5">
-									<div class="men-pro-item simpleCart_shelfItem">
-										<div class="men-thumb-item text-center">
-											<img src="/images/m9.jpg" alt="">
-											<div class="men-cart-pro">
-												<div class="inner-men-cart-pro">
-													<a href="single" class="link-product-add-cart">Xem Nhanh</a>
-												</div>
-											</div>
-										</div>
-										<div class="item-info-product text-center border-top mt-4">
-											<h4 class="pt-1">
-												<a href="single">Microwave Oven</a>
-											</h4>
-											<div class="info-product-price my-2">
-												<span class="item_price">$199.00</span>
-												<del>$299.00</del>
-											</div>
-											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-												<form action="#" method="post">
-													<fieldset>
-														<input type="hidden" name="cmd" value="_cart" />
-														<input type="hidden" name="add" value="1" />
-														<input type="hidden" name="business" value=" " />
-														<input type="hidden" name="item_name" value="Whirlpool Microwave Oven" />
-														<input type="hidden" name="amount" value="199.00" />
-														<input type="hidden" name="discount_amount" value="1.00" />
-														<input type="hidden" name="currency_code" value="USD" />
-														<input type="hidden" name="return" value=" " />
-														<input type="hidden" name="cancel_return" value=" " />
-														<input type="submit" name="submit" value="Thêm Vào Giỏ Hàng" class="button btn" />
-													</fieldset>
-												</form>
-											</div>
-										</div>
-									</div>
-								</div>
+								{{/each}}
 							</div>
 						</div>
-						
-						
+
+
 						<div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mt-4">
 							<div class="row">
+								{{#each Houseware2}}
 								<div class="col-md-4 product-men">
 									<div class="men-pro-item simpleCart_shelfItem">
 										<div class="men-thumb-item text-center">
-											<img src="/images/mm1.jpg" alt="" class="img-fluid">
+											<img src={{this.image}} alt="" class="img-fluid">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single" class="link-product-add-cart">Xem Nhanh</a>
+													<a href={{this.uri}} class="link-product-add-cart">Xem Nhanh</a>
 												</div>
 											</div>
 										</div>
 										<div class="item-info-product text-center border-top mt-4">
 											<h4 class="pt-1">
-												<a href="single">boAt Rockerz Headset</a>
+												<a href={{this.uri}}>{{this.name}}</a>
 											</h4>
 											<div class="info-product-price my-2">
-												<span class="item_price">$320.00</span>
-												<del>$350.00</del>
+												<span class="item_price">{{this.sales}}</span>
+												<del>{{this.price}}</del>
 											</div>
 											<span class="product-new-top">New</span>
 											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
@@ -1093,85 +941,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 														<input type="hidden" name="cmd" value="_cart" />
 														<input type="hidden" name="add" value="1" />
 														<input type="hidden" name="business" value=" " />
-														<input type="hidden" name="item_name" value="boAt Rockerz Headset" />
-														<input type="hidden" name="amount" value="320.00" />
-														<input type="hidden" name="discount_amount" value="1.00" />
-														<input type="hidden" name="currency_code" value="USD" />
-														<input type="hidden" name="return" value=" " />
-														<input type="hidden" name="cancel_return" value=" " />
-														<input type="submit" name="submit" value="Thêm Vào Giỏ Hàng" class="button btn" />
-													</fieldset>
-												</form>
-											</div>
-
-										</div>
-									</div>
-								</div>
-								<div class="col-md-4 product-men mt-md-0 mt-5 mt-5">
-									<div class="men-pro-item simpleCart_shelfItem">
-										<div class="men-thumb-item text-center">
-											<img src="/images/mm2.jpg" alt="" class="img-fluid">
-											<div class="men-cart-pro">
-												<div class="inner-men-cart-pro">
-													<a href="single" class="link-product-add-cart">Xem Nhanh</a>
-												</div>
-											</div>
-										</div>
-										<div class="item-info-product text-center border-top mt-4">
-											<h4 class="pt-1">
-												<a href="single">LG Boom Blast Speaker</a>
-											</h4>
-											<div class="info-product-price my-2">
-												<span class="item_price">$180.00</span>
-												<del>$200.00</del>
-											</div>
-											<span class="product-new-top">New</span>
-											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-												<form action="#" method="post">
-													<fieldset>
-														<input type="hidden" name="cmd" value="_cart" />
-														<input type="hidden" name="add" value="1" />
-														<input type="hidden" name="business" value=" " />
-														<input type="hidden" name="item_name" value="LG Boom Blast Speaker" />
-														<input type="hidden" name="amount" value="180.00" />
-														<input type="hidden" name="discount_amount" value="1.00" />
-														<input type="hidden" name="currency_code" value="USD" />
-														<input type="hidden" name="return" value=" " />
-														<input type="hidden" name="cancel_return" value=" " />
-														<input type="submit" name="submit" value="Thêm Vào Giỏ Hàng" class="button btn" />
-													</fieldset>
-												</form>
-											</div>
-
-										</div>
-									</div>
-								</div>
-								<div class="col-md-4 product-men mt-md-0 mt-5 mt-5">
-									<div class="men-pro-item simpleCart_shelfItem">
-										<div class="men-thumb-item text-center">
-											<img src="/images/mm3.jpg" alt="" class="img-fluid">
-											<div class="men-cart-pro">
-												<div class="inner-men-cart-pro">
-													<a href="single" class="link-product-add-cart">Xem Nhanh</a>
-												</div>
-											</div>
-										</div>
-										<div class="item-info-product text-center border-top mt-4">
-											<h4 class="pt-1">
-												<a href="single">Nikon Camera</a>
-											</h4>
-											<div class="info-product-price my-2">
-												<span class="item_price">$230.00</span>
-												<del>$250.00</del>
-											</div>
-											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-												<form action="#" method="post">
-													<fieldset>
-														<input type="hidden" name="cmd" value="_cart" />
-														<input type="hidden" name="add" value="1" />
-														<input type="hidden" name="business" value=" " />
-														<input type="hidden" name="item_name" value="Nikon Camera" />
-														<input type="hidden" name="amount" value="230.00" />
+														<input type="hidden" name="item_name" value={{this.name}} />
+														<input type="hidden" name="amount" value={{this.sales}} />
 														<input type="hidden" name="discount_amount" value="1.00" />
 														<input type="hidden" name="currency_code" value="USD" />
 														<input type="hidden" name="return" value=" " />
@@ -1183,128 +954,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 										</div>
 									</div>
 								</div>
+								{{/each}}
 							</div>
 						</div>
-						
-						<div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mt-4">
-							<div class="row">
-								<div class="col-md-4 product-men">
-									<div class="men-pro-item simpleCart_shelfItem">
-										<div class="men-thumb-item text-center">
-											<img src="/images/mm4.jpg" alt="" class="img-fluid">
-											<div class="men-cart-pro">
-												<div class="inner-men-cart-pro">
-													<a href="single" class="link-product-add-cart">Xem Nhanh</a>
-												</div>
-											</div>
-										</div>
-										<div class="item-info-product text-center border-top mt-4">
-											<h4 class="pt-1">
-												<a href="single">Dry Iron</a>
-											</h4>
-											<div class="info-product-price my-2">
-												<span class="item_price">$449.00</span>
-												<del>$549.00</del>
-											</div>
-											<span class="product-new-top">New</span>
-											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-												<form action="#" method="post">
-													<fieldset>
-														<input type="hidden" name="cmd" value="_cart" />
-														<input type="hidden" name="add" value="1" />
-														<input type="hidden" name="business" value=" " />
-														<input type="hidden" name="item_name" value="Dry Iron" />
-														<input type="hidden" name="amount" value="449.00" />
-														<input type="hidden" name="discount_amount" value="449.00" />
-														<input type="hidden" name="currency_code" value="USD" />
-														<input type="hidden" name="return" value=" " />
-														<input type="hidden" name="cancel_return" value=" " />
-														<input type="submit" name="submit" value="Thêm Vào Giỏ Hàng" class="button btn" />
-													</fieldset>
-												</form>
-											</div>
-
-										</div>
-									</div>
-								</div>
-								<div class="col-md-4 product-men mt-md-0 mt-5 mt-5">
-									<div class="men-pro-item simpleCart_shelfItem">
-										<div class="men-thumb-item text-center">
-											<img src="/images/mm6.jpg" alt="" class="img-fluid">
-											<div class="men-cart-pro">
-												<div class="inner-men-cart-pro">
-													<a href="single" class="link-product-add-cart">Xem Nhanh</a>
-												</div>
-											</div>
-										</div>
-										<div class="item-info-product text-center border-top mt-4">
-											<h4 class="pt-1">
-												<a href="single">Induction Cooktop</a>
-											</h4>
-											<div class="info-product-price my-2">
-												<span class="item_price">$145.00</span>
-												<del>$150.00</del>
-											</div>
-											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-												<form action="#" method="post">
-													<fieldset>
-														<input type="hidden" name="cmd" value="_cart" />
-														<input type="hidden" name="add" value="1" />
-														<input type="hidden" name="business" value=" " />
-														<input type="hidden" name="item_name" value="Induction Cooktop" />
-														<input type="hidden" name="amount" value="145.00" />
-														<input type="hidden" name="discount_amount" value="1.00" />
-														<input type="hidden" name="currency_code" value="USD" />
-														<input type="hidden" name="return" value=" " />
-														<input type="hidden" name="cancel_return" value=" " />
-														<input type="submit" name="submit" value="Thêm Vào Giỏ Hàng" class="button btn" />
-													</fieldset>
-												</form>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-4 product-men mt-md-0 mt-5 mt-5">
-									<div class="men-pro-item simpleCart_shelfItem">
-										<div class="men-thumb-item text-center">
-											<img src="/images/mm5.jpg" alt="" class="img-fluid">
-											<div class="men-cart-pro">
-												<div class="inner-men-cart-pro">
-													<a href="single" class="link-product-add-cart">Xem Nhanh</a>
-												</div>
-											</div>
-										</div>
-										<span class="product-new-top">New</span>
-										<div class="item-info-product text-center border-top mt-4">
-											<h4 class="pt-1">
-												<a href="single">Hair Straightener</a>
-											</h4>
-											<div class="info-product-price my-2">
-												<span class="item_price">$499.00</span>
-												<del>$550.00</del>
-											</div>
-											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-												<form action="#" method="post">
-													<fieldset>
-														<input type="hidden" name="cmd" value="_cart" />
-														<input type="hidden" name="add" value="1" />
-														<input type="hidden" name="business" value=" " />
-														<input type="hidden" name="item_name" value="Hair Straightener" />
-														<input type="hidden" name="amount" value="499.00" />
-														<input type="hidden" name="discount_amount" value="1.00" />
-														<input type="hidden" name="currency_code" value="USD" />
-														<input type="hidden" name="return" value=" " />
-														<input type="hidden" name="cancel_return" value=" " />
-														<input type="submit" name="submit" value="Thêm Vào Giỏ Hàng" class="button btn" />
-													</fieldset>
-												</form>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						-->
 					</div>
 				</div>
 				<!-- //product left -->

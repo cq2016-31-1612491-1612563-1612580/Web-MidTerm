@@ -171,12 +171,12 @@ exports.product = function (req,res) {
             name: 'Apple iPhone X',
             sales: '$280.00',
             uri:'/single'
-        }], 
+        }],
     });
 };
 
 exports.product2 = function (req,res) {
-    res.render('product2', { 
+    res.render('product2', {
         TVProduct:[{
                 name: 'Sony 80 cm (32 inches)',
                 image: '/images/m4.jpg',
@@ -196,6 +196,44 @@ exports.product2 = function (req,res) {
                 price:'$300.00',
 
             }],
+            Houseware:[{
+                name: 'Whirlpool 245',
+                image: '/images/m7.jpg',
+                sales: '$230.00 ',
+                price:'$280.00',
+                uri: '/single'
+            }, {
+                name: 'Máy Giặt BPL',
+                image: '/images/m8.jpg',
+                sales: '$180.00 ',
+                price:'$200.00',
+                uri: '/single'
+            }, {
+                name: 'Microwave Oven',
+                image: '/images/m9.jpg',
+                sales: '$199.00 ',
+                price:'$299.00',
+                uri: '/single'
+            }],
+            Houseware2:[{
+              name: 'Boat Rockerz Headset',
+              image: '/images/mm1.jpg',
+              sales: '$320.00',
+              price: '$350.00',
+              uri: '/single'
+            }, {
+              name: 'Boom Blast Speaker',
+              image: '/images/mm2.jpg',
+              sales: '$180.00',
+              price: '$200.00',
+              uri: '/single'
+            }, {
+              name: 'Nikon Camera',
+              image: '/images/mm3.jpg',
+              sales: '$250.00',
+              price: '$350.00',
+              uri: '/single'
+            }]
         });
 };
 
