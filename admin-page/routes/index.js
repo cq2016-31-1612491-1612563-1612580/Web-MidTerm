@@ -38,7 +38,7 @@ router.get('/QuanLySanPham', function (req,res) {
   res.redirect('/catalog/QuanLySanPham');
 });
 
-router.get('/QuanLySanPham', function (req,res) {
+router.get('/addSanPham', function (req,res) {
   res.redirect('/catalog/addSanPham');
 });
 

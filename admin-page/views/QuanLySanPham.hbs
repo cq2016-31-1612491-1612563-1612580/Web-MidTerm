@@ -400,20 +400,24 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                         </tr>
                     </thead>
                     <tbody>
+                        {{#if data}}
+                        {{#each data}}
                         <tr>
-                            <td scope="row">1</td>
+                            <td scope="row">{{this.id}}</td>
                             <td>
                                 <div class="imgofProduct"><img src="/images/ipxsmax.jpeg" alt=" " height="100px"></div>
-                                <div class="nameofProduct" >iPhone XS MAX</div>
+                                <div class="nameofProduct" >{{this.brand}}</div>
                             </td>
-                            <td>1</td>
-                            <td>1099$</td>
+                            <td>{{this.count}}</td>
+                            <td>{{this.price}}</td>
                             <td>
                                 <a href="#">Sửa</a>
                                 &nbsp&nbsp&nbsp&nbsp
                                 <a href="#">Xóa</a>
                             </td>
                         </tr>
+                        {{/each}}
+                        {{/if}}
                         <tr>
                             <a href="addSanPham">Thêm</a>
                         </tr>
