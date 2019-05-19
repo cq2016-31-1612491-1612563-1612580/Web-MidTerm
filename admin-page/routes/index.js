@@ -38,6 +38,10 @@ router.get('/QuanLySanPham', function (req,res) {
   res.redirect('/catalog/QuanLySanPham');
 });
 
+router.get('/QuanLySanPham', function (req,res) {
+  res.redirect('/catalog/addSanPham');
+});
+
 router.get('/QuanLyTaiKhoan', function (req,res) {
   res.redirect('/catalog/QuanLyTaiKhoan');
 });
