@@ -3,10 +3,11 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var hbs = require('express-handlebars');
 
-var indexRouter = require('./routes/index');
+var indexRouter = require('./routes/indexRouter');
 var usersRouter = require('./routes/users');
-var catalogRouter = require('./routes/catalog'); //them catalog router vao
+var productsRouter = require('./routes/productsRouter');
 
 var app = express();
 
@@ -22,7 +23,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/catalog', catalogRouter);// use catalog router
+app.use('/product', productsRouter);
+
 
 
 // catch 404 and forward to error handler
