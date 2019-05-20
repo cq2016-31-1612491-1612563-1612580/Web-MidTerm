@@ -5,31 +5,33 @@
             <table class="table">
                 <form method="post">
                     <tbody>
+                        {{#if data}}
                         <tr>
                             <td>Tên</td>
-                            <td><input type="text" name="name"/></td>
+                            <td><input type="text" name="name" value="{{data.name}}"/></td>
                         </tr>
                         <tr>
                             <td>Thương hiệu</td>
-                            <td><input type="text" name="brand"/></td>
+                            <td><input type="text" name="brand" value="{{data.brand}}"/></td>
                         </tr>
                         <tr>
                             <td>Số lượng</td>
-                            <td><input type="text" name="count"/></td>
+                            <td><input type="text" name="count" value="{{data.count}}"/></td>
                         </tr>
                         <tr>
                             <td>Giá</td>
-                            <td><input type="text" name="price"/></td>
+                            <td><input type="text" name="price" value="{{data.price}}"/></td>
                         </tr>
                         <tr>
                             <td colspan="2">
-                                <input type="submit" value="Thêm" />
-                                <input type="reset" value="Nhập lại" />
+                                <input type="submit" value="Sửa" />
                             </td>
                         </tr>
+                        {{/if}}
                     </tbody>
                 </form>
             </table>
+        </div>
         </div>
     </div>
 </div>

@@ -5,7 +5,7 @@
             <table class="table">
                 <thead>
                     <tr>
-                        <th class="title3" scope="col">Số thứ tự</th>
+                        <th class="title3" scope="col">Mã Sản Phẩm</th>
                         <th scope="col">Sản phẩm</th>
                         <th scope="col">Số lượng</th>
                         <th scope="col">Giá</th>
@@ -16,23 +16,23 @@
                     {{#if data}}
                     {{#each data}}
                     <tr>
-                        <td scope="row">{{this.id}}</td>
+                        <td scope="row">{{this._id}}</td>
                         <td>
                             <div class="imgofProduct"><img src="/images/ipxsmax.jpeg" alt=" " height="100px"></div>
-                            <div class="nameofProduct" >{{this.brand}}</div>
+                            <div class="nameofProduct" >{{this.name}}</div>
                         </td>
                         <td>{{this.count}}</td>
                         <td>{{this.price}}</td>
                         <td>
-                            <a href="#">Sửa</a>
+                            <button onclick="window.location.href='/products/update?id={{this._id}}';">Sửa</button>
                             &nbsp&nbsp&nbsp&nbsp
-                            <a href="#">Xóa</a>
+                            <button onclick="window.location.href='/products/delete?id={{this._id}}';">Xóa</a>
                         </td>
                     </tr>
                     {{/each}}
                     {{/if}}
                     <tr>
-                        <a href="/products/add">Thêm</a>
+                        <button onclick="window.location.href='/products/add';">Thêm</button>
                     </tr>
                 </tbody>
             </table>
