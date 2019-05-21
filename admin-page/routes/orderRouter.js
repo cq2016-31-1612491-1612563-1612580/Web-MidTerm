@@ -2,11 +2,11 @@ const express = require('express');
 const router = express.Router();
 const orderControllers = require('../controllers/orderController');
 
-router.get('/done', orderControllers.done);
+router.get('/', orderControllers.index);
 
-router.get('/delivering', orderControllers.delivering);
+router.get('/delete', orderControllers.delete);
 
-router.get('/receive', orderControllers.receive);
-
+router.get('/add', orderControllers.add);
+router.post('/add', orderControllers.addPost);
 
 module.exports = router;

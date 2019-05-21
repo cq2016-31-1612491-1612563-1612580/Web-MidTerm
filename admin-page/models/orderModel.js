@@ -12,8 +12,12 @@ module.exports.list = async () => {
     .toArray();
 };
 
-module.exports.add = async (product) => {
-  return await dbs.production.collection('orders').insertOne(product);
+module.exports.add = async (order) => {
+  return await dbs.production.collection('orders').insertOne(order);
+};
+
+module.exports.update = async (id, product) => {
+  return await dbs.production.collection('products').updateOne({_id: ObjectId(id)}, {$set: product});
 };
 
 module.exports.delete = async (id) => {

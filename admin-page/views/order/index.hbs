@@ -5,15 +5,16 @@
 
             <div class="col-md-12">
                 <div class="card">
+                  <!--
                     <div class="card-header">
                         <ul class="nav nav-pills">
                             <li class="nav-item">
-                                <a class="nav-link active" href="/order/done" role="tab" aria-controls="pills-home"
+                                <a class="nav-link" href="/order/done" role="tab" aria-controls="pills-home"
                                     aria-selected="true">Đã giao</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/order/delivering" role="tab" aria-controls="pills-profile"
-                                    aria-selected="false">Đang giao</a>
+                                <a class="nav-link active" href="/order/delivering" role="tab"
+                                    aria-controls="pills-profile" aria-selected="false">Đang giao</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/order/receive" role="tab" aria-controls="pills-contact"
@@ -21,6 +22,7 @@
                             </li>
                         </ul>
                     </div>
+                  --><button onclick="window.location.href='/order/add';">Thêm</button>
                     <div class="card-body">
                         <table id="bootstrap-data-table-export" class="table table-striped table-bordered">
                             <thead>
@@ -28,8 +30,9 @@
                                     <th>Mã đơn hàng</th>
                                     <th>Tổng tiền</th>
                                     <th>Ngày đặt hàng</th>
-                                    <th>Ngày giao hàng</th>
                                     <th>Địa chỉ</th>
+                                    <th>Số điện thoại</th>
+                                    <th>Cập nhật</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -38,8 +41,13 @@
                                     <th scope="row">{{this.id}}</th>
                                     <td>{{this.price}}</td>
                                     <td>{{this.create}}</td>
-                                    <td>{{this.done}}</td>
                                     <td>{{this.address}}</td>
+                                    <td>{{this.phone}}</td>
+                                    <td>
+                                        <button onclick="window.location.href='/order/update?id={{this._id}}';">Sửa</button>
+                                        &nbsp&nbsp&nbsp&nbsp
+                                        <button onclick="window.location.href='/order/delete?id={{this._id}}';">Xóa</a>
+                                    </td>
                                 </tr>
                                 {{/each}}
                             </tbody>
