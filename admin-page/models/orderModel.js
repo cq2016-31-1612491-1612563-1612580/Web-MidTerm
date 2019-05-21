@@ -16,5 +16,8 @@ module.exports.add = async (product) => {
   return await dbs.production.collection('orders').insertOne(product);
 };
 
+module.exports.delete = async (id) => {
+  return await dbs.production.collection('orders').deleteOne({_id: ObjectId(id)});
+};
 
 exports.detail = detail;
