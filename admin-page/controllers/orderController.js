@@ -22,3 +22,13 @@ exports.addPost = async (req, res, next) => {
     await order.add(req.body);
     res.redirect('./');
 }
+
+exports.update = async (req, res, next) => {
+    const data = await order.detail(req.query.id);
+    res.render('order/update', { title: 'Sửa hoá đơn', data });
+};
+
+exports.updatePost = async (req, res, next) => {
+    await order.update(req.query.id, req.body);
+    res.redirect('./');
+};

@@ -5,35 +5,37 @@
             <table class="table">
                 <form method="post">
                     <tbody>
+                        {{#if data}}
                         <tr>
                             <td>Mã đơn hàng</td>
-                            <td><input type="text" name="_id"/></td>
+                            <td><input type="text" name="_id" value="{{data._id}}"/></td>
                         </tr>
                         <tr>
                             <td>Tổng tiền</td>
-                            <td><input type="text" name="price"/></td>
+                            <td><input type="text" name="price" value="{{data.price}}"/></td>
                         </tr>
                         <tr>
                             <td>Ngày đặt hàng</td>
-                            <td><input type="text" name="create"/></td>
+                            <td><input type="text" name="create" value="{{data.create}}"/></td>
                         </tr>
                         <tr>
                             <td>Địa chỉ</td>
-                            <td><input type="text" name="address"/></td>
+                            <td><input type="text" name="address" value="{{data.address}}"/></td>
                         </tr>
                         <tr>
                             <td>Số điện thoại</td>
-                            <td><input type="text" name="phone"/></td>
+                            <td><input type="text" name="phone" value="{{data.phone}}"/></td>
                         </tr>
                         <tr>
                             <td colspan="2">
-                                <input type="submit" value="Thêm" />
-                                <input type="reset" value="Nhập lại" />
+                                <input type="submit" value="Sửa" />
                             </td>
                         </tr>
+                        {{/if}}
                     </tbody>
                 </form>
             </table>
+        </div>
         </div>
     </div>
 </div>

@@ -32,17 +32,19 @@
                                     <th>Ngày đặt hàng</th>
                                     <th>Địa chỉ</th>
                                     <th>Số điện thoại</th>
+                                    <th>Trạng thái</th>
                                     <th>Cập nhật</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 {{#each data}}
                                 <tr>
-                                    <th scope="row">{{this.id}}</th>
+                                    <th scope="row">{{this._id}}</th>
                                     <td>{{this.price}}</td>
                                     <td>{{this.create}}</td>
                                     <td>{{this.address}}</td>
                                     <td>{{this.phone}}</td>
+                                    <td>-</td>
                                     <td>
                                         <button onclick="window.location.href='/order/update?id={{this._id}}';">Sửa</button>
                                         &nbsp&nbsp&nbsp&nbsp
