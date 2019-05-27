@@ -6,14 +6,14 @@ var logger = require('morgan');
 var hbs = require('express-handlebars');
 
 var indexRouter = require('./routes/indexRouter');
-var usersRouter = require('./routes/users');
+var usersRouter = require('./routes/usersRouter');
 var productsRouter = require('./routes/productsRouter');
 var orderRouter = require('./routes/orderRouter');
 var categoryRouter = require('./routes/categoryRouter');
 var chartsRouter = require('./routes/chartsRouter');
 var widgetsRouter = require('./routes/widgetsRouter');
 var inboxRouter = require('./routes/inboxRouter');
-var composeRouter = require('./routes/composeRouter'); 
+var composeRouter = require('./routes/composeRouter');
 var loginRouter = require('./routes/loginRouter');
 
 var app = express();
