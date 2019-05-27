@@ -8,4 +8,5 @@ router.post('/add', categoryController.addPost);
 router.get('/update', categoryController.update);
 router.post('/update', categoryController.updatePost);
 router.get('/delete', categoryController.delete);
+
 module.exports = router;

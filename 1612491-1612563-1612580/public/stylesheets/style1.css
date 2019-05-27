@@ -2232,6 +2232,10 @@ div#testimonials h4.m-title {
     .logo_agile h1 a img {
         left: -34%;
     }
+    .modal{
+        padding-right: 17px;
+        display: block;
+    }
 }
 
 @media(max-width: 1080px) {

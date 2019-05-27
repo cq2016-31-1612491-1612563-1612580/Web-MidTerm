@@ -13,7 +13,8 @@ var categoryRouter = require('./routes/categoryRouter');
 var chartsRouter = require('./routes/chartsRouter');
 var widgetsRouter = require('./routes/widgetsRouter');
 var inboxRouter = require('./routes/inboxRouter');
-var composeRouter = require('./routes/composeRouter');
+var composeRouter = require('./routes/composeRouter'); 
+var loginRouter = require('./routes/loginRouter');
 
 var app = express();
 
@@ -36,6 +37,7 @@ app.use('/charts', chartsRouter);
 app.use('/widgets', widgetsRouter);
 app.use('/inbox', inboxRouter);
 app.use('/compose', composeRouter);
+app.use('/log', loginRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
