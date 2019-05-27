@@ -1,49 +1,46 @@
 <div id="page-wrapper">
     <div class="privacy py-sm-5 py-4">
-      <div class="main-page py-xl-4 py-lg-2">
-        <div class="row">
-
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="card-body">
-                        <table id="bootstrap-data-table-export" class="table table-striped table-bordered">
-                            <thead>
-                                <tr>
-                                    <th>Tên tài khoản</th>
-                                    <th>Password</th>
-                                    <th>Tên người dùng</th>
-                                    <th>Email</th>
-                                    <th>Số điện thoại</th>
-                                    <th>Giới tính</th>
-                                    <th>Địa chỉ</th>
-                                    <th>Sửa thông tin</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-
-                                <tr>
-                                    <th scope="row">hoangphat_258</th>
-                                    <td>***********</td>
-                                    <td>Hồ Hoàng Phát</td>
-                                    <td>abcd@gmail.com</td>
-                                    <td>0888888888</td>
-                                    <td>Nam</td>
-                                    <td>Tiền Giang</td>
-                                    <td>
-                                        <button onclick="window.location.href='/order/update?id={{this._id}}';">Sửa</button>
-                                        &nbsp&nbsp&nbsp&nbsp
-
-                                    </td>
-                                </tr>
-
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-
-
+        <div class="main-page py-xl-4 py-lg-2">
+            <!-- //tittle heading -->
+            <table class="table">
+                <form method="post">
+                    <tbody>
+                        <tr>
+                            <td>Tên tài khoản</td>
+                            <td><input type="text" name="_id"/></td>
+                        </tr>
+                        <tr>
+                            <td>Password</td>
+                            <td><input type="text" name="price"/></td>
+                        </tr>
+                        <tr>
+                            <td>Tên người dùng</td>
+                            <td><input type="text" name="create"/></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td><input type="text" name="address"/></td>
+                        </tr>
+                        <tr>
+                            <td>Số điện thoại</td>
+                            <td><input type="text" name="phone"/></td>
+                        </tr>
+                        <tr>
+                            <td>Giới tính</td>
+                            <td><input type="text" name="phone"/></td>
+                        </tr>
+                        <tr>
+                            <td>Địa chỉ</td>
+                            <td><input type="text" name="phone"/></td>
+                        </tr>
+                        <tr>
+                            <td>Thông tin</td>
+                            <td><input type="text" name="phone"/></td>
+                        </tr>
+  
+                    </tbody>
+                </form>
+            </table>
         </div>
-    </div><!-- .animated -->
-  </div>
-</div><!-- .content -->
+    </div>
+</div>
