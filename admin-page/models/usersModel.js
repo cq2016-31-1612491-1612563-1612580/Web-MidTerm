@@ -12,6 +12,8 @@ module.exports.list = async () => {
     .toArray();
 };
 
-module.exports.detail = async (id, account) => {
-  return await dbs.production.collection('accounts').updateOne({_id: ObjectId(id)}, {$set: account});
+module.exports.detail = async (id) => {
+  const results = await dbs.production.collection('accounts').find({_id: ObjectId(id)})
+    .toArray();
+  return results[0];
 };
