@@ -103,8 +103,7 @@ exports.ThemTaiKhoan = (req, res, next) => {
 
 exports.SuaTaiKhoan = async (req, res, next) => {
     const user = await QuanLyTaiKhoan.detail(req.query.id);
-    res.render('TaiKhoan/edit', { title: 'Sửa sản phẩm', user });
-
+    res.render('TaiKhoan/edit', { title: 'Sửa tài khoản', user });
 };
 
 exports.SuaTaiKhoanPost = async (req, res, next) => {

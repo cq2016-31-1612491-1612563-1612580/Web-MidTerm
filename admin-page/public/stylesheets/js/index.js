@@ -1,9 +1,16 @@
+
+
 var LoginModalController = {
     tabsElementName: ".logmod__tabs li",
     tabElementName: ".logmod__tab",
+
+    //em tìm 2 cái class này để gán quan inputElementsName
     inputElementsName: ".logmod__form .input",
     hidePasswordName: ".hide-password",
     
+
+
+
     inputElements: null,
     tabsElement: null,
     tabElement: null,
@@ -17,9 +24,10 @@ var LoginModalController = {
         
         base.tabsElement = $(base.tabsElementName);
         base.tabElement = $(base.tabElementName);
+        //xuống đây em lấy nó gán cho đỉ chó này inputElements
         base.inputElements = $(base.inputElementsName);
         base.hidePassword = $(base.hidePasswordName);
-        
+
         return base;
     },
     
@@ -66,6 +74,7 @@ var LoginModalController = {
                 $pwInput.attr("type", "password");
                 $this.text("Show");
             }
+
         });
  
         base.tabsElement.on("click", function (e) {
@@ -85,19 +94,22 @@ var LoginModalController = {
             });
         });
         
+        // lấy nó ra xài
         base.inputElements.find("label").on("click", function (e) {
            var $this = $(this),
                $input = $this.next("input");
-            
+            // đỉ chó này nó focus gợi ý khi click vào mấy cái input
             $input.focus();
         });
+        
+
+       
         
         return base;
     },
     
     initialize: function () {
         var base = this;
-        
         base.findElements().setState().getActiveTab().addClickEvents();
     }
 };
@@ -105,3 +117,4 @@ var LoginModalController = {
 $(document).ready(function() {
     LoginModalController.initialize();
 });
+
