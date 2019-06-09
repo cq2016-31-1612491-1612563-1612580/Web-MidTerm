@@ -1,4 +1,5 @@
 var express = require('express');
+const passport = require('passport');
 var router = express.Router();
 
 var home_controller = require('../controllers/homeController');
@@ -24,81 +25,36 @@ router.get('/terms',home_controller.terms);
 router.get('/singlephone2',home_controller.singlephone2);
 router.post('/singlephone2',home_controller.singlephone2);
 
-// //Get home page
-// router.get('/', function (req,res) {
-//   res.redirect('/catalog');
-// });
+router.get('/register', home_controller.registerGet);
+router.post('/register', home_controller.registerPost);
 
-// router.post('/', function (req,res) {
-//   res.redirect('/catalog');
-// });
+router.get('/signup', home_controller.signupGet);
+router.post('/signup', passport.authenticate('local', {
+    successRedirect: '/',
+    failureRedirect: '/signup'
+  }));
 
-// router.get('/index', function (req,res,next) {
-//   res.redirect('/catalog');
-// });
+//to do forgot password by email
+router.get('/verify/:permaink/:token', function (req, res) {
+    var permalink = req.params.permaink;
+    var token = req.params.token;
 
-// router.post('/index', function (req,res,next) {
-//   res.redirect('/catalog');
-// });
+    User.findOne({'local.permalink': permalink}, function (err, user) {
+        if (user.local.verify_token == token) {
+            console.log('that token is correct! Verify the user');
 
-// router.get('/contact', function (req,res,next) {
-//   res.redirect('/catalog/contact');
-// });
+            User.findOneAndUpdate({'local.permalink': permalink}, {'local.verified': true}, function (err, resp) {
+                console.log('The user has been verified!');
+            });
 
-// router.post('/contact', function (req,res,next) {
-//   res.redirect('/catalog/contact');
-// });
+            res.redirect('/signup');
+        } else {
+            console.log('The token is wrong! Reject the user. token should be: ' + user.local.verify_token);
+        }
+    });
+});
 
-// router.get('/checkout', function (req,res) {
-//   res.redirect('/catalog/checkout');
-// });
+router.get('/recovery', home_controller.recovery);
 
-// router.post('/checkout', function (req,res) {
-//   res.redirect('/catalog/checkout');
-// });
-
-// router.get('/faqs', function (req,res) {
-//   res.redirect('/catalog/faqs');
-// });
-
-// router.get('/help', function (req,res) {
-//   res.redirect('/catalog/help');
-// });
-
-// router.get('/payment', function (req,res) {
-//   res.redirect('/catalog/payment');
-// });
-
-// router.get('/privacy', function (req,res) {
-//   res.redirect('/catalog/privacy');
-// });
-
-// router.get('/single', function (req,res) {
-//   res.redirect('/catalog/single');
-// });
-
-// router.post('/single', function (req,res) {
-//   res.redirect('/catalog/single');
-// });
-
-// router.get('/single2', function (req,res) {
-//   res.redirect('/catalog/single2');
-// });
-
-// router.post('/single2', function (req,res) {
-//   res.redirect('/catalog/single2');
-// });
-
-// router.get('/terms', function (req,res) {
-//   res.redirect('/catalog/terms');
-// });
-
-// router.get('/singlephone2', function (req,res) {
-//   res.redirect('/catalog/singlephone2');
-// });
-
-// router.post('/singlephone2', function (req,res) {
-//   res.redirect('/catalog/singlephone2');
-// });
 
 module.exports = router;

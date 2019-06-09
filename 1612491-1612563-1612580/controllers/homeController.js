@@ -1,3 +1,5 @@
+const userModel = require('../models/user');
+
 exports.index = function (req,res,next) {
     res.render('index', {
         NewProduct: [{
@@ -110,3 +112,23 @@ exports.terms = function (req,res) {
 exports.singlephone2 = function (req, res) {
   res.render('singlephone2', { title: 'Single Phone 2'});
 };
+
+exports.registerGet = function(req,res){
+    res.render('login/register', {title:'Đăng kí mới'});
+}
+
+exports.registerPost = async (req,res) =>{
+    const user = await userModel.get(req.body.email);
+  if (user)
+    return res.render('login/register', {title: 'Đăng ký', message: 'Tài khoản đã tồn tại!'});
+  const newUser = await userModel.register(req.body.email, req.body.password);
+  res.redirect('/');
+}
+
+exports.signupGet = function(req,res){
+    res.render('login/signup', {title: 'Trang đăng nhập'});
+}
+
+exports.recovery = function(req,res){
+    res.render('login/recovery', {title: 'Quên mật khẩu'});
+}

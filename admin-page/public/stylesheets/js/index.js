@@ -24,7 +24,7 @@ var LoginModalController = {
         
         base.tabsElement = $(base.tabsElementName);
         base.tabElement = $(base.tabElementName);
-        //xuống đây em lấy nó gán cho đỉ chó này inputElements
+        //gán qua
         base.inputElements = $(base.inputElementsName);
         base.hidePassword = $(base.hidePasswordName);
 

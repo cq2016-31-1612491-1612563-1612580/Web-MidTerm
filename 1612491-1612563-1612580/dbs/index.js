@@ -1,4 +1,9 @@
 const MongoClient = require('mongodb').MongoClient
+const mongoose = require('mongoose');
+
+
+//Configure mongoose's promise to global promise
+mongoose.promise = global.Promise;
 
 // Note: A production application should not expose database credentials in plain text.
 // For strategies on handling credentials, visit 12factor: https://12factor.net/config.
@@ -17,6 +22,7 @@ exports.initdb = async function () {
     let database = await connect(PROD_URI);
     dbs.production = database;
 }
+
 
 
 exports.dbs = dbs;
