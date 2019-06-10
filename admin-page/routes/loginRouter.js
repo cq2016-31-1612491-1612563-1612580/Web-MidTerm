@@ -12,6 +12,8 @@ router.post('/loginForm', passport.authenticate('local', {
 }));
 
 router.get('/', loginController.index);
+router.get('/detail', loginController.detail);
+router.post('/detail', loginController.saveDetail);
 
 router.get('/logout', loginController.logout);
 

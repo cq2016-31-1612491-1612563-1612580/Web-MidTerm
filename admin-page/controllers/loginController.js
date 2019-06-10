@@ -1,9 +1,38 @@
 const loginModel = require('../models/loginModel');
-const passport = require('passport');
+const userModel = require('../models/usersModel');
 
 exports.index = function(req,res){
     res.render('log/index', {title: 'Login and signup'});
 };
+
+exports.detail = (req, res) =>{
+    if(req.isAuthenticated())
+    {
+        var user = req.user;
+        console.log(user);
+        res.render('log/detail', {
+            title: 'Chi tiết tài khoản',
+            user: user
+        });
+    }
+    else
+    {
+        res.send('Chưa đăng nhập');
+    }
+    
+}
+
+exports.saveDetail = async (req, res) => {
+    var id = req.user._id;
+    var body = {
+        name: req.body.name,
+        phone: req.body.phone,
+        gender: req.body.gender,
+        address: req.body.address
+    }
+    await userModel.update(id, body);
+    res.redirect('back');
+}
 
 exports.signupPost = async (req, res, next) => {
 
@@ -38,3 +67,4 @@ exports.logout = (req, res) => {
         res.send('Chưa đăng nhập');
     }
 }
+

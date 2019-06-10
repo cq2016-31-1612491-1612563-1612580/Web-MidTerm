@@ -1,7 +1,18 @@
 const QuanLyTaiKhoan = require('../models/QuanLyTaiKhoan');
 
 exports.index = function(req,res){
-    res.render('home/index', {title:'trang chu'})
+    if(!req.isAuthenticated())
+    {
+        var user = false;
+        console.log(user);
+        
+    }
+    else
+    {
+        var user = req.user;
+        console.log(user);
+    }
+    res.render('home/index', {title:'trang chu', user: user})
 };
 
 exports.QuanLyTaiKhoan = async (req, res, next) => {

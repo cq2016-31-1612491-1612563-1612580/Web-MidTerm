@@ -10,20 +10,20 @@ const detail = async (id) => {
 
 
 module.exports.list = async () => {
-    return await dbs.production.collection('products').find({id:'Tài Khoản'})
+    return await dbs.production.collection('users').find({})
         .toArray();
 };
 
 module.exports.add = async (product) => {
-    return await dbs.production.collection('products').insertOne(product);
+    return await dbs.production.collection('users').insertOne(product);
 };
 
 module.exports.update = async (id, product) => {
-    return await dbs.production.collection('products').updateOne({_id: ObjectId(id)}, {$set: product});
+    return await dbs.production.collection('users').updateOne({_id: ObjectId(id)}, {$set: product});
 };
 
 module.exports.delete = async (id) => {
-    return await dbs.production.collection('products').deleteOne({_id: ObjectId(id)});
+    return await dbs.production.collection('users').deleteOne({_id: ObjectId(id)});
 };
 
 exports.detail = detail;

@@ -1,0 +1,54 @@
+
+<div id="page-wrapper">
+    <div class="container">
+        <div class="panel panel-primary" style="width: 95%">
+            <div class="panel-heading text-center">
+                <p style="font-size: 20pt">Thông tin tài khoản</p>
+            </div>
+            <form action="" method="POST">
+            <div class="panel-body">
+                <table class="table table-hover hover-bordered" >     
+                    {{#if user}}
+                    <tr>
+                        <td>Email</td>
+                        <td>{{user.email}}</td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>*********<td>
+                    </tr>
+                    <tr>
+                        <td>Tên người dùng</td>
+                        <td><input type="text" name="name" value="{{user.name}}"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Số điện thoại</td>
+                        <td><input type="text" name="phone" value="{{user.phone}}"></td>
+                    </tr>
+                    <tr>
+                        <td>Giới tính</td>
+                        <td>
+                            {{#ifCond user.gender '!=' 'nu'}}
+                            <input type="radio" name="gender" value="nam" checked>Nam
+                            <input type="radio" name="gender" value="nu">Nu
+                            {{/ifCond}}
+
+                            {{#ifCond user.gender '==' 'nu'}}
+                            <input type="radio" name="gender" value="nam">Nam
+                            <input type="radio" name="gender" value="nu" checked>Nu
+                            {{/ifCond}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Địa chỉ</td>
+                        <td><input type="text" name="address" value="{{user.address}}"></td>
+                    </tr>
+                    {{/if}}
+                </table>
+            </div>
+            <button type="submit" class="btn btn-primary btn-sm">Save</button>
+            </form>
+        </div>
+    </div>
+</div>

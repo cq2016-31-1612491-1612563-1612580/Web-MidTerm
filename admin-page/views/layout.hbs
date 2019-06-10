@@ -128,7 +128,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         </button>
-                        <h1><a class="navbar-brand" href="index"><span class="fa fa-area-chart"></span> Glance<span class="dashboard_text">Design dashboard</span></a></h1>
+                        <h1><a class="navbar-brand" href="/"><span class="fa fa-area-chart"></span> Glance<span class="dashboard_text">Design dashboard</span></a></h1>
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="sidebar-menu">
@@ -171,7 +171,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <i class="fa fa-angle-left pull-right"></i>
                             </a>
                             <ul class="treeview-menu">
-                            <li><a href="/og"><i class="fa fa-angle-right"></i> Đăng Nhập</a></li>
+                            <li><a href="/log"><i class="fa fa-angle-right"></i> Đăng Nhập</a></li>
                             <li><a href="/log"><i class="fa fa-angle-right"></i> Đăng Kí</a></li>
                             </ul>
                         </li>
@@ -394,9 +394,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<li class="dropdown profile_details_drop">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
 								<div class="profile_img">
-									<span class="prfil-img"><img src="" alt=""> </span>
+									<span class="prfil-img"><img src="images/2.jpg" alt=""> </span>
 									<div class="user-name">
+                                        {{#ifCond user '!=' false}}
+										<p>{{user.name}}</p>
+                                        {{/ifCond}}
+                                        
+                                        {{#ifCond user '==' false}}
 										<p>Chưa đăng nhập</p>
+                                        {{/ifCond}}
 										<span>ADMIN</span>
 									</div>
 									<i class="fa fa-angle-down lnr"></i>
@@ -405,10 +411,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</div>
 							</a>
 							<ul class="dropdown-menu drp-mnu">
+                                {{#ifCond user '==' false}}
                                 <li> <a href="/log"><i class="fa fa-user"></i> Đăng nhập</a> </li>
+                                {{/ifCond}}
 								<li> <a href="#"><i class="fa fa-cog"></i> Cài Đặt</a> </li>
 								<li> <a href="#"><i class="fa fa-user"></i> My Account</a> </li>
-								<li> <a href="#"><i class="fa fa-suitcase"></i> Profile</a> </li>
+								<li> <a href="/log/detail"><i class="fa fa-suitcase"></i> Profile</a> </li>
 								<li> <a href="/log/logout"><i class="fa fa-sign-out"></i> Đăng Xuất</a> </li>
 							</ul>
 						</li>

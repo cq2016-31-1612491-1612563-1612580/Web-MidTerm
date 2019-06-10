@@ -13,5 +13,6 @@ module.exports.detail = async (id) => {
   return results[0];
 };
 
-
-
+module.exports.update = async (id, user) => {
+  return await dbs.production.collection('users').updateOne({_id: ObjectId(id)}, {$set: user});
+};

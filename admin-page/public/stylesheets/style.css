@@ -809,7 +809,7 @@ ul.dropdown-menu {
     letter-spacing: .5px;
 }
 .profile_details {
-    float: right;
+    float: left;
 }
 .profile_details_drop .fa.fa-angle-up{
 	display:none;
