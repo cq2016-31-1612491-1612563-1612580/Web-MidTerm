@@ -1,4 +1,4 @@
-
+<div id="page-wrapper">
   <div class="logmod">
     <div class="logmod__wrapper">
         <span class="logmod__close">Close</span>
@@ -16,27 +16,22 @@
                 <span class="logmod__heading-subtitle">Enter your personal details <strong>to create an acount</strong></span>
               </div>
               <div class="logmod__form">
-                <form accept-charset="utf-8" action="#" class="simform">
-                  <div class="sminputs">
-                    <div class="input full">
-                      <label class="string optional" for="name">Họ tên*</label>
-                      <input class="string optional" maxlength="255" id="user-name" placeholder="Name" type="text" size="50" />
-                    </div>
-                  </div>
+                {{!-- {{message}} --}}
+                <form accept-charset="utf-8" action="log/signupForm" class="simform" method="POST">
                   <div class="sminputs">
                     <div class="input full">
                       <label class="string optional" for="user-name">Email*</label>
-                      <input class="string optional" maxlength="255" id="user-email" placeholder="Email" type="email" size="50" />
+                      <input class="string optional" maxlength="255" id="user-email" placeholder="Email" type="email" size="50" name="email" />
                     </div>
                   </div>
                   <div class="sminputs">
                     <div class="input string optional">
                       <label class="string optional" for="user-pw">Password *</label>
-                      <input class="string optional" maxlength="255" id="user-pw" placeholder="Password" type="password" size="50" />
+                      <input class="string optional" maxlength="255" id="user-pw" placeholder="Password" type="password" size="50" name="password"/>
                     </div>
                     <div class="input string optional">
                       <label class="string optional" for="user-pw-repeat">Repeat password *</label>
-                      <input class="string optional" maxlength="255" id="user-pw-repeat" placeholder="Repeat password" type="password" size="50" />
+                      <input class="string optional" maxlength="255" id="user-pw-repeat" placeholder="Repeat password" type="password" size="50" name="repass"/>
                     </div>
                   </div>
                   <div class="simform__actions">
@@ -46,44 +41,23 @@
                   </div>
                 </form>
               </div>
-              <div class="logmod__alter">
-                <div class="logmod__alter-container">
-                  <a href="#" class="connect facebook">
-                    <div class="connect__icon">
-                      <i class="fa fa-facebook"></i>
-                    </div>
-                    <div class="connect__context">
-                      <span>Create an account with <strong>Facebook</strong></span>
-                    </div>
-                  </a>
-
-                  <a href="#" class="connect googleplus">
-                    <div class="connect__icon">
-                      <i class="fa fa-google-plus"></i>
-                    </div>
-                    <div class="connect__context">
-                      <span>Create an account with <strong>Google+</strong></span>
-                    </div>
-                  </a>
-                </div>
-              </div>
             </div>
             <div class="logmod__tab lgm-2">
               <div class="logmod__heading">
                 <span class="logmod__heading-subtitle">Enter your email and password <strong>to sign in</strong></span>
               </div>
               <div class="logmod__form">
-                <form accept-charset="utf-8" action="#" class="simform">
+                <form accept-charset="utf-8" action="log/loginForm" class="simform" method="POST">
                   <div class="sminputs">
                     <div class="input full">
                       <label class="string optional" for="user-name">Email*</label>
-                      <input class="string optional" maxlength="255" id="user-email" placeholder="Email" type="email" size="50" />
+                      <input class="string optional" maxlength="255" id="user-email" placeholder="Email" type="email" size="50" name="email"/>
                     </div>
                   </div>
                   <div class="sminputs">
                     <div class="input full">
                       <label class="string optional" for="user-pw">Password *</label>
-                      <input class="string optional" maxlength="255" id="user-pw" placeholder="Password" type="password" size="50" />
+                      <input class="string optional" maxlength="255" id="user-pw" placeholder="Password" type="password" size="50" name="password"/>
                                   <span class="hide-password">Show</span>
                     </div>
                   </div>
@@ -94,28 +68,26 @@
                   </div>
                 </form>
               </div>
-              <div class="logmod__alter">
-                <div class="logmod__alter-container">
-                  <a href="#" class="connect facebook">
-                    <div class="connect__icon">
-                      <i class="fa fa-facebook"></i>
-                    </div>
-                    <div class="connect__context">
-                      <span>Sign in with <strong>Facebook</strong></span>
-                    </div>
-                  </a>
-                  <a href="#" class="connect googleplus">
-                    <div class="connect__icon">
-                      <i class="fa fa-google-plus"></i>
-                    </div>
-                    <div class="connect__context">
-                      <span>Sign in with <strong>Google+</strong></span>
-                    </div>
-                  </a>
-                </div>
-              </div>
             </div>
             </div>
         </div>
     </div>
+  </div>
 </div>
+
+{{!-- {{#extend "script"}}
+    <script>
+        $('#email').keyup(function() {
+            $.getJSON('/api/user/check?email='+$('#email').val(), function (data){
+              if (data) {
+                  $('#error-message').html('Email đã tồn tại. Vui lòng chọn email khác.');
+                  $("#register").attr("disabled", true);
+              }
+              else {
+                  $('#error-message').html('');
+                  $("#register").attr("disabled", false);
+              }
+            })
+        });
+    </script>
+{{/extend}} --}}

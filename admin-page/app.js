@@ -4,6 +4,9 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var hbs = require('express-handlebars');
+var passport = require('passport');
+const LocalStrategy = require('passport-local').Strategy;
+const session = require('express-session');
 
 var indexRouter = require('./routes/indexRouter');
 var usersRouter = require('./routes/usersRouter');
@@ -16,6 +19,8 @@ var inboxRouter = require('./routes/inboxRouter');
 var composeRouter = require('./routes/composeRouter');
 var loginRouter = require('./routes/loginRouter');
 
+const loginModel = require('./models/loginModel');
+
 var app = express();
 
 // view engine setup
@@ -27,6 +32,13 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(session({secret: "meo cats",
+                cookie: {
+                  maxAge: 1000 * 50 * 5 //đơn vị là milisecond
+                }
+}));
+app.use(passport.initialize());
+app.use(passport.session());
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
@@ -38,6 +50,40 @@ app.use('/widgets', widgetsRouter);
 app.use('/inbox', inboxRouter);
 app.use('/compose', composeRouter);
 app.use('/log', loginRouter);
+
+app.get('/secret', (req, res) => {
+  if (req.isAuthenticated()) { //trả về true nếu đã đăng nhập rồi
+      res.send('Đã đăng nhập');
+  } else {
+      res.redirect('/log');
+  }
+})
+
+passport.use(new LocalStrategy({usernameField: 'email'},
+  async function (username, password, done) {
+    try {
+      const user = await loginModel.get(username);
+      if (!user) {
+        return done(null, false, {message: 'Incorrect username.'});
+      }
+      const isPasswordValid = await loginModel.validPassword(username, password);
+      if (!isPasswordValid) {
+        return done(null, false, {message: 'Incorrect password.'});
+      }
+      return done(null, user);
+    } catch (ex) {
+      return done(ex);
+    }
+}));
+
+passport.serializeUser(function (user, done) {
+  done(null, user.email);
+});
+
+passport.deserializeUser(async function (email, done) {
+  const user = await loginModel.get(email);
+  done(undefined, user);
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
