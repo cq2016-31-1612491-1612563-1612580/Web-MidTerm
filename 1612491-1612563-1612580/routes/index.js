@@ -1,7 +1,8 @@
 var express = require('express');
 const passport = require('passport');
+const {dbs} = require('../dbs');
 var router = express.Router();
-
+var User = require('../models/user')
 var home_controller = require('../controllers/homeController');
 
 
@@ -34,27 +35,11 @@ router.post('/signup', passport.authenticate('local', {
     failureRedirect: '/signup'
   }));
 
-//to do forgot password by email
-router.get('/verify/:permaink/:token', function (req, res) {
-    var permalink = req.params.permaink;
-    var token = req.params.token;
-
-    User.findOne({'local.permalink': permalink}, function (err, user) {
-        if (user.local.verify_token == token) {
-            console.log('that token is correct! Verify the user');
-
-            User.findOneAndUpdate({'local.permalink': permalink}, {'local.verified': true}, function (err, resp) {
-                console.log('The user has been verified!');
-            });
-
-            res.redirect('/signup');
-        } else {
-            console.log('The token is wrong! Reject the user. token should be: ' + user.local.verify_token);
-        }
-    });
-});
-
 router.get('/recovery', home_controller.recovery);
-
+router.post('/recovery', home_controller.recoveryPost);
+router.get('/recoveryPass',home_controller.recoveryPass);
+router.post('/recoveryPass',home_controller.recoveryPassPost )
+router.get('/verify', home_controller.verify);
+router.post('/verify', home_controller.verifyPost);
 
 module.exports = router;

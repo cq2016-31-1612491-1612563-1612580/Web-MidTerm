@@ -15,7 +15,7 @@
                 <h2 class="h3 mb-3 text-black">{{title}}</h2>
                 <div class="p-3 p-lg-5 border">
                     {{message}}
-                    <div class="ui-state-error" id="error-message" style="color: red"></div>
+                    <div class="ui-state-error" id="message" style="color: red"></div>
                     <form method="post">
                         <div class="form-group row">
                             <div class="col-sm">
@@ -24,13 +24,18 @@
                                 <input type="email" class="form-control" id="email" name="email">
                             </div>
                         </div>
-
                         <div class="form-group row">
                             <div class="col-md-12">
                                 <label for="password" class="text-black">Mật khẩu <span
                                         class="text-danger">*</span></label>
                                 <input type="password" class="form-control" id="password" name="password"
                                        placeholder="Mật khẩu">
+                            </div>
+                        </div>
+                        <div class="sub-w3l">
+                            <div class="custom-control custom-checkbox mr-sm-2">
+                                <input type="checkbox" class="custom-control-input" id="checkbox" name="isAdmin" value="ON">
+                                <label class="custom-control-label" for="checkbox">Admin</label>
                             </div>
                         </div>
                         <div class="form-group row">
@@ -54,3 +59,9 @@
         </div>
     </div>
 </div>
+
+<script>
+    $('#checkbox').click(function() {
+        alert('asd');
+    }
+</script>

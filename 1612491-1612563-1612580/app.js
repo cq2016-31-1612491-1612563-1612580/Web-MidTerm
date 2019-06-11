@@ -13,102 +13,40 @@ var usersRouter = require('./routes/users');
 var aboutRouter = require('./routes/about');
 var productsRouter = require('./routes/products');
 const apiUserRouter = require('./routes/api/user');
+const adminpageRouter = require('./routes/admin');
 const User = require('./models/user');
+const home_controll= require('./controllers/homeController');
 
 passport.use(new LocalStrategy({usernameField: 'email'},
   async function (username, password, done) {
     try {
       const user = await User.get(username);
       if (!user) {
+        console.log("Incorrect username.")
         return done(null, false, {message: 'Incorrect username.'});
       }
       const isPasswordValid = await User.validPassword(username, password);
       if (!isPasswordValid) {
+        console.log("Incorrect password.")
         return done(null, false, {message: 'Incorrect password.'});
       }
+
+      //check if the acount has been vertify
+      if(!user.active){
+        console.log("you need to verify firsts.")
+        return done(null, false, {message: 'you need to verify firsts.'});
+      }
+
+      //display username
+      //await home_controll.checkDisplay();
+
       return done(null, user);
     } catch (ex) {
       return done(ex);
     }
   }));
 
-  //to do forgot password by email
-  passport.use('local-signup', new LocalStrategy({
-    // by default, local strategy uses username and password, we will override with email
-    usernameField: 'email',
-    passwordField: 'password',
-    passReqToCallback: true // allows us to pass back the entire request to the callback
-},
- async function (req, email, password, done) {
-  // asynchronous
-  // User.findOne wont fire unless data is sent back
-  process.nextTick(function () {
-      // find a user whose email is the same as the forms email
-      // we are checking to see if the user trying to login already exists
-      User.findOne({'local.email': email}, function (err, user) {
-          // if there are any errors, return the error
-          if (err) {
-              return done(err);
-          }
-
-          // check to see if theres already a user with that email
-          if (user) {
-              console.log('that email exists');
-              return done(null, false, req.flash('signupMessage', email + ' is already in use. '));
-
-          } else {
-              User.findOne({'local.username': req.body.username}, function (err, user) {
-                  if (user) {
-                      console.log('That username exists');
-                      return done(null, false, req.flash('signupMessage', 'That username is already taken.'));
-                  }
-
-                  if (req.body.password != req.body.confirm_password) {
-                      console.log('Passwords do not match');
-                      return done(null, false, req.flash('signupMessage', 'Your passwords do not match'));
-                  }
-
-                  else {
-                      // create the user
-                      var newUser = new User();
-
-                      var permalink = req.body.username.toLowerCase().replace(' ', '').replace(/[^\w\s]/gi, '').trim();
-
-                      var verification_token = randomstring.generate({
-                          length: 64
-                      });
-
-
-                      newUser.local.email = email;
-
-                      newUser.local.password = newUser.generateHash(password);
-
-                      newUser.local.permalink = permalink;
-
-                      //Verified will get turned to true when they verify email address
-                      newUser.local.verified = false;
-                      newUser.local.verify_token = verification_token;
-
-                      try {
-                          newUser.save(function (err) {
-                              if (err) {
-
-                                  throw err;
-                              } else {
-                                  VerifyEmail.sendverification(email, verification_token, permalink);
-                                  return done(null, newUser);
-                              }
-                          });
-                      } catch (err) {
-
-                      }
-                  }
-              });
-          }
-      });
-  });
-}));
-
+ 
 
 passport.serializeUser(function (user, done) {
   done(null, user.email);
@@ -162,6 +100,9 @@ app.use('/users', usersRouter);
 app.use('/about', aboutRouter);
 app.use('/products', productsRouter);
 app.use('/api/user', apiUserRouter);
+app.use('/verify', indexRouter);
+app.use('/recoveryPass', indexRouter);
+//app.use('/admin',adminpageRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -178,7 +119,4 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-
-
-
 module.exports = app;

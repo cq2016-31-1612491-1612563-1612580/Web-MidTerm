@@ -48,12 +48,12 @@
               <li class="text-center border-right text-white">
                 <i class="fa fa-phone mr-2"></i> 001 234 5678
               </li>
-              <li class="text-center border-right text-white">
-                <a href="/signup"  class="text-white">
+              <li class="text-center border-right text-white" >
+                <a href="/signup"  class="text-white" type={{isHidden}}>
                   <i class="fa fa-sign-in mr-2"></i> Đăng nhập </a>
               </li>
               <li class="text-center text-white">
-                <a href="/register" class="text-white xxx">
+                <a href="/register" class="text-white " type={{isHidden}}>
                   <i class="fa fa-sign-out mr-2"></i>Đăng kí </a>
               </li>
             </ul>
@@ -837,9 +837,9 @@
                         <!-- newsletter -->
                         <h3 class="text-white font-weight-bold mb-3">Đăng Kí Nhận Tin Tức</h3>
                         <p class="mb-3">Giao hàng MIỄN PHÍ cho đơn hàng đầu tiên!</p>
-                        <form action="#" method="post">
+                        <form method="post">
                             <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Email" name="email" required="">
+                                <input type="email" class="form-control" placeholder="Email" name="eemail" >
                                 <input type="submit" value="Go">
                             </div>
                         </form>
@@ -1022,7 +1022,6 @@
     <script src="/javascripts/bootstrap.js"></script>
     <!-- //for bootstrap working -->
     <!-- //js-files -->
-
   
   </body>
 </html>
