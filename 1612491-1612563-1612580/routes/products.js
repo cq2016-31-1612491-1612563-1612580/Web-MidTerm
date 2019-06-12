@@ -9,7 +9,10 @@ router.get('/screen-protector', productsController.screenprotector);
 router.get('/power-bank', productsController.powerbank);
 router.get('/tablets', productsController.tablets);
 router.get('/watch', productsController.watch);
-router.get('/smart-home', productsController.smarthome);
+router.get('/laptops', productsController.laptops);
+router.get('/hdd', productsController.hdd);
+router.get('/printer', productsController.printer);
+router.get('/laptop-accessories', productsController.laptopaccessories);
 router.get('/product2', productsController.index2);
 
 module.exports = router;
