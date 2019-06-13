@@ -1,67 +1,3 @@
-exports.index2 = function (req,res,next) {
-    res.render('products/index2',
-    {
-        TVProduct:[{
-            name: 'Sony 80 cm (32 inches)',
-            image: '/images/m4.jpg',
-            sales: '$320.00 ',
-            price:'$340.00',
-
-            }, {
-            name: 'Loa Artis',
-            image: '/images/m5.jpg',
-            sales: '$349.00 ',
-            price:'$399.00',
-
-            }, {
-            name: 'Loa Philips',
-            image: '/images/m6.jpg',
-            sales: '$249.00 ',
-            price:'$300.00',
-
-            }],
-        Houseware:[{
-            name: 'Whirlpool 245',
-            image: '/images/m7.jpg',
-            sales: '$230.00 ',
-            price:'$280.00',
-            uri: '/single'
-            }, {
-            name: 'Máy Giặt BPL',
-            image: '/images/m8.jpg',
-            sales: '$180.00 ',
-            price:'$200.00',
-            uri: '/single'
-            }, {
-            name: 'Microwave Oven',
-            image: '/images/m9.jpg',
-            sales: '$199.00 ',
-            price:'$299.00',
-            uri: '/single'
-            }],
-        Houseware2:[{
-            name: 'Boat Rockerz Headset',
-            image: '/images/mm1.jpg',
-            sales: '$320.00',
-            price: '$350.00',
-            uri: '/single'
-            }, {
-            name: 'Boom Blast Speaker',
-            image: '/images/mm2.jpg',
-            sales: '$180.00',
-            price: '$200.00',
-            uri: '/single'
-            }, {
-            name: 'Nikon Camera',
-            image: '/images/mm3.jpg',
-            sales: '$250.00',
-            price: '$350.00',
-            uri: '/single'
-        }],
-        title: 'Đồ gia dụng'
-    });
-};
-
 exports.dienthoai = function (req,res, next) {
     res.render('products/dienthoai',
     {
@@ -778,4 +714,334 @@ exports.laptopaccessories = function(req, res, next){
           uri:'/single'
       }],
       title: 'Phụ kiện laptop'});
+};
+
+exports.camera = function(req, res, next){
+  res.render('products/camera',
+  {
+      Cam1: [{
+          image: 'https://binhminhdigital.com/thumb/images/product/750d-moi-jpg-jpg.jpg',
+          name: 'Canon EOS 750D Kit',
+          sales: '12.390.000đ',
+          price:'22.500.000đ',
+          uri:'/single'
+      }, {
+          image: 'https://binhminhdigital.com/thumb/images/product/canon-m10-kit-efm1545mm(2).jpg',
+          name: 'Canon EOS M10 Kit',
+          sales: '6.090.000đ',
+          price:'8.000.000đ',
+          uri:'/single',
+
+      }, {
+          image: 'https://binhminhdigital.com/thumb/images/product/canon-powershot-g7-x-mark-ii(3).jpg',
+          name: 'Canon Powershot G7 X Mark II',
+          sales: '11.390.000đ',
+          price: '16.200.000đ',
+          uri:'/single'
+      }],
+      Cam2: [{
+          image: 'https://binhminhdigital.com/thumb/images/product/may-anh-canon-eos-m50-kit-1545mm-den(1).jpg',
+          name: 'Canon EOS M50 Kit',
+          sales: '13.590.000đ',
+          price:'15.000.000đ',
+          uri:'/single'
+      }, {
+          image: 'https://binhminhdigital.com/thumb/product/9820/may-anh-canon-ixus-185--den--jpg.jpg',
+          name: 'Canon Ixus 185',
+          sales: '2.350.000đ',
+          price:'2.700.000đ',
+          uri:'/single',
+
+      }, {
+          image: 'https://binhminhdigital.com/thumb/images/product/canon-3000d(1).jpg',
+          name: 'Canon EOS 3000D',
+          sales: '7.890.000đ',
+          price: '9.600.000đ',
+          uri:'/single'
+      }],
+      Cam3: [{
+          image: 'https://binhminhdigital.com/thumb/images/product/canon-eos-m50-kit-1545mm-trang(1).jpg',
+          name: 'Canon EOS M50 Kit',
+          sales: '13.590.000đ',
+          price:'15.000.000đ',
+          uri:'/single'
+      }, {
+          image: 'https://binhminhdigital.com/thumb/images/product/sony-alpha-a6000-1650-oss-f3556-lens-kit-den.jpg',
+          name: 'Sony Alpha A6000',
+          sales: '12.490.000đ',
+          price:'15.990.000đ',
+          uri:'/single',
+
+      }, {
+          image: 'https://binhminhdigital.com/thumb/product/5283/may-anh-sony-cybershot-dsc-h300--den--jpg-jpg.jpg',
+          name: 'Sony Cybershot DSC H300',
+          sales: '3.790.000đ',
+          price: '3.990.000đ',
+          uri:'/single'
+      }],
+      title: 'Máy ảnh'});
+};
+
+exports.cameraaccessories = function(req, res, next){
+  res.render('products/cameraaccessories',
+  {
+      CA1: [{
+          image: 'https://binhminhdigital.com/thumb/product/10802/the-nho-sdhc-sandisk-16gb-class-4-jpg.jpg',
+          name: 'Thẻ nhớ Sandisk 16GB',
+          sales: '200.000đ',
+          price:'220.000đ',
+          uri:'/single'
+      }, {
+          image: 'https://binhminhdigital.com/thumb/images/product/dhf.jpg',
+          name: 'Túi Canon 521',
+          sales: '250.000đ',
+          price:'',
+          uri:'/single',
+
+      }, {
+          image: 'https://binhminhdigital.com/thumb/product/6784/but-lau-lens-hieu-lenspen-1-jpg.jpg',
+          name: 'Bút lau lens Lenspen',
+          sales: '120.000đ',
+          price: '130.000đ',
+          uri:'/single'
+      }],
+      CA2: [{
+          image: 'https://binhminhdigital.com/thumb/images/product/sdhc-sandisk-16gb-ultra-40mbs(1).jpg',
+          name: 'Thẻ nhớ Sandisk 16GB ultra 40Mbps',
+          sales: '250.000đ',
+          price:'',
+          uri:'/single'
+      }, {
+          image: 'https://binhminhdigital.com/thumb/product/7760/bao-may-sony-a1-jpg-jpg.jpg',
+          name: 'Bao máy Sony A1',
+          sales: '350.000đ',
+          price:'400.000đ',
+          uri:'/single',
+
+      }, {
+          image: 'https://binhminhdigital.com/thumb/product/5970/sony-0391-jpg.jpg',
+          name: 'Bao máy Sony 0391',
+          sales: '200.000đ',
+          price: '230.000đ',
+          uri:'/single'
+      }],
+      CA3: [{
+          image: 'https://binhminhdigital.com/thumb/product/4895/bao-may2-jpg.jpg',
+          name: 'Bao máy Canon 521',
+          sales: '150.000đ',
+          price:'',
+          uri:'/single'
+      }, {
+          image: 'https://binhminhdigital.com/thumb/product/10743/the-nho-sdhc-sony-16gb-90mbs--sf-16uy3--jpg.jpg',
+          name: 'Thẻ nhớ Sony 16GB 90Mbps',
+          sales: '350.000đ',
+          price:'490.000đ',
+          uri:'/single',
+
+      }, {
+          image: 'https://binhminhdigital.com/thumb/product/6733/chan-may-benro-t880ex-jpg.jpg',
+          name: 'Chân máy Benro T880EX',
+          sales: '600.000đ',
+          price: '620.000đ',
+          uri:'/single'
+      }],
+      title: 'Phụ kiện máy ảnh'});
+};
+
+exports.tv = function(req, res, next){
+  res.render('products/tv',
+  {
+      TV1: [{
+          image: 'https://cdn.tgdd.vn/Products/Images/1942/162446/tivi-samsung-ua55nu7400-3-550x340.jpg',
+          name: 'TV Samsung UA55NU7400',
+          sales: '21.900.000đ',
+          price:'',
+          uri:'/single'
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/1942/136485/tivi-asanzo-40as330-15-550x340-550x340.jpg',
+          name: 'TV Asanzo 40AS330',
+          sales: '5.590.000đ',
+          price:'',
+          uri:'/single',
+
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/1942/200429/samsung-ua49ru7300-550x340.jpg',
+          name: 'TV Samsung UA49RU7300',
+          sales: '17.890.000đ',
+          price: '',
+          uri:'/single'
+      }],
+      TV2: [{
+          image: 'https://cdn.tgdd.vn/Products/Images/1942/167152/tivi-lg-32lk5400bpta-12-550x340-550x340.jpg',
+          name: 'TV LG 32LK5400BPTA',
+          sales: '5.690.000đ',
+          price:'',
+          uri:'/single'
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/1942/163148/tivi-lg-43uk6340ptf-22-550x340-550x340.jpg',
+          name: 'TV LG 43UK6340PTF',
+          sales: '8.990.000đ',
+          price:'9.790.000đ',
+          uri:'/single',
+
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/1942/167601/tivi-lg-43lk5400pta-15-550x340.jpg',
+          name: 'TV LG 43LK5400PTA',
+          sales: '8.090.000đ',
+          price: '',
+          uri:'/single'
+      }],
+      TV3: [{
+          image: 'https://cdn.tgdd.vn/Products/Images/1942/171649/TimerThumb/samsung-ua32n4300.jpg',
+          name: 'TV Samsung UA32N4300',
+          sales: '6.590.000đ',
+          price:'',
+          uri:'/single'
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/1942/167790/tivi-lg-43lk5700pta-20-550x340.jpg',
+          name: 'TV LG 43LK5700PTA',
+          sales: '8.400.000đ',
+          price:'',
+          uri:'/single',
+
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/1942/94290/tivi-sony-kdl-40w660e-13-550x340-550x340.jpg',
+          name: 'TV Sony KDL 40W660E',
+          sales: '8.990.000đ',
+          price: '',
+          uri:'/single'
+      }],
+      title: 'TV'});
+};
+
+exports.headphones = function(req, res, next){
+  res.render('products/headphones',
+  {
+      Headphone1: [{
+        image: '/images/tainghe1.jpg',
+        name: 'Tai nghe Kanen IP-218',
+        sales: '90.000đ',
+        price: '150.000đ',
+        uri:'/single'
+      }, {
+        image: '/images/tainghe3.jpg',
+        name: 'Tai nghe Awei Q19Hi',
+        sales: '105.000đ',
+        price: '150.000đ',
+        uri:'/single'
+
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/54/74879/tai-nghe-chup-tai-kanen-ip-350-14-600x600-300x300.jpg',
+          name: 'Tai nghe Kanen IP350',
+          sales: '120.000đ',
+          price: '',
+          uri:'/single'
+      }],
+      Headphone2: [{
+          image: 'https://cdn.tgdd.vn/Products/Images/54/92416/tai-nghe-chup-tai-kanen-ip-350-hong-ava-600x600.jpg',
+          name: 'Tai nghe Kanen IP350 hồng',
+          sales: '120.000đ',
+          price:'',
+          uri:'/single'
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/54/86504/tai-nghe-chup-tai-kanen-ip-892-2-5-600x600.jpg',
+          name: 'Tai nghe Kanen IP892',
+          sales: '240.000đ',
+          price:'',
+          uri:'/single',
+
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/54/68924/tai-nghe-chup-tai-kanen-ip-2050-ava-600x600.jpg',
+          name: 'Tai nghe Kanen IP2050',
+          sales: '240.000đ',
+          price: '',
+          uri:'/single'
+      }],
+      Headphone3: [{
+          image: 'https://cdn.tgdd.vn/Products/Images/54/74185/tai-nghe-chup-tai-kanen-ip-2090-2-3-600x600.jpg',
+          name: 'Tai nghe Kanen IP2090',
+          sales: '210.000đ',
+          price:'',
+          uri:'/single'
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/54/70820/tai-nghe-chup-tai-kanen-ip-952-2-7-600x600.jpg',
+          name: 'Tai nghe IP952',
+          sales: '10.990.000đ',
+          price:'11.990.000đ',
+          uri:'/single',
+
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/54/69461/tai-nghe-chup-tai-kanen-ip-9500-2-600x600.jpg',
+          name: 'Tai nghe Kanen IP9500',
+          sales: '3.590.000đ',
+          price: '3.990.000đ',
+          uri:'/single'
+      }],
+      title: 'Headphones'});
+};
+
+exports.speakers = function(req, res, next){
+  res.render('products/speakers',
+  {
+      Speaker1: [{
+          image: 'https://cdn.tgdd.vn/Products/Images/2162/187454/dan-loa-dvd-lg-pk3-7-300x300.jpg',
+          name: 'Dàn loa DVD LG PK3',
+          sales: '990.000đ',
+          price:'',
+          uri:'/single'
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/2162/111617/loa-thanh-samsung-hw-k350-daidien-300x300.jpg',
+          name: 'Loa thanh Samsung HW K350',
+          sales: '3.290.000đ',
+          price:'',
+          uri:'/single',
+
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/2162/162920/dan-loa-dvd-dan-loa-sony-ht-s100f-10-300x300.jpg',
+          name: 'Dàn loa DVD Sony HT S100F',
+          sales: '3.490.000đ',
+          price: '',
+          uri:'/single'
+      }],
+      Speaker2: [{
+          image: 'https://cdn.tgdd.vn/Products/Images/2162/202728/lg-rl2-4-300x300.jpg',
+          name: 'Loa LG RL2',
+          sales: '3.990.000đ',
+          price:'',
+          uri:'/single'
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/2162/202261/samsung-hw-r450-300x300.jpg',
+          name: 'Loa Samsung HW R450',
+          sales: '4.290.000đ',
+          price:'',
+          uri:'/single',
+
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/2162/202724/lg-ol45-1-300x300.jpg',
+          name: 'Loa LG OL45',
+          sales: '4.290.000đ',
+          price: '',
+          uri:'/single'
+      }],
+      Speaker3: [{
+          image: 'https://cdn.tgdd.vn/Products/Images/2162/76033/dan-loa-dvd-samsung-ht-hw-k450-xv-300x300.jpg',
+          name: 'Loa DVD Samsung HT KW K450',
+          sales: '4.990.000đ',
+          price:'',
+          uri:'/single'
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/2162/104531/dan-may-sony-ht-ct290-bm-daidien-300x300.jpg',
+          name: 'Dàn loa Sony HT CT290',
+          sales: '4.990.000đ',
+          price:'',
+          uri:'/single',
+
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/2162/193422/lg-pk5-300x300.jpg',
+          name: 'Loa LG PK5',
+          sales: '5.000.000đ',
+          price: '',
+          uri:'/single'
+      }],
+      title: 'Loa'});
 };

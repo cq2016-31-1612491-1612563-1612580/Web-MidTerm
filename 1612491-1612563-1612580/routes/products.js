@@ -13,6 +13,10 @@ router.get('/laptops', productsController.laptops);
 router.get('/hdd', productsController.hdd);
 router.get('/printer', productsController.printer);
 router.get('/laptop-accessories', productsController.laptopaccessories);
-router.get('/product2', productsController.index2);
+router.get('/tv', productsController.tv);
+router.get('/headphones', productsController.headphones);
+router.get('/speakers', productsController.speakers);
+router.get('/camera', productsController.camera);
+router.get('/camera-accessories', productsController.cameraaccessories);
 
 module.exports = router;
