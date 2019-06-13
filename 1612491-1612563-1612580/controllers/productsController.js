@@ -1045,3 +1045,247 @@ exports.speakers = function(req, res, next){
       }],
       title: 'Loa'});
 };
+
+exports.consoles = function(req, res, next){
+  res.render('products/consoles',
+  {
+      Console1: [{
+          image: 'https://haloshop.vn/image/cache/data/may-game/sony-playstation/ps4-slim-1tb-days-of-play-2019-00-250x250.jpg',
+          name: 'PS4 Slim 1TB Days of Play Xám',
+          sales: '8.990.000đ',
+          price:'',
+          uri:'/single'
+      }, {
+          image: 'https://haloshop.vn/image/cache/data/may-game/sony-playstation/ps4-slim-1-3-00-700x700.jpg',
+          name: 'PS4 Slim 500GB',
+          sales: '6.990.000đ',
+          price:'',
+          uri:'/single',
+
+      }, {
+          image: 'https://product.hstatic.net/1000190106/product/dayofplayxanh_fa73b215df07495594a8ddb2f4e5245f_master.png',
+          name: 'PS4 Slim 500GB Days of Play Xanh',
+          sales: '8.990.000đ',
+          price: '',
+          uri:'/single'
+      }],
+      Console2: [{
+          image: 'https://product.hstatic.net/1000190106/product/81ehwubjmwl._ac_sl1500__b25d54a6aca44e6b98a60f99a9f2a2a2_master.jpg',
+          name: 'The Legend of Heroes: Trails of Cold Steel II - Relentless Edition',
+          sales: '1.200.000đ',
+          price:'',
+          uri:'/single'
+      }, {
+          image: 'https://product.hstatic.net/1000190106/product/1_2248030e5ff844b3897ea542b0acceb4_master.jpg',
+          name: 'Rage 2',
+          sales: '1.200.000đ',
+          price:'',
+          uri:'/single',
+
+      }, {
+          image: 'https://product.hstatic.net/1000190106/product/51mu9-4w7kl_d6b27e8407aa413c8f6baa4517225e65_master.jpg',
+          name: 'Team Sonic Racing',
+          sales: '1.200.000đ',
+          price: '',
+          uri:'/single'
+      }],
+      title: 'Consoles'});
+};
+
+exports.maylanh = function(req, res, next){
+  res.render('products/maylanh',
+  {
+      Aircon1: [{
+          image: 'https://cdn.tgdd.vn/Products/Images/2002/198945/samsung-ar10ryftaurnsv-550x160.jpg',
+          name: 'Máy lạnh Samsung AR10RYFTAURNSV',
+          sales: '8.790.000đ',
+          price:'',
+          uri:'/single'
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/2002/198109/may-lanh-beko-rsvc09vs-5-550x160.jpg',
+          name: 'Máy lạnh Beko RSVC09VS',
+          sales: '7.990.000đ',
+          price:'',
+          uri:'/single',
+
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/2002/198946/may-lanh-samsung-ar13ryftaurnsv-8-550x160.jpg',
+          name: 'Máy lạnh Samsung AR13RYFTAURNSV',
+          sales: '9.790.000đ',
+          price: '',
+          uri:'/single'
+      }],
+      Aircon2: [{
+          image: 'https://cdn.tgdd.vn/Products/Images/2002/198110/beko-rsvc12vs-550x160.jpg',
+          name: 'Máy lạnh Beko RSVC12VS',
+          sales: '9.490.000đ',
+          price:'',
+          uri:'/single'
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/2002/198373/may-lanh-lg-v10enh-1-550x160.jpg',
+          name: 'Máy lạnh LG V10ENH',
+          sales: '4.290.000đ',
+          price:'',
+          uri:'/single',
+
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/2002/198832/midea-msaf-10crn8-550x160.JPG',
+          name: 'Máy lạnh Midea MSAF 10CRN8',
+          sales: '8.790.000đ',
+          price: '',
+          uri:'/single'
+      }],
+      Aircon3: [{
+          image: 'https://cdn.tgdd.vn/Products/Images/2002/200017/daikin-atkq25tavmv-1-550x160.jpg',
+          name: 'Máy lạnh Daikin ATKQ25TAVMV',
+          sales: '6.090.000đ',
+          price:'',
+          uri:'/single'
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/2002/153850/may-lanh-panasonic-cu-cs-pu9ukh-8-dd-550x160.jpg',
+          name: 'Máy lạnh Panasonic CU CS PU9UKH',
+          sales: '8.790.000đ',
+          price:'',
+          uri:'/single',
+
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/2002/154262/may-lanh-sharp-ah-x9vew-dd-1-550x160.jpg',
+          name: 'Máy lạnh Sharp AH X9VEW',
+          sales: '7.990.000đ',
+          price: '',
+          uri:'/single'
+      }],
+      title: 'Máy lạnh'});
+};
+
+exports.tulanh = function(req, res, next){
+  res.render('products/tulanh',
+  {
+      Tulanh1: [{
+          image: 'https://cdn.tgdd.vn/Products/Images/1943/156182/tu-lanh-samsung-rt32k5930dx-sv-dd-2-300x300.jpg',
+          name: 'Tủ lạnh Samsung RT32K5930DX',
+          sales: '11.720.000đ',
+          price:'',
+          uri:'/single'
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/1943/88627/samsung-rt29k5012s8-sv-daidien-1-300x300.jpg',
+          name: 'Tủ lạnh Samsung RT29K5012S8',
+          sales: '8.720.000đ',
+          price:'',
+          uri:'/single',
+
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/1943/74706/sharp-sj-fx630v-st--300x300.jpg',
+          name: 'Tủ lạnh Sharp SJ FX630V',
+          sales: '18.990.000đ',
+          price: '',
+          uri:'/single'
+      }],
+      Tulanh2: [{
+          image: 'https://cdn.tgdd.vn/Products/Images/1943/140013/beko-rcnt-375e50vzx-300x300.png',
+          name: 'Tủ lạnh Beko RCNT 375E50VZX',
+          sales: '11.890.000đ',
+          price:'',
+          uri:'/single'
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/1943/108366/tu-lanh-samsung-rt19m300bgs-sv-1-300x300.png',
+          name: 'Tủ lạnh Samsung RT19M300BGS',
+          sales: '5.790.000đ',
+          price:'',
+          uri:'/single',
+
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/1943/97813/panasonic-nr-ba228pkv1--300x300.jpg',
+          name: 'Tủ lạnh Panasonic NR BA228PKV1',
+          sales: '6.090.000đ',
+          price: '',
+          uri:'/single'
+      }],
+      Tulanh3: [{
+          image: 'https://cdn.tgdd.vn/Products/Images/1943/156181/samsung-rt22m4032dx-sv-14-300x300.jpg',
+          name: 'Tủ lạnh Samsung RT22M4032DX',
+          sales: '7.070.000đ',
+          price:'',
+          uri:'/single'
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/1943/179592/tu-lanh-panasonic-nr-bl267pkv1-15-300x300.jpg',
+          name: 'Tủ lạnh Panasonic NR BL267PKV1',
+          sales: '7.890.000đ',
+          price:'',
+          uri:'/single',
+
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/1943/108366/tu-lanh-samsung-rt19m300bgs-sv-1-300x300.png',
+          name: 'Tủ lạnh Samsung RT19M300BGS',
+          sales: '5.790.000đ',
+          price: '',
+          uri:'/single'
+      }],
+      title: 'Tủ lạnh'});
+};
+
+exports.maygiat = function(req, res, next){
+  res.render('products/maygiat',
+  {
+      Maygiat1: [{
+          image: 'https://cdn.tgdd.vn/Products/Images/1944/155202/may-giat-samsung-ww90k52e0ww-sv-dd-300x300.jpg',
+          name: 'Máy giặt Samsung WW90K52E0WW',
+          sales: '12.600.000đ',
+          price:'',
+          uri:'/single'
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/1944/193540/may-giat-electrolux-ewf8025cqwa-7-300x300.jpg',
+          name: 'Máy giặt Electrolux EWF8025CQWA',
+          sales: '8.990.000đ',
+          price:'',
+          uri:'/single',
+
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/1944/151640/beko-wte-7512-xs0-9-300x300.jpg',
+          name: 'Máy giặt Beko WTE 7512',
+          sales: '7.290.000đ',
+          price: '',
+          uri:'/single'
+      }],
+      Maygiat2: [{
+          image: 'https://cdn.tgdd.vn/Products/Images/1944/201176/electrolux-ewf9024bdwa-10-300x300.jpg',
+          name: 'Máy giặt Electrolux EWF9024BDWA',
+          sales: '12.390.000đ',
+          price:'',
+          uri:'/single'
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/1944/104228/may-giat-panasonic-na-f90a4grv-daidien-300x300.jpg',
+          name: 'Máy giặt Panasonic NA F90A4GRV',
+          sales: '6.690.000đ',
+          price:'',
+          uri:'/single',
+
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/1944/103391/may-giat-panasonic-na-f85a4hrv-1-300x300.png',
+          name: 'Máy giặt Panasonic NA F85A4HRV',
+          sales: '6.090.000đ',
+          price: '',
+          uri:'/single'
+      }],
+      Maygiat3: [{
+          image: 'https://cdn.tgdd.vn/Products/Images/1944/79323/may-giat-toshiba-aw-a800sv-wb-6-300x300.jpg',
+          name: 'Máy giặt Toshiba AW A800SV',
+          sales: '4.190.000đ',
+          price:'',
+          uri:'/single'
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/1944/74103/may-giat-toshiba-aw-f920lv-wb-daidien-300x300.jpg',
+          name: 'Máy giặt Toshiba AW F920LV',
+          sales: '5.190.000đ',
+          price:'',
+          uri:'/single',
+
+      }, {
+          image: 'https://cdn.tgdd.vn/Products/Images/1944/103903/may-giat-lg-fc1408s4w2-daidien-300x300.jpg',
+          name: 'Máy giặt LG FC1408S4W2',
+          sales: '10.490.000đ',
+          price: '',
+          uri:'/single'
+      }],
+      title: 'Máy giặt'});
+};

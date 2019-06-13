@@ -18,5 +18,9 @@ router.get('/headphones', productsController.headphones);
 router.get('/speakers', productsController.speakers);
 router.get('/camera', productsController.camera);
 router.get('/camera-accessories', productsController.cameraaccessories);
+router.get('/consoles', productsController.consoles);
+router.get('/may-lanh', productsController.maylanh);
+router.get('/tu-lanh', productsController.tulanh);
+router.get('/may-giat', productsController.maygiat);
 
 module.exports = router;
