@@ -29,10 +29,10 @@ router.post('/singlephone2',home_controller.singlephone2);
 router.get('/register', home_controller.registerGet);
 router.post('/register', home_controller.registerPost);
 
-router.get('/signup', home_controller.signupGet);
-router.post('/signup', passport.authenticate('local', {
+router.get('/login', home_controller.signupGet);
+router.post('/login', passport.authenticate('local', {
     successRedirect: '/',
-    failureRedirect: '/signup'
+    failureRedirect: '/login'
   }));
 
 router.get('/recovery', home_controller.recovery);

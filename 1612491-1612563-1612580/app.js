@@ -32,10 +32,10 @@ passport.use(new LocalStrategy({usernameField: 'email'},
       }
 
       //check if the acount has been vertify
-      if(!user.active){
-        console.log("you need to verify firsts.")
-        return done(null, false, {message: 'you need to verify firsts.'});
-      }
+      // if(!user.active){
+      //   console.log("you need to verify firsts.")
+      //   return done(null, false, {message: 'you need to verify firsts.'});
+      // }
 
       //display username
       //await home_controll.checkDisplay();
@@ -103,6 +103,34 @@ app.use('/api/user', apiUserRouter);
 app.use('/verify', indexRouter);
 app.use('/recoveryPass', indexRouter);
 //app.use('/admin',adminpageRouter);
+
+hbs.registerHelper('ifCond', function (v1, operator, v2, options) {
+
+  switch (operator) {
+      case '==':
+          return (v1 == v2) ? options.fn(this) : options.inverse(this);
+      case '===':
+          return (v1 === v2) ? options.fn(this) : options.inverse(this);
+      case '!=':
+          return (v1 != v2) ? options.fn(this) : options.inverse(this);
+      case '!==':
+          return (v1 !== v2) ? options.fn(this) : options.inverse(this);
+      case '<':
+          return (v1 < v2) ? options.fn(this) : options.inverse(this);
+      case '<=':
+          return (v1 <= v2) ? options.fn(this) : options.inverse(this);
+      case '>':
+          return (v1 > v2) ? options.fn(this) : options.inverse(this);
+      case '>=':
+          return (v1 >= v2) ? options.fn(this) : options.inverse(this);
+      case '&&':
+          return (v1 && v2) ? options.fn(this) : options.inverse(this);
+      case '||':
+          return (v1 || v2) ? options.fn(this) : options.inverse(this);
+      default:
+          return options.inverse(this);
+  }
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

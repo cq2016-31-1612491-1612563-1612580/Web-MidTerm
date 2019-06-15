@@ -6,7 +6,12 @@ function formatPrice(price) {
 
 exports.index = async (req, res, next) => {
     const data = await category.list();
-    res.render('category/index', {  title: 'Danh sách loại sản phẩm', data })
+    if(req.isAuthenticated())
+    {
+        var user = req.user;
+        console.log(user);
+    }
+    res.render('category/index', {  title: 'Danh sách loại sản phẩm', data, user })
 };
 
 exports.add = (req, res, next) => {

@@ -1,83 +1,58 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>{{title}}</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    </head>
-    <body>
-        <!-- banner-2 -->
-        <div class="page-head_agile_info_w3l">
-
-        </div>
-        <!-- //banner-2 -->
-        <!-- page -->
-        <div class="services-breadcrumb">
-            <div class="agile_inner_breadcrumb">
-                <div class="container">
-                    <ul class="w3_short">
-                        <li>
-                            <a href="/">Home</a>
-                            <i>|</i>
-                        </li>
-                        <li>Thông tin người dùng</li>
-                    </ul>
-                </div>
+<div id="page-wrapper">
+    <div class="container">
+        <div class="panel panel-primary" style="width: 95%">
+            <div class="panel-heading text-center">
+                <p style="font-size: 20pt; color:white">Thông tin cá nhân</p>
             </div>
-        </div>
-        <!-- //page -->
-        
-        <div class="container">
-            <div class="panel panel-primary">
-                <div class="panel-heading">
-                    <h1>Thông tin tài khoản</h1>
-                </div>
-                
-                <div class="panel-body">
-                    <table class="table table-hover hover-bordered" >
-                        <tr>
-                            <td>Tên tài khoản</td>
-                            <td>ID123</td>
-                            <td><a href="#">Edit</a></td>
-                        </tr>
-                        <tr>
-                            <td>Password</td>
-                            <td>******</td>
-                            <td><a href="#">Edit</a></td>
-                        </tr>
-                        <tr>
-                            <td>Tên người dùng</td>
-                            <td>Nguyễn Văn A</td>
-                            <td><a href="#">Edit</a></td>
-                        </tr>
-                        <tr>
-                            <td>Email</td>
-                            <td>nva@gmail.com</td>
-                            <td><a href="#">Edit</a></td>
-                        </tr>
-                        <tr>
-                            <td>Số điện thoại</td>
-                            <td>0123456789</td>
-                            <td><a href="#">Edit</a></td>
-                        </tr>
-                        <tr>
-                            <td>Giới tính</td>
-                            <td>Nam</td>
-                            <td><a href="#">Edit</a></td>
-                        </tr>
-                        <tr>
-                            <td>Địa chỉ</td>
-                            <td>TP HCM</td>
-                            <td><a href="#">Edit</a></td>
-                        </tr>
-                    </table>
-                </div>
+            <form action="" method="POST">
+            <div class="panel-body">
+                <table class="table table-hover hover-bordered" >     
+                    {{#if user}}
+                    <input type="hidden" name="id" value="{{user._id}}">
+                    <tr>
+                        <td>Email</td>
+                        <td>{{user.email}}</td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>*********<td>
+                    </tr>
+                    <tr>
+                        <td>Tên người dùng</td>
+                        <td><input type="text" name="name" value="{{user.name}}"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Số điện thoại</td>
+                        <td><input type="text" name="phone" value="{{user.phone}}"></td>
+                    </tr>
+                    <tr>
+                        <td>Giới tính</td>
+                        <td>
+                            {{#ifCond user.gender '!=' 'nu'}}
+                            <input type="radio" name="gender" value="nam" checked>Nam
+                            <input type="radio" name="gender" value="nu">Nu
+                            {{/ifCond}}
+
+                            {{#ifCond user.gender '==' 'nu'}}
+                            <input type="radio" name="gender" value="nam">Nam
+                            <input type="radio" name="gender" value="nu" checked>Nu
+                            {{/ifCond}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Địa chỉ</td>
+                        <td><input type="text" name="address" value="{{user.address}}"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button type="submit" class="btn btn-primary btn-lg">Save</button></td>
+                    </tr>
+                    {{/if}}
+                </table>
             </div>
+            
+            </form>
         </div>
-    </body>
-</html>
+    </div>
+</div>

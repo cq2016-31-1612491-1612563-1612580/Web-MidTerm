@@ -92,3 +92,21 @@ exports.validPassword = async (email, password) => {
   return await bcrypt.compare(password, user.password);
 };
 
+const update = async (email, user) => {
+  return await dbs.production.collection('users').updateOne({email: email}, {$set: user});
+};
+exports.update = update;
+
+exports.changePassword = async (email, password, newpassword) => {
+  const user = await get(email);
+  console.log('user: ' + user);
+  if(bcrypt.compare(password, user.password))
+  {
+    const hash = await bcrypt.hash(newpassword, SALT_ROUNDS);
+    await update(email, {password: hash});
+  }
+  else
+  {
+    return false;
+  }
+}

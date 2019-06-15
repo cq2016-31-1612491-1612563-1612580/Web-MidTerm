@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="panel panel-primary">
+        <div class="panel-heading text-center">
+            <p style="font-size: 20pt; color:white">Thông tin tài khoản</p>
+        </div>
+        <form action="" method="POST">
+        <div class="panel-body">
+            <table class="table table-hover hover-bordered" >     
+                {{#if user}}
+                <input type="hidden" name="email" value="{{user.email}}">
+                <tr>
+                    <td>Email</td>
+                    <td>{{user.email}}</td>
+                </tr>
+                <tr>
+                    <td>Mật khẩu cũ</td>
+                    <td><input type="password" name="password" value=""></td>
+                </tr>
+                <tr>
+                    <td>Mật khẩu mới</td>
+                    <td><input type="password" name="newpassword" value=""></td>
+                </tr>
+                <tr>
+                    <td>Xác nhận mật khẩu mới</td>
+                    <td><input type="password" name="newrepassword" value=""></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="submit" class="btn btn-primary btn-lg">Đổi mật khẩu</button></td>
+                </tr>
+                {{/if}}
+            </table>
+        </div>
+        </form>
+    </div>
+    
+</div>

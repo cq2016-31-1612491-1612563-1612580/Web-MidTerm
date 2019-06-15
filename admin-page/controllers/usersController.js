@@ -2,7 +2,12 @@ const userModel = require('../models/usersModel');
 
 exports.list = async(req, res, next) => {
     const data = await userModel.list();
-    res.render('users/list', {title : 'Danh sách tài khoản', data})
+    if(req.isAuthenticated())
+    {
+        var user = req.user;
+        console.log(user);
+    }
+    res.render('users/list', {title : 'Danh sách tài khoản', data, user})
 };
 
 exports.detail = async (req, res, next) => {

@@ -96,10 +96,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
           });
 
-      </script>
-  <!-- //pie-chart --><!-- index page sales reviews visitors pie chart -->
+        </script>
+        <!-- //pie-chart --><!-- index page sales reviews visitors pie chart -->
 
-    <!-- requried-jsfiles-for owl -->
+        <!-- requried-jsfiles-for owl -->
             <link href="/stylesheets/owl.carousel.css" rel="stylesheet">
             <script src="/javascripts/owl.carousel.js"></script>
               <script>
@@ -112,8 +112,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     nav:true,
                   });
                 });
-              </script>
-            <!-- //requried-jsfiles-for owl -->
+        </script>
+        <!-- //requried-jsfiles-for owl -->
 </head>
 <body class="cbp-spmenu-push">
 	<div class="main-content">
@@ -402,13 +402,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
 								<div class="profile_img">
 									<div class="user-name">
-                                        {{#ifCond user '!=' false}}
+                                        {{#if user}}
 										<p>{{user.name}}</p>
-                                        {{/ifCond}}
-                                        
-                                        {{#ifCond user '==' false}}
-										<p>Chưa đăng nhập</p>
-                                        {{/ifCond}}
+                                        {{else}}
+                                        <p>Chưa đăng nhập</p>
+                                        {{/if}}
 										<span>ADMIN</span>
 									</div>
 									<i class="fa fa-angle-down lnr"></i>
@@ -417,9 +415,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</div>
 							</a>
 							<ul class="dropdown-menu drp-mnu">
-                                {{#ifCond user '==' false}}
+                                {{#if user}}
+                                {{else}}
                                 <li> <a href="/log"><i class="fa fa-user"></i> Đăng nhập</a> </li>
-                                {{/ifCond}}
+                                {{/if}}
 								<li> <a href="#"><i class="fa fa-cog"></i> Cài Đặt</a> </li>
 								<li> <a href="#"><i class="fa fa-user"></i> My Account</a> </li>
 								<li> <a href="/log/detail"><i class="fa fa-suitcase"></i> Profile</a> </li>
