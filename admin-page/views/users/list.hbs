@@ -10,13 +10,12 @@
                             <thead>
                                 <tr>
                                     <th>Tên tài khoản</th>
-                                    <th>Password</th>
                                     <th>Tên người dùng</th>
                                     <th>Email</th>
                                     <th>Số điện thoại</th>
                                     <th>Giới tính</th>
                                     <th>Địa chỉ</th>
-                                    <th>Xem thông tin</th>
+                                    <th>Hành động</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -24,7 +23,6 @@
                               {{#each data}}
                                 <tr>
                                     <th scope="row">{{this.username}}</th>
-                                    <td>{{this.pw}}</td>
                                     <td>{{this.name}}</td>
                                     <td>{{this.email}}</td>
                                     <td>{{this.phone}}</td>
@@ -32,6 +30,8 @@
                                     <td>{{this.address}}</td>
                                     <td>
                                         <button onclick="window.location.href='/users/detail?id={{this._id}}';">Xem</button>
+                                        <button onclick="window.location.href='/users/delete?id={{this._id}}';">Xóa</button>
+                                        <button onclick="window.location.href='/users/lock?id={{this._id}}';">Khóa</button>
                                     </td>
                                 </tr>
                                 {{/each}}

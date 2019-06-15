@@ -177,13 +177,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </li>
 
                             <li class="treeview">
-                                <a href="QuanLyTaiKhoan">
+                                <a href="/users">
                                     <i class="fa fa-folder"></i> <span>Quản lý tài khoản</span>
                                     <i class="fa fa-angle-left pull-right"></i>
                                 </a>
                                 <ul class="treeview-menu">
-                                    <li><a href="index"><i class="fa fa-angle-right"></i> Tài khoản</a></li>
-                                    <li><a href="Add"><i class="fa fa-angle-right"></i> Thêm</a></li>
+                                    <li><a href="/users/list"><i class="fa fa-angle-right"></i>Danh sách tài khoản</a></li>
                                 </ul>
                             </li>
 
@@ -192,6 +191,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                     <i class="fa fa-folder"></i> <span>Quản lý sản phẩm</span>
                                     <i class="fa fa-angle-left pull-right"></i>
                                 </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="/products"><i class="fa fa-angle-right"></i> Danh sách sản phẩm</a></li>
+                                    <li><a href="/products/add"><i class="fa fa-angle-right"></i> Thêm sản phẩm</a></li>
+                                </ul>
                             </li>
 
                             <li class="treeview">
@@ -206,6 +209,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                     <i class="fa fa-folder"></i> <span>Quản lý loại sản phẩm</span>
                                     <i class="fa fa-angle-left pull-right"></i>
                                 </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="/category"><i class="fa fa-angle-right"></i> Danh sách loại sản phẩm</a></li>
+                                    <li><a href="/category/add"><i class="fa fa-angle-right"></i> Thêm loại sản phẩm</a></li>
+                                </ul>
                             </li>
                         </ul>
                     </div>
@@ -394,7 +401,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<li class="dropdown profile_details_drop">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
 								<div class="profile_img">
-									<span class="prfil-img"><img src="images/2.jpg" alt=""> </span>
 									<div class="user-name">
                                         {{#ifCond user '!=' false}}
 										<p>{{user.name}}</p>

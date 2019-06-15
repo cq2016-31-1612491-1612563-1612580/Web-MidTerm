@@ -13,6 +13,18 @@ module.exports.detail = async (id) => {
   return results[0];
 };
 
+module.exports.add = async (product) => {
+  return await dbs.production.collection('users').insertOne(product);
+};
+
+module.exports.update = async (id, product) => {
+  return await dbs.production.collection('users').updateOne({_id: ObjectId(id)}, {$set: product});
+};
+
+module.exports.delete = async (id) => {
+  return await dbs.production.collection('users').deleteOne({_id: ObjectId(id)});
+};
+
 module.exports.update = async (id, user) => {
   return await dbs.production.collection('users').updateOne({_id: ObjectId(id)}, {$set: user});
 };

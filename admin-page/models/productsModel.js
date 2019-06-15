@@ -24,4 +24,5 @@ module.exports.delete = async (id) => {
   return await dbs.production.collection('products').deleteOne({_id: ObjectId(id)});
 };
 
+
 exports.detail = detail;
