@@ -1,6 +1,7 @@
 const userModel = require('../models/user');
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
+const productIn = require('../models/productinstance');
 const SALT_ROUNDS = 10;
 const {
     dbs
@@ -106,35 +107,9 @@ exports.privacy = function (req, res) {
     });
 };
 
-exports.single = function (req, res) {
-    res.render('single', {
-        maindetails: [{
-            image: '/images/m7.jpg',
-            name: 'Whirlpool 245',
-            sales: '$230.00',
-            price: '$280.00',
-            image1: '/images/sii1.jpg',
-            image2: '/images/sii2.jpg',
-            image3: '/images/sii3.jpg',
-        }]
-    });
-};
-
-exports.single2 = function (req, res) {
-    res.render('single2', {
-        title: 'Single2'
-    });
-};
-
 exports.terms = function (req, res) {
     res.render('terms', {
         title: 'Terms'
-    });
-};
-
-exports.singlephone2 = function (req, res) {
-    res.render('singlephone2', {
-        title: 'Single Phone 2'
     });
 };
 
@@ -263,9 +238,4 @@ exports.verifyPost = async (req, res) => {
     } catch (error) {
         console.log(error);
     }
-}
-
-
-exports.checkDisplay = async (req, res) => {
-    req.body.isHidden = 'hidden';
 }

@@ -74,20 +74,3 @@
     </div>
   </div>
 </div>
-
-{{!-- {{#extend "script"}}
-    <script>
-        $('#email').keyup(function() {
-            $.getJSON('/api/user/check?email='+$('#email').val(), function (data){
-              if (data) {
-                  $('#error-message').html('Email đã tồn tại. Vui lòng chọn email khác.');
-                  $("#register").attr("disabled", true);
-              }
-              else {
-                  $('#error-message').html('');
-                  $("#register").attr("disabled", false);
-              }
-            })
-        });
-    </script>
-{{/extend}} --}}

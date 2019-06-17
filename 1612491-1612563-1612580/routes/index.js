@@ -18,13 +18,11 @@ router.get('/faqs',home_controller.faqs);
 router.get('/help',home_controller.help);
 router.get('/payment',home_controller.payment);
 router.get('/privacy',home_controller.privacy);
-router.get('/single',home_controller.single);
-router.post('/single',home_controller.single);
-router.get('/single2',home_controller.single2);
-router.post('/single2',home_controller.single2);
+
+
+
 router.get('/terms',home_controller.terms);
-router.get('/singlephone2',home_controller.singlephone2);
-router.post('/singlephone2',home_controller.singlephone2);
+
 
 router.get('/register', home_controller.registerGet);
 router.post('/register', home_controller.registerPost);

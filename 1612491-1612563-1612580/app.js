@@ -80,7 +80,6 @@ hbs.registerHelper('extend', function(name, context) {
 
 hbs.registerHelper('block', function(name) {
   var val = (blocks[name] || []).join('\n');
-
   // clear the block
   blocks[name] = [];
   return val;
@@ -102,7 +101,6 @@ app.use('/products', productsRouter);
 app.use('/api/user', apiUserRouter);
 app.use('/verify', indexRouter);
 app.use('/recoveryPass', indexRouter);
-//app.use('/admin',adminpageRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

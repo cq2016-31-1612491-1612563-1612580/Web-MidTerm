@@ -43,7 +43,7 @@
     </div>
 </div>
 
-{{#extend "script"}}
+
     <script>
         $('#email').keyup(function() {
             $.getJSON('/api/user/check?email='+$('#email').val(), function (data){
@@ -58,4 +58,3 @@
             })
         });
     </script>
-{{/extend}}
