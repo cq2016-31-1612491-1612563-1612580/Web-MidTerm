@@ -1,4 +1,4 @@
 module.exports={
-    MAILGUN_USER:'postmaster@sandbox620543b492484f8f9837574a4f1bc3ad.mailgun.org',
-    MAILGUN_PASS:'dd4324a9c2624f7c993165824bbe4357-16ffd509-19102c81'
+    MAILGUN_USER:'postmaster@sandbox18a4ece8a71848489242edb7f59b6393.mailgun.org',
+    MAILGUN_PASS:'ec91fa49e5b547ebc559dba368b6c6d7-29b7488f-c292f907'
 }

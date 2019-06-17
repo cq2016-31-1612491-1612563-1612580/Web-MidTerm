@@ -4,12 +4,11 @@ const {dbs} = require('../dbs');
 var router = express.Router();
 var User = require('../models/user')
 var home_controller = require('../controllers/homeController');
+var productsController = require('../controllers/productsController');
 
 
-router.get('/',home_controller.index);
-router.post('/',home_controller.index);
-router.get('/index',home_controller.index);
-router.post('/index',home_controller.index);
+router.get('/',home_controller.indexing);
+router.get('/single',productsController.single);
 router.get('/contact',home_controller.contact);
 router.post('/contact',home_controller.contact);
 router.get('/checkout',home_controller.checkout);

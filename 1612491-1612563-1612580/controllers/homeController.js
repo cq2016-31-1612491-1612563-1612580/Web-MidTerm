@@ -1,80 +1,208 @@
 const userModel = require('../models/user');
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
-const productIn = require('../models/productinstance');
+var product = require('../models/product');
 const SALT_ROUNDS = 10;
 const {
     dbs
 } = require('../dbs');
 
 
-exports.index = function (req, res, next) {
+exports.indexing = async (req, res, next)=> { 
+    
+    console.log('vao page index')
     if(req.isAuthenticated())
     {
         var user = req.user;
         console.log(user);
     }
-    res.render('/index', {
+
+    res.render('index', {
         user,
         NewProduct: [{
+            id:'1001',
             image: '/images/m1.jpg',
             name: 'Samsung Galaxy J7',
             sales: '$200.00',
             price: '$280.00',
-            uri: '/single'
+            image1: '/images/si1.jpg',
+            image2: '/images/si2.jpg',
+            image3: '/images/si3.jpg',
         }, {
+            id:'1002',
             image: '/images/m2.jpg',
             name: 'OPPO A37f',
             sales: '$230.00',
             price: '$250.00',
-            uri: '/single'
-
+            image1: '/images/m2.jpg',
+            image2: '/images/m2.jpg',
+            image3: '/images/m2.jpg',
         }, {
+            id:'1003',
             image: '/images/m3.jpg',
             name: 'Apple iPhone X',
             sales: '$280.00',
             price: '$300.00',
-            uri: '/single'
+            image1: '/images/m3.jpg',
+            image2: '/images/m3.jpg',
+            image3: '/images/m3.jpg',
         }],
         TVAudi: [{
+            id:'1004',
             name: 'Sony 80 cm (32 inches)',
             image: '/images/m4.jpg',
             sales: '$320.00 ',
             price: '$340.00',
-            uri: '/single'
+            image1: '/images/m4.jpg',
+            image2: '/images/m4.jpg',
+            image3: '/images/m4.jpg',
         }, {
+            id:'1005',
             name: 'Loa Artis',
             image: '/images/m5.jpg',
             sales: '$349.00 ',
             price: '$399.00',
-            uri: '/single'
+            image1: '/images/m5.jpg',
+            image2: '/images/m5.jpg',
+            image3: '/images/m5.jpg',
         }, {
+            id:'1006',
             name: 'Loa Philips',
             image: '/images/m6.jpg',
             sales: '$249.00 ',
             price: '$300.00',
-            uri: '/single'
+            image1: '/images/m6.jpg',
+            image2: '/images/m6.jpg',
+            image3: '/images/m6.jpg',
         }],
         Houseware: [{
+            id:'1007',
             name: 'Whirlpool 245',
             image: '/images/m7.jpg',
             sales: '$230.00 ',
             price: '$280.00',
-            uri: '/single'
+            image1: '/images/m7.jpg',
+            image2: '/images/m7.jpg',
+            image3: '/images/m7.jpg',
         }, {
+            id:'1008',
             name: 'Máy Giặt BPL',
             image: '/images/m8.jpg',
             sales: '$180.00 ',
             price: '$200.00',
-            uri: '/single'
+            image1: '/images/m8.jpg',
+            image2: '/images/m8.jpg',
+            image3: '/images/m8.jpg',
         }, {
+            id:'1009',
             name: 'Microwave Oven',
             image: '/images/m9.jpg',
             sales: '$199.00 ',
             price: '$299.00',
-            uri: '/single'
+            image1: '/images/m9.jpg',
+            image2: '/images/m9.jpg',
+            image3: '/images/m9.jpg',
         }],
     });
+
+    try{
+        const PhoneProduct4 = [{
+            id:'1001',
+            image: '/images/m1.jpg',
+            name: 'Samsung Galaxy J7',
+            sales: '$200.00',
+            price: '$280.00',
+            image1: '/images/si1.jpg',
+            image2: '/images/si2.jpg',
+            image3: '/images/si3.jpg',
+        }, {
+            id:'1002',
+            image: '/images/m2.jpg',
+            name: 'OPPO A37f',
+            sales: '$230.00',
+            price: '$250.00',
+            image1: '/images/m2.jpg',
+            image2: '/images/m2.jpg',
+            image3: '/images/m2.jpg',
+        }, {
+            id:'1003',
+            image: '/images/m3.jpg',
+            name: 'Apple iPhone X',
+            sales: '$280.00',
+            price: '$300.00',
+            image1: '/images/m3.jpg',
+            image2: '/images/m3.jpg',
+            image3: '/images/m3.jpg',
+        }, {
+            id:'1004',
+            name: 'Sony 80 cm (32 inches)',
+            image: '/images/m4.jpg',
+            sales: '$320.00 ',
+            price: '$340.00',
+            image1: '/images/m4.jpg',
+            image2: '/images/m4.jpg',
+            image3: '/images/m4.jpg',
+        }, {
+            id:'1005',
+            name: 'Loa Artis',
+            image: '/images/m5.jpg',
+            sales: '$349.00 ',
+            price: '$399.00',
+            image1: '/images/m5.jpg',
+            image2: '/images/m5.jpg',
+            image3: '/images/m5.jpg',
+        }, {
+            id:'1006',
+            name: 'Loa Philips',
+            image: '/images/m6.jpg',
+            sales: '$249.00 ',
+            price: '$300.00',
+            image1: '/images/m6.jpg',
+            image2: '/images/m6.jpg',
+            image3: '/images/m6.jpg',
+        },{
+            id:'1007',
+            name: 'Whirlpool 245',
+            image: '/images/m7.jpg',
+            sales: '$230.00 ',
+            price: '$280.00',
+            image1: '/images/m7.jpg',
+            image2: '/images/m7.jpg',
+            image3: '/images/m7.jpg',
+        }, {
+            id:'1008',
+            name: 'Máy Giặt BPL',
+            image: '/images/m8.jpg',
+            sales: '$180.00 ',
+            price: '$200.00',
+            image1: '/images/m8.jpg',
+            image2: '/images/m8.jpg',
+            image3: '/images/m8.jpg',
+        }, {
+            id:'1009',
+            name: 'Microwave Oven',
+            image: '/images/m9.jpg',
+            sales: '$199.00 ',
+            price: '$299.00',
+            image1: '/images/m9.jpg',
+            image2: '/images/m9.jpg',
+            image3: '/images/m9.jpg',
+        }];
+
+        PhoneProduct4.forEach(element => {
+            var check4 = dbs.production.collection('products').findOne({id: element.id}, function(err,result){
+                if (err) throw err;
+                console.log(result);
+                //result là kết quả chính xác bảng nào có kết quả trùng khớp với đk query
+                if(!result){
+                    dbs.production.collection('products').insertOne(element);
+                }
+            });
+        });
+    }catch(error){
+        console.log(error);
+    }
+
 };
 
 exports.contact = function (req, res, next) {
