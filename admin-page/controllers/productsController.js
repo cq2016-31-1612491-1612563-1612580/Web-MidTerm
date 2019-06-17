@@ -1,4 +1,5 @@
 const product = require('../models/productsModel');
+var multer = require('multer');
 
 function formatPrice(price) {
     return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -12,6 +13,7 @@ exports.index = async (req, res, next) => {
         if(user.admin == 'true')
         {
             res.render('products/index', {  title: 'Danh sách sản phẩm', data, user })
+            console.log(data.img);
         }
         else
         {
@@ -56,7 +58,28 @@ exports.update = async (req, res, next) => {
 };
 
 exports.updatePost = async (req, res, next) => {
-    await product.update(req.query.id, req.body);
+    var body;
+    if (req.file == null)
+    {
+        body = {
+            name: req.body.name,
+            brand: req.body.brand,
+            count: req.body.count,
+            price: req.body.price
+        }
+    }
+    else
+    {
+        body = {
+            name: req.body.name,
+            brand: req.body.brand,
+            count: req.body.count,
+            price: req.body.price,
+            img: req.file.filename
+        }
+    }
+    
+    await product.update(req.body.id, body);
     res.redirect('./');
 };
 
