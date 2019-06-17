@@ -13,7 +13,13 @@
                         </tr>
                         <tr>
                             <td>Thương hiệu</td>
-                            <td><input type="text" name="brand" value="{{data.brand}}"/></td>
+                            <td>
+                                <select name="brand">
+                                    {{#each brand}}
+                                    <option value="{{this.name}}">{{this.name}}</option>
+                                    {{/each}}
+                                </select>
+                            </td>
                         </tr>
                         <tr>
                             <td>Số lượng</td>

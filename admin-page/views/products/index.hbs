@@ -7,6 +7,7 @@
                     <tr>
                         <th class="title3" scope="col">Mã Sản Phẩm</th>
                         <th scope="col">Sản phẩm</th>
+                        <th scope="col">Loại sản phẩm</th>
                         <th scope="col">Số lượng</th>
                         <th scope="col">Giá</th>
                         <th scope="colgroup">Tùy chọn</th>
@@ -16,11 +17,9 @@
                     {{#if data}}
                     {{#each data}}
                     <tr>
-                        <td scope="row">{{this._id}}</td>
-                        <td>
-                            <div class="imgofProduct"><img src="/images/{{this.img}}" alt=" " height="100px"></div>
-                            <div class="nameofProduct" >{{this.name}}</div>
-                        </td>
+                        <td>{{this._id}}</td>
+                        <td><div class="imgofProduct"><img src="/images/{{this.img}}" alt=" " height="100px"></div></td>
+                        <td>{{this.brand}}</td>
                         <td>{{this.count}}</td>
                         <td>{{this.price}}</td>
                         <td>

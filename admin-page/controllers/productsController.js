@@ -1,5 +1,5 @@
 const product = require('../models/productsModel');
-var multer = require('multer');
+const cateModel = require('../models/categoryModel');
 
 function formatPrice(price) {
     return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -27,13 +27,14 @@ exports.index = async (req, res, next) => {
     
 };
 
-exports.add = (req, res, next) => {
+exports.add = async (req, res, next) => {
     if(req.isAuthenticated())
     {
         var user = req.user;
         if(user.admin == 'true')
         {
-            res.render('products/add', {title: 'Thêm sản phẩm' , user});
+            var brand = await cateModel.list();
+            res.render('products/add', {title: 'Thêm sản phẩm' , user, brand});
         }
         else
         {
@@ -54,7 +55,9 @@ exports.addPost = async (req, res, next) => {
 
 exports.update = async (req, res, next) => {
     const data = await product.detail(req.query.id);
-    res.render('products/update', { title: 'Sửa sản phẩm', data });
+    const brand = await cateModel.list();
+    console.log(brand.name);
+    res.render('products/update', { title: 'Sửa sản phẩm', data, brand});
 };
 
 exports.updatePost = async (req, res, next) => {
