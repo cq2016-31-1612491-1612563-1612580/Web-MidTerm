@@ -9,7 +9,13 @@ const {
 
 
 exports.index = function (req, res, next) {
-    res.render('index', {
+    if(req.isAuthenticated())
+    {
+        var user = req.user;
+        console.log(user);
+    }
+    res.render('/index', {
+        user,
         NewProduct: [{
             image: '/images/m1.jpg',
             name: 'Samsung Galaxy J7',
@@ -133,7 +139,7 @@ exports.registerPost = async (req, res) => {
 }
 
 exports.signupGet = function (req, res) {
-    res.render('login/signup', {
+    res.render('login/login', {
         title: 'Trang đăng nhập'
     });
 }
@@ -196,7 +202,7 @@ exports.recoveryPassPost = async (req, res, next) => {
 
         console.log("now, you should sign up")
         console.log(Newuser)
-        res.redirect('/signup');
+        res.redirect('/login');
 
     } catch (error) {
         console.log(error)
@@ -219,7 +225,6 @@ exports.verifyPost = async (req, res) => {
         const user = await dbs.production.collection('users').findOne({
             'secretToken': secretToken
         });
-        console.log(user);
 
         if (!user) {
             console.log("error find secretToken. No user found")
@@ -234,8 +239,24 @@ exports.verifyPost = async (req, res) => {
         dbs.production.collection('users').save(user);
 
         console.log("now, you should sign up")
-        res.redirect('/signup');
+        res.redirect('/login');
     } catch (error) {
         console.log(error);
     }
+
 }
+
+
+exports.checkDisplay = async (req, res) => {
+    req.body.isHidden = 'hidden';
+}
+
+exports.index = function(req,res){
+    if(req.isAuthenticated())
+    {
+        var user = req.user;
+        console.log('Đã đăng nhập');
+    }
+    res.render('index', {title:'trang chu', user})
+};
+

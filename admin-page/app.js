@@ -4,6 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var hbs = require('hbs');
+var handleBar = require('express-handlebars');
 var passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 const session = require('express-session');
@@ -22,6 +23,7 @@ var loginRouter = require('./routes/loginRouter');
 const loginModel = require('./models/loginModel');
 
 var app = express();
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -111,11 +113,6 @@ hbs.registerHelper('ifCond', function (v1, operator, v2, options) {
       default:
           return options.inverse(this);
   }
-});
-
-// catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  next(createError(404));
 });
 
 // error handler

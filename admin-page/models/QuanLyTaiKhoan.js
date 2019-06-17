@@ -3,7 +3,7 @@ const { dbs } = require('../dbs');
 
 
 const detail = async (id) => {
-    const results = await dbs.production.collection('products').find({id:'Tài Khoản'})
+    const results = await dbs.production.collection('users').find({id:'Tài Khoản'})
         .toArray();
     return results[0];
 };

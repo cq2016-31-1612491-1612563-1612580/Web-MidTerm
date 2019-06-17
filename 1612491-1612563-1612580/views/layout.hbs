@@ -7,6 +7,7 @@
     <meta charset="utf-8">
     <meta name="keywords" content="Electro Store Responsive web template, Bootstrap Web Templates">
     <link href="/stylesheets/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/stylesheets/bootstrap1.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/stylesheets/style1.css" rel="stylesheet" type="text/css" media="all" />
     <link rel="stylesheet" href="/stylesheets/font-awesome.css" type="text/css">
     <link href="/stylesheets/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
@@ -45,12 +46,28 @@
                 <a href="#" data-toggle="modal" data-target="#exampleModal" class="text-white">
                   <i class="fa fa-truck mr-2"></i>Theo dõi hoá đơn</a>
               </li>
+              {{#if user}}
               <li class="text-center border-right text-white">
-                <i class="fa fa-phone mr-2"></i> 001 234 5678
+                <div class="dropdown">
+                  <a class="dropdown-toggle text-white font-weight-normal" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-address-book mr-2"></i>Thông tin chi tiết
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="/users/account?email={{user.email}}">Tài khoản</a>
+                    <a class="dropdown-item" href="/users/detail?email={{user.email}}">Profile</a>
+                    <a class="dropdown-item" href="/users/logout?email={{user.email}}">Đăng xuất</a>
+                  </div>
+                </div>
               </li>
+
             
               <li class="text-center border-right text-white" >
                 <a href="/signup"  class="text-white" >
+
+              {{else}}
+              <li class="text-center border-right text-white" >
+                <a href="/login"  class="text-white" type={{isHidden}}>
+
                   <i class="fa fa-sign-in mr-2"></i> Đăng nhập </a>
               </li>
               <li class="text-center text-white">
@@ -58,6 +75,7 @@
                   <i class="fa fa-sign-out mr-2"></i>Đăng kí </a>
               </li>
             </ul>
+            {{/if}}
             <!-- //header lists -->
           </div>
         </div>

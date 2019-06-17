@@ -2,7 +2,12 @@ const loginModel = require('../models/loginModel');
 const userModel = require('../models/usersModel');
 
 exports.index = function(req,res){
-    res.render('log/index', {title: 'Login and signup'});
+    if(req.isAuthenticated())
+    {
+        var user = req.user;
+        console.log(user);
+    }
+    res.render('log/index', {title: 'Login and signup', user});
 };
 
 exports.detail = (req, res) =>{
