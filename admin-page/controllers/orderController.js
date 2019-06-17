@@ -6,7 +6,23 @@ function formatPrice(price) {
 
 exports.index = async (req, res, next) => {
     const data = await order.list();
-    res.render('order/index', {  title: 'Danh sách hoá đơn', data })
+    if(req.isAuthenticated())
+    {
+        var user = req.user;
+        if(user.admin == 'true')
+        {
+            res.render('order/index', {  title: 'Danh sách hoá đơn', data, user });
+        }
+        else
+        {
+            res.send('Hãy đăng nhập bằng tài khoản admin');
+        }
+    }
+    else
+    {
+        res.send('Yêu cầu đăng nhập trước');
+    }
+   
 };
 
 exports.delete = async (req, res, next) => {

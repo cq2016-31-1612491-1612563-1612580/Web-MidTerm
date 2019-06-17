@@ -7,5 +7,6 @@ router.get('/list', usersController.list);
 router.get('/detail', usersController.detail);
 router.get('/delete', usersController.delete);
 router.post('/detail', usersController.saveDetail);
+router.get('/lock', usersController.lock);
 
 module.exports = router;

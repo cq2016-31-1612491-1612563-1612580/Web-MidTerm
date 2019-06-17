@@ -9,12 +9,39 @@ exports.index = async (req, res, next) => {
     if(req.isAuthenticated())
     {
         var user = req.user;
-        console.log(user);
+        if(user.admin == 'true')
+        {
+            res.render('products/index', {  title: 'Danh sách sản phẩm', data, user })
+        }
+        else
+        {
+            res.send('Hãy đăng nhập bằng tài khoản admin');
+        }
     }
-    res.render('products/index', {  title: 'Danh sách sản phẩm', data,user })
+    else
+    {
+        res.send('Yêu cầu đăng nhập trước');
+    }
+    
 };
 
 exports.add = (req, res, next) => {
+    if(req.isAuthenticated())
+    {
+        var user = req.user;
+        if(user.admin == 'true')
+        {
+            res.render('products/add', {title: 'Thêm sản phẩm' , user});
+        }
+        else
+        {
+            res.send('Hãy đăng nhập bằng tài khoản admin');
+        }
+    }
+    else
+    {
+        res.send('Yêu cầu đăng nhập trước');
+    }
     res.render('products/add', {title: 'Thêm sản phẩm' });
 };
 

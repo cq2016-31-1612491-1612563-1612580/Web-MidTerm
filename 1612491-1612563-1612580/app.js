@@ -30,6 +30,12 @@ passport.use(new LocalStrategy({usernameField: 'email'},
         console.log("Incorrect password.")
         return done(null, false, {message: 'Incorrect password.'});
       }
+      const isLocked = await User.isLocked(username);
+      if(isLocked)
+      {
+        console.log('Tài khoản đã bị khóa');
+        return done(null, false, {message: 'Tài khoản đã bị khóa'});
+      }
 
       //check if the acount has been vertify
       // if(!user.active){

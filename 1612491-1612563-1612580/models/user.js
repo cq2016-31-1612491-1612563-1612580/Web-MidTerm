@@ -99,11 +99,22 @@ exports.update = update;
 
 exports.changePassword = async (email, password, newpassword) => {
   const user = await get(email);
-  console.log('user: ' + user);
   if(bcrypt.compare(password, user.password))
   {
     const hash = await bcrypt.hash(newpassword, SALT_ROUNDS);
     await update(email, {password: hash});
+  }
+  else
+  {
+    return false;
+  }
+}
+
+exports.isLocked = async(email) =>{
+  const user = await get(email);
+  if(user.locked == 'true')
+  {
+    return true;
   }
   else
   {

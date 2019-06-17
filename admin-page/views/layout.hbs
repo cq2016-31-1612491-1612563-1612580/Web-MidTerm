@@ -404,6 +404,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<div class="user-name">
                                         {{#if user}}
 										<p>{{user.name}}</p>
+                                        {{#ifCond user.name '==' null}}
+                                        <p>Chưa có tên</p>
+                                        {{/ifCond}}
                                         {{else}}
                                         <p>Chưa đăng nhập</p>
                                         {{/if}}
